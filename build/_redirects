@@ -1,0 +1,5 @@
+# Redirect all traffic to HTTPS
+http://rakeshsharma364.netlify.app/* https://rakeshsharma364.netlify.app/:splat 301!
+
+# Handle client-side routing
+/*    /index.html   200
