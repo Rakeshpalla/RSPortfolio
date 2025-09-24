@@ -38,7 +38,7 @@ const About = () => {
                 <div className="space-y-4">
                   <p className="text-lg text-gray-300 leading-relaxed">
                     At <strong className="text-blue-300">Deloitte</strong>, I've orchestrated <strong className="text-blue-300">$50M+ SaaS portfolio growth</strong> 
-                    by aligning product strategies with enterprise objectives. My approach combines deep technical expertise with 
+                    by aligning product strategies with enterprise objectives. My approach combines deep expertise with 
                     business acumen, enabling me to translate complex challenges into actionable roadmaps that drive measurable outcomes.
                   </p>
                   
@@ -57,8 +57,7 @@ const About = () => {
                   </p>
                   
                   <p className="text-lg text-gray-300 leading-relaxed">
-                    As President of the <strong className="text-blue-300">IIBA Hyderabad Chapter</strong>, I've built professional development 
-                    programs impacting <strong className="text-blue-300">500+ members</strong>, demonstrating my commitment to community building 
+                    As President of the <strong className="text-blue-300">IIBA Hyderabad Chapter</strong>, I have conducted development programs demonstrating my commitment to community building 
                     and thought leadership.
                   </p>
                 </div>

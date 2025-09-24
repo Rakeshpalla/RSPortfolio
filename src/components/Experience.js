@@ -1,5 +1,5 @@
 import React from 'react';
-import CollapsibleSection from './CollapsibleSection';
+import Carousel from './Carousel';
 
 const Experience = () => {
   const experiences = [
@@ -130,6 +130,79 @@ const Experience = () => {
     }
   ];
 
+  // Convert experiences to carousel items
+  const carouselItems = experiences.map((exp, index) => (
+    <div key={index} className="p-8">
+      {/* Experience Card */}
+      <div className="bg-white rounded-2xl shadow-xl border border-slate-200 overflow-hidden hover:shadow-2xl transition-all duration-300">
+        {/* Header */}
+        <div className="bg-gradient-to-r from-slate-800 to-slate-900 p-6 text-white">
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+            <div>
+              <h3 className="text-2xl font-bold mb-2">{exp.title}</h3>
+              <div className="flex flex-col md:flex-row md:items-center md:space-x-6">
+                <div className="flex items-center space-x-2 mb-2 md:mb-0">
+                  <span className="text-xl font-semibold text-blue-300">{exp.company}</span>
+                  <span className="text-slate-300">•</span>
+                  <span className="text-slate-300">{exp.industry}</span>
+                </div>
+              </div>
+            </div>
+            {exp.current && (
+              <span className="inline-flex items-center px-4 py-2 bg-green-500/20 border border-green-400/30 rounded-full text-green-300 text-sm font-medium">
+                Current Role
+              </span>
+            )}
+          </div>
+          
+          <div className="flex flex-col md:flex-row md:items-center md:space-x-6 text-slate-300">
+            <div className="flex items-center space-x-2 mb-2 md:mb-0">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              </svg>
+              <span>{exp.duration}</span>
+            </div>
+            <div className="flex items-center space-x-2">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+              <span>{exp.location}</span>
+            </div>
+          </div>
+        </div>
+        
+        {/* Story */}
+        <div className="p-6 bg-slate-50 border-b border-slate-200">
+          <p className="text-slate-700 leading-relaxed italic">
+            "{exp.story}"
+          </p>
+        </div>
+        
+        {/* Achievements */}
+        <div className="p-6">
+          <h4 className="text-lg font-semibold text-slate-800 mb-4">Key Achievements & Impact</h4>
+          <div className="space-y-4">
+            {exp.achievements.map((achievement, achIndex) => (
+              <div key={achIndex} className="flex items-start space-x-4 p-4 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors duration-200">
+                <div className="w-3 h-3 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+                <div className="flex-1">
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                    <span className="font-semibold text-blue-700">{achievement.metric}</span>
+                    <span className="text-sm text-slate-500 bg-slate-200 px-2 py-1 rounded-full">
+                      {achievement.impact}
+                    </span>
+                  </div>
+                  <p className="text-slate-600 leading-relaxed">{achievement.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  ));
+
   return (
     <section id="experience" className="py-20 relative bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100 overflow-hidden">
       {/* Professional Background Pattern */}
@@ -141,144 +214,37 @@ const Experience = () => {
       </div>
       
       <div className="max-w-6xl mx-auto px-4 relative z-10">
-        <CollapsibleSection
-          id="experience"
+        <Carousel
+          items={carouselItems}
           title="Executive Career Journey"
-          icon={<svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>}
+          icon={<svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>}
           gradient="from-indigo-700 to-indigo-800"
-          isOpenByDefault={false}
-        >
-          <div className="p-8">
-            <div className="text-center mb-16">
-              <h3 className="text-2xl font-bold text-slate-800 mb-6">Career Progression</h3>
-              <p className="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                A progressive journey from business analysis to senior product leadership, 
-                driving transformation across global enterprises
-              </p>
+          autoPlay={true}
+          interval={8000}
+        />
+        
+        {/* Career Summary */}
+        <div className="mt-12 bg-gradient-to-r from-blue-600 to-blue-800 rounded-2xl p-8 text-white text-center">
+          <h3 className="text-2xl font-bold mb-4">Career Impact Summary</h3>
+          <div className="grid md:grid-cols-4 gap-6">
+            <div>
+              <div className="text-3xl font-bold mb-2">19+</div>
+              <div className="text-blue-200">Years Experience</div>
             </div>
-            
-            {/* Career Timeline */}
-            <div className="space-y-12 mb-12">
-              {experiences.map((exp, index) => (
-                <div key={index} className="relative">
-                  {/* Timeline Line */}
-                  {index < experiences.length - 1 && (
-                    <div className="absolute left-8 top-20 w-0.5 h-full bg-gradient-to-b from-blue-400 to-blue-600 opacity-30"></div>
-                  )}
-                  
-                  <div className="flex items-start space-x-8">
-                    {/* Timeline Dot */}
-                    <div className="relative z-10">
-                      <div className={`w-16 h-16 rounded-full flex items-center justify-center text-2xl shadow-lg ${
-                        exp.current 
-                          ? 'bg-gradient-to-r from-blue-500 to-blue-700 text-white' 
-                          : 'bg-white border-4 border-blue-400 text-blue-600'
-                      }`}>
-                        {exp.companyLogo}
-                      </div>
-                      {exp.current && (
-                        <div className="absolute -top-2 -right-2 w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
-                          <div className="w-3 h-3 bg-white rounded-full"></div>
-                        </div>
-                      )}
-                    </div>
-                    
-                    {/* Experience Card */}
-                    <div className="flex-1 bg-white rounded-2xl shadow-xl border border-slate-200 overflow-hidden hover:shadow-2xl transition-all duration-300">
-                      {/* Header */}
-                      <div className="bg-gradient-to-r from-slate-800 to-slate-900 p-6 text-white">
-                        <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
-                          <div>
-                            <h3 className="text-2xl font-bold mb-2">{exp.title}</h3>
-                            <div className="flex flex-col md:flex-row md:items-center md:space-x-6">
-                              <div className="flex items-center space-x-2 mb-2 md:mb-0">
-                                <span className="text-xl font-semibold text-blue-300">{exp.company}</span>
-                                <span className="text-slate-300">•</span>
-                                <span className="text-slate-300">{exp.industry}</span>
-                              </div>
-                            </div>
-                          </div>
-                          {exp.current && (
-                            <span className="inline-flex items-center px-4 py-2 bg-green-500/20 border border-green-400/30 rounded-full text-green-300 text-sm font-medium">
-                              Current Role
-                            </span>
-                          )}
-                        </div>
-                        
-                        <div className="flex flex-col md:flex-row md:items-center md:space-x-6 text-slate-300">
-                          <div className="flex items-center space-x-2 mb-2 md:mb-0">
-                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                            </svg>
-                            <span>{exp.duration}</span>
-                          </div>
-                          <div className="flex items-center space-x-2">
-                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                            </svg>
-                            <span>{exp.location}</span>
-                          </div>
-                        </div>
-                      </div>
-                      
-                      {/* Story */}
-                      <div className="p-6 bg-slate-50 border-b border-slate-200">
-                        <p className="text-slate-700 leading-relaxed italic">
-                          "{exp.story}"
-                        </p>
-                      </div>
-                      
-                      {/* Achievements */}
-                      <div className="p-6">
-                        <h4 className="text-lg font-semibold text-slate-800 mb-4">Key Achievements & Impact</h4>
-                        <div className="space-y-4">
-                          {exp.achievements.map((achievement, achIndex) => (
-                            <div key={achIndex} className="flex items-start space-x-4 p-4 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors duration-200">
-                              <div className="w-3 h-3 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                              <div className="flex-1">
-                                <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
-                                  <span className="font-semibold text-blue-700">{achievement.metric}</span>
-                                  <span className="text-sm text-slate-500 bg-slate-200 px-2 py-1 rounded-full">
-                                    {achievement.impact}
-                                  </span>
-                                </div>
-                                <p className="text-slate-600 leading-relaxed">{achievement.description}</p>
-                              </div>
-                            </div>
-                          ))}
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              ))}
+            <div>
+              <div className="text-3xl font-bold mb-2">5</div>
+              <div className="text-blue-200">Leading Companies</div>
             </div>
-            
-            {/* Career Summary */}
-            <div className="bg-gradient-to-r from-blue-600 to-blue-800 rounded-2xl p-8 text-white text-center">
-              <h3 className="text-2xl font-bold mb-4">Career Impact Summary</h3>
-              <div className="grid md:grid-cols-4 gap-6">
-                <div>
-                  <div className="text-3xl font-bold mb-2">19+</div>
-                  <div className="text-blue-200">Years Experience</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold mb-2">5</div>
-                  <div className="text-blue-200">Leading Companies</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold mb-2">$65M+</div>
-                  <div className="text-blue-200">Total Portfolio Value</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold mb-2">100K+</div>
-                  <div className="text-blue-200">Users Impacted</div>
-                </div>
-              </div>
+            <div>
+              <div className="text-3xl font-bold mb-2">$65M+</div>
+              <div className="text-blue-200">Total Portfolio Value</div>
+            </div>
+            <div>
+              <div className="text-3xl font-bold mb-2">100K+</div>
+              <div className="text-blue-200">Users Impacted</div>
             </div>
           </div>
-        </CollapsibleSection>
+        </div>
       </div>
     </section>
   );
