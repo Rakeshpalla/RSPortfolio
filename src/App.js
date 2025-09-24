@@ -7,7 +7,6 @@ import Vision from './components/Vision';
 import Skills from './components/Skills';
 import Tools from './components/Tools';
 import Experience from './components/Experience';
-import Projects from './components/Projects';
 import Education from './components/Education';
 import Leadership from './components/Leadership';
 import Footer from './components/Footer';
@@ -29,7 +28,6 @@ function App() {
         <Experience />
         <Skills />
         <Tools />
-        <Projects />
         <Education />
         <Leadership />
         <Footer />
