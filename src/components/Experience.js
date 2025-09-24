@@ -82,7 +82,7 @@ const Experience = () => {
     {
       title: "Business Analyst",
       company: "CGI Group",
-      duration: "Nov 2009 – Nov 2010",
+      duration: "November 2009 – November 2010",
       location: "Bengaluru, India",
       companyLogo: "🔧",
       industry: "IT Consulting",
@@ -94,7 +94,7 @@ const Experience = () => {
         },
         {
           metric: "15% Process Efficiency",
-          description: "Improved process efficiency by 10–15% through analysis of business workflows and translation of stakeholder requirements",
+          description: "Improved process efficiency by 10-15% through analysis of business workflows and translation of stakeholder requirements",
           impact: "Process Improvement"
         }
       ],
@@ -104,7 +104,7 @@ const Experience = () => {
     {
       title: "Senior Business Analyst – Capital Markets",
       company: "Dion Global Solutions",
-      duration: "May 2006 – Nov 2009",
+      duration: "May 2006 – November 2009",
       location: "Bengaluru, India",
       companyLogo: "📈",
       industry: "Financial Technology",

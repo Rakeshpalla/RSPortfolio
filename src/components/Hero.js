@@ -77,7 +77,7 @@ const Hero = () => {
             
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed animate-slide-up">
               As a seasoned executive at Deloitte, I've orchestrated <strong className="text-blue-300">$50M+ SaaS portfolio growth</strong> and led 
-              <strong className="text-blue-300"> 100K+ enterprise users</strong> through complex digital transformations. My expertise lies in 
+              <strong className="text-blue-300">100K+ enterprise users</strong> through complex digital transformations. My expertise lies in 
               building scalable product organizations, driving enterprise adoption, and delivering measurable business outcomes 
               that exceed stakeholder expectations.
             </p>

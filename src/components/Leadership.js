@@ -6,28 +6,28 @@ const Leadership = () => {
     {
       category: "President, IIBA Hyderabad Chapter",
       items: [
-        "Led 500+ members, hosted 20+ industry events annually"
+        "Led 500+ members and hosted 20+ industry events annually"
       ],
       icon: "👑"
     },
     {
       category: "Leader, Business Analysis CoP, Deloitte",
       items: [
-        "Institutionalized best practices across global delivery"
+        "Institutionalized best practices across global delivery teams"
       ],
       icon: "🏢"
     },
     {
-      category: "Volunteer of the Year (multiple times)",
+      category: "Volunteer of the Year (Multiple Times)",
       items: [
-        "Recognized for building communities of practice and mentoring"
+        "Recognized for building communities of practice and mentoring professionals"
       ],
       icon: "🏆"
     },
     {
       category: "Advocate for Diversity & Learning",
       items: [
-        "Champion for diversity, continuous learning, and people-first leadership"
+        "Champion of diversity, continuous learning, and people-first leadership"
       ],
       icon: "🌍"
     }

@@ -24,7 +24,7 @@ const Vision = () => {
             <div className="text-center mb-12">
               <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed mb-8">
                 My vision is to step into senior leadership roles (Director, Principal Product Manager, or Program Management Leader) 
-                where I can make transformative impact across organizations and drive the next generation of digital innovation.
+                where I can make a transformative impact across organizations and drive the next generation of digital innovation.
               </p>
             </div>
 
