@@ -16,14 +16,13 @@ const Vision = () => {
         <CollapsibleSection
           id="vision"
           title="Executive Vision & Aspiration"
-          icon={<svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>}
+          icon={<svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" /></svg>}
           gradient="from-slate-700 to-slate-800"
-          isOpenByDefault={false}
+          isOpenByDefault={true}
         >
           <div className="p-8">
-            <div className="text-center mb-16">
-              <h3 className="text-2xl font-bold text-slate-800 mb-6">Leadership Vision</h3>
-              <p className="text-lg text-slate-600 max-w-4xl mx-auto leading-relaxed">
+            <div className="text-center mb-12">
+              <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed mb-8">
                 My vision is to step into senior leadership roles (Director, Principal Product Manager, or Program Management Leader) 
                 where I can make transformative impact across organizations and drive the next generation of digital innovation.
               </p>
