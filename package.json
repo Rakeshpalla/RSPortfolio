@@ -20,7 +20,8 @@
     "test:ci": "CI=true react-scripts test --coverage --watchAll=false",
     "eject": "react-scripts eject",
     "analyze": "npm run build && npx bundle-analyzer build/static/js/*.js",
-    "preview": "npx serve -s build -l 3000"
+    "preview": "npx serve -s build -l 3000",
+    "deploy": "npm run build:prod && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -42,8 +43,8 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.6"
   }
 }
-
