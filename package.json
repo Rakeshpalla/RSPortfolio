@@ -14,15 +14,20 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "set GENERATE_SOURCEMAP=false && react-scripts build",
-    "build:prod": "set GENERATE_SOURCEMAP=false && set CI=false && react-scripts build",
+    "build": "react-scripts build",
+    "build:prod": "GENERATE_SOURCEMAP=false CI=false react-scripts build",
+    "build:netlify": "GENERATE_SOURCEMAP=false CI=false react-scripts build",
+    "build:vercel": "GENERATE_SOURCEMAP=false CI=false react-scripts build",
+    "build:github": "GENERATE_SOURCEMAP=false CI=false react-scripts build",
     "test": "react-scripts test",
     "test:ci": "CI=true react-scripts test --coverage --watchAll=false",
     "eject": "react-scripts eject",
     "analyze": "npm run build && npx bundle-analyzer build/static/js/*.js",
     "preview": "npx serve -s build -l 3000",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build:github",
+    "deploy": "gh-pages -d build",
+    "deploy:netlify": "npm run build:netlify",
+    "deploy:vercel": "npm run build:vercel"
   },
   "eslintConfig": {
     "extends": [
