@@ -1,0 +1,56 @@
+{
+  "name": "career-portfolio",
+  "version": "0.1.0",
+  "homepage": "https://rakeshpalla364-byte.github.io/CAREER_PORTFOLIO",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build:prod": "GENERATE_SOURCEMAP=false CI=false react-scripts build",
+    "build:netlify": "GENERATE_SOURCEMAP=false CI=false react-scripts build",
+    "build:vercel": "GENERATE_SOURCEMAP=false CI=false react-scripts build",
+    "build:github": "GENERATE_SOURCEMAP=false CI=false react-scripts build",
+    "test": "react-scripts test",
+    "test:ci": "CI=true react-scripts test --coverage --watchAll=false",
+    "eject": "react-scripts eject",
+    "analyze": "npm run build && npx bundle-analyzer build/static/js/*.js",
+    "preview": "npx serve -s build -l 3000",
+    "predeploy": "npm run build:github",
+    "deploy": "gh-pages -d build",
+    "deploy:netlify": "npm run build:netlify",
+    "deploy:vercel": "npm run build:vercel"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.6"
+  }
+}
