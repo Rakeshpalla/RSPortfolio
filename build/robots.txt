@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://your-domain.com/sitemap.xml
+Sitemap: https://rakeshpalla364-byte.github.io/CAREER_PORTFOLIO/sitemap.xml

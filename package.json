@@ -18,7 +18,7 @@
     "build:prod": "GENERATE_SOURCEMAP=false CI=false react-scripts build",
     "build:netlify": "GENERATE_SOURCEMAP=false CI=false react-scripts build",
     "build:vercel": "GENERATE_SOURCEMAP=false CI=false react-scripts build",
-    "build:github": "GENERATE_SOURCEMAP=false CI=false react-scripts build",
+    "build:github": "set GENERATE_SOURCEMAP=false && set CI=false && react-scripts build",
     "test": "react-scripts test",
     "test:ci": "CI=true react-scripts test --coverage --watchAll=false",
     "eject": "react-scripts eject",
