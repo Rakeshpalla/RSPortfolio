@@ -13,7 +13,7 @@ const Experience = () => {
       achievements: [
         {
           metric: "$50M+ SaaS Portfolio Growth",
-          description: "Built and executed multi-year product strategies that drove adoption across cloud, automation, and analytics platforms",
+          description: "Built and executed multi-year product strategies that drove user adoption across cloud, digital transformation, and enterprise platforms, positioning the portfolio for sustained market leadership.",
           impact: "Strategic Portfolio Management"
         },
         {
