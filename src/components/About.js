@@ -24,7 +24,7 @@ const About = () => {
           <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 md:p-12 border border-white/10 animate-slide-up animate-on-scroll">
             <div className="text-center mb-8">
               <div className="inline-flex items-center px-4 py-2 bg-blue-600/20 border border-blue-400/30 rounded-full text-blue-300 text-sm font-medium mb-6">
-                🎯 Strategic Vision | 📈 Measurable Impact | 🚀 Innovation Leadership
+                🎯 Product Leadership | 🤝 People Centered | 📈 Outcome Driven
               </div>
             </div>
             
@@ -37,9 +37,7 @@ const About = () => {
               <div className="grid md:grid-cols-2 gap-8 mb-8">
                 <div className="space-y-4">
                   <p className="text-lg text-gray-300 leading-relaxed">
-                    At <strong className="text-blue-300">Deloitte</strong>, I've orchestrated <strong className="text-blue-300">$50M+ SaaS portfolio growth</strong> 
-                    by aligning product strategies with enterprise objectives. My approach combines deep expertise with 
-                    business acumen, enabling me to translate complex challenges into actionable roadmaps that drive measurable outcomes.
+                    As a Product and Delivery Manager at <strong className="text-blue-300">Deloitte</strong>, I led the growth of a multimillion dollar portfolio across three product lines, overseeing the entire product lifecycle from ideation to launch and beyond. My leadership transformed the work experience for <strong className="text-blue-300">100,000+ enterprise users</strong>.
                   </p>
                   
                   <p className="text-lg text-gray-300 leading-relaxed">
@@ -77,20 +75,20 @@ const About = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                 </svg>
               </div>
-              <h4 className="text-xl font-bold text-white mb-3">Portfolio Strategy</h4>
+              <h4 className="text-xl font-bold text-white mb-3">Portfolio Leadership</h4>
             </div>
             <ul className="space-y-3 text-gray-300">
               <li className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span><strong className="text-blue-300">20% portfolio adoption growth</strong> through strategic roadmap alignment</span>
+                <span>Scaled <strong className="text-blue-300">three product lines</strong> within a multimillion dollar portfolio</span>
               </li>
               <li className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span><strong className="text-blue-300">15% faster time-to-market</strong> via streamlined delivery processes</span>
+                <span>Drove <strong className="text-blue-300">85% adoption rate</strong> through customer centric roadmaps</span>
               </li>
               <li className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span><strong className="text-blue-300">$2M+ annual budgets</strong> managed with measurable ROI</span>
+                <span>Owned end to end lifecycle from ideation to launch and scale</span>
               </li>
             </ul>
           </div>
@@ -102,20 +100,20 @@ const About = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <h4 className="text-xl font-bold text-white mb-3">Digital Transformation</h4>
+              <h4 className="text-xl font-bold text-white mb-3">Delivery Excellence</h4>
             </div>
             <ul className="space-y-3 text-gray-300">
               <li className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span><strong className="text-blue-300">100K+ users</strong> impacted by enterprise modernization</span>
+                <span>Enabled <strong className="text-blue-300">35% efficiency increase</strong> across product delivery</span>
               </li>
               <li className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span><strong className="text-blue-300">18% operational cost reduction</strong> through automation</span>
+                <span>Reduced bottlenecks by <strong className="text-blue-300">40%</strong> via proactive risk management</span>
               </li>
               <li className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span><strong className="text-blue-300">25% client satisfaction increase</strong> via AI/ML initiatives</span>
+                <span>Elevated customer satisfaction with data informed decisions</span>
               </li>
             </ul>
           </div>
@@ -127,20 +125,20 @@ const About = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" />
                 </svg>
               </div>
-              <h4 className="text-xl font-bold text-white mb-3">Team Excellence</h4>
+              <h4 className="text-xl font-bold text-white mb-3">Enterprise Impact</h4>
             </div>
             <ul className="space-y-3 text-gray-300">
               <li className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span><strong className="text-blue-300">15+ global teams</strong> led through SAFe transformation</span>
+                <span>Transformed experiences for <strong className="text-blue-300">100,000+ users</strong> enterprise wide</span>
               </li>
               <li className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span><strong className="text-blue-300">40% release frequency improvement</strong> via agile practices</span>
+                <span>Built collaborative, high performing product teams across functions</span>
               </li>
               <li className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span><strong className="text-blue-300">10+ product managers</strong> mentored to senior roles</span>
+                <span>Delivered measurable, scalable, and sustainable outcomes</span>
               </li>
             </ul>
           </div>
