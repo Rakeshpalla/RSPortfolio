@@ -222,29 +222,6 @@ const Experience = () => {
           autoPlay={true}
           interval={8000}
         />
-        
-        {/* Career Summary */}
-        <div className="mt-12 bg-gradient-to-r from-blue-600 to-blue-800 rounded-2xl p-8 text-white text-center">
-          <h3 className="text-2xl font-bold mb-4">Career Impact Summary</h3>
-          <div className="grid md:grid-cols-4 gap-6">
-            <div>
-              <div className="text-3xl font-bold mb-2">19+</div>
-              <div className="text-blue-200">Years Experience</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold mb-2">5</div>
-              <div className="text-blue-200">Leading Companies</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold mb-2">$65M+</div>
-              <div className="text-blue-200">Total Portfolio Value</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold mb-2">100K+</div>
-              <div className="text-blue-200">Users Impacted</div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

@@ -128,61 +128,6 @@ const Skills = () => {
           autoPlay={true}
           interval={6000}
         />
-        
-        {/* Leadership Impact Summary */}
-        <div className="mt-12 bg-gradient-to-r from-slate-800 via-slate-900 to-blue-900 rounded-2xl p-8 text-white relative overflow-hidden">
-          {/* Background Pattern */}
-          <div className="absolute inset-0 opacity-10">
-            <div className="absolute inset-0" style={{
-              backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-              backgroundRepeat: 'repeat'
-            }}></div>
-          </div>
-          
-          <h3 className="text-2xl font-bold mb-6 text-center relative z-10">Leadership Impact</h3>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 relative z-10">
-            <div className="text-center p-4 bg-gradient-to-br from-blue-500/20 to-blue-600/30 rounded-xl border border-blue-400/30 hover:border-blue-400/50 transition-all duration-300 hover:scale-105">
-              <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" />
-                </svg>
-              </div>
-              <div className="text-3xl font-bold mb-2 text-blue-300">85%</div>
-              <div className="text-blue-200 font-medium">Adoption Rate</div>
-            </div>
-            
-            <div className="text-center p-4 bg-gradient-to-br from-green-500/20 to-green-600/30 rounded-xl border border-green-400/30 hover:border-green-400/50 transition-all duration-300 hover:scale-105">
-              <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <div className="text-3xl font-bold mb-2 text-green-300">35%</div>
-              <div className="text-green-200 font-medium">Efficiency Gain</div>
-            </div>
-            
-            <div className="text-center p-4 bg-gradient-to-br from-purple-500/20 to-purple-600/30 rounded-xl border border-purple-400/30 hover:border-purple-400/50 transition-all duration-300 hover:scale-105">
-              <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-              </div>
-              <div className="text-3xl font-bold mb-2 text-purple-300">100K+</div>
-              <div className="text-purple-200 font-medium">Users Impacted</div>
-            </div>
-            
-            <div className="text-center p-4 bg-gradient-to-br from-red-500/20 to-red-600/30 rounded-xl border border-red-400/30 hover:border-red-400/50 transition-all duration-300 hover:scale-105">
-              <div className="w-16 h-16 bg-gradient-to-br from-red-500 to-red-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                </svg>
-              </div>
-              <div className="text-3xl font-bold mb-2 text-red-300">40%</div>
-              <div className="text-red-200 font-medium">Bottlenecks Reduced</div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
