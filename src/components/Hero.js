@@ -108,20 +108,20 @@ const Hero = () => {
 
           {/* Executive Impact Metrics */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 animate-slide-up">
-            <div className="text-center p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10 hover:bg-white/10 transition-all duration-300">
+            <div className="text-center p-6 bg-gradient-to-br from-blue-500/10 to-blue-600/20 backdrop-blur-sm rounded-xl border border-blue-400/30 hover:bg-blue-500/20 hover:border-blue-400/50 transition-all duration-300">
               <div className="text-3xl md:text-4xl font-bold text-blue-300 mb-2">100K+</div>
-              <div className="text-sm md:text-base text-gray-300 font-medium">Enterprise Users</div>
-              <div className="text-xs text-gray-400 mt-1">Global enterprise clients</div>
+              <div className="text-sm md:text-base text-gray-200 font-medium">Enterprise Users</div>
+              <div className="text-xs text-blue-200 mt-1">Global enterprise clients</div>
             </div>
-            <div className="text-center p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10 hover:bg-white/10 transition-all duration-300">
-              <div className="text-3xl md:text-4xl font-bold text-blue-300 mb-2">85%</div>
-              <div className="text-sm md:text-base text-gray-300 font-medium">Adoption Rate</div>
-              <div className="text-xs text-gray-400 mt-1">Product feature adoption</div>
+            <div className="text-center p-6 bg-gradient-to-br from-green-500/10 to-green-600/20 backdrop-blur-sm rounded-xl border border-green-400/30 hover:bg-green-500/20 hover:border-green-400/50 transition-all duration-300">
+              <div className="text-3xl md:text-4xl font-bold text-green-300 mb-2">85%</div>
+              <div className="text-sm md:text-base text-gray-200 font-medium">Adoption Rate</div>
+              <div className="text-xs text-green-200 mt-1">Product feature adoption</div>
             </div>
-            <div className="text-center p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10 hover:bg-white/10 transition-all duration-300">
-              <div className="text-3xl md:text-4xl font-bold text-blue-300 mb-2">15+</div>
-              <div className="text-sm md:text-base text-gray-300 font-medium">Global Teams</div>
-              <div className="text-xs text-gray-400 mt-1">Cross-functional leadership</div>
+            <div className="text-center p-6 bg-gradient-to-br from-purple-500/10 to-purple-600/20 backdrop-blur-sm rounded-xl border border-purple-400/30 hover:bg-purple-500/20 hover:border-purple-400/50 transition-all duration-300">
+              <div className="text-3xl md:text-4xl font-bold text-purple-300 mb-2">15+</div>
+              <div className="text-sm md:text-base text-gray-200 font-medium">Global Teams</div>
+              <div className="text-xs text-purple-200 mt-1">Cross-functional leadership</div>
             </div>
           </div>
         </div>
