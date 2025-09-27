@@ -106,21 +106,16 @@ const Hero = () => {
           </div>
 
           {/* Executive Impact Metrics */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 animate-slide-up">
-            <div className="text-center p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10">
-              <div className="text-3xl md:text-4xl font-bold text-blue-300 mb-2">$50M+</div>
-              <div className="text-sm md:text-base text-gray-300 font-medium">SaaS Portfolio Growth</div>
-              <div className="text-xs text-gray-400 mt-1">Multi-year strategic initiatives</div>
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 animate-slide-up">
             <div className="text-center p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10">
               <div className="text-3xl md:text-4xl font-bold text-blue-300 mb-2">100K+</div>
               <div className="text-sm md:text-base text-gray-300 font-medium">Enterprise Users</div>
               <div className="text-xs text-gray-400 mt-1">Global enterprise clients</div>
             </div>
             <div className="text-center p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10">
-              <div className="text-3xl md:text-4xl font-bold text-blue-300 mb-2">20%</div>
-              <div className="text-sm md:text-base text-gray-300 font-medium">Productivity Uplift</div>
-              <div className="text-xs text-gray-400 mt-1">Through agile transformation</div>
+              <div className="text-3xl md:text-4xl font-bold text-blue-300 mb-2">85%</div>
+              <div className="text-sm md:text-base text-gray-300 font-medium">Adoption Rate</div>
+              <div className="text-xs text-gray-400 mt-1">Product feature adoption</div>
             </div>
             <div className="text-center p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10">
               <div className="text-3xl md:text-4xl font-bold text-blue-300 mb-2">15+</div>
