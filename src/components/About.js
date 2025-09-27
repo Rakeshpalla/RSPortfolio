@@ -68,10 +68,10 @@ const About = () => {
         <h3 className="text-3xl font-bold text-white mb-12 text-center">Strategic Leadership Pillars</h3>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="bg-gradient-to-br from-blue-500/10 to-blue-600/20 backdrop-blur-sm rounded-xl p-8 border border-blue-400/30 animate-slide-up animate-on-scroll hover:bg-blue-500/20 hover:border-blue-400/50 transition-all duration-300 hover:scale-105">
+          <div className="bg-white/5 backdrop-blur-sm rounded-xl p-8 border border-white/10 animate-slide-up animate-on-scroll hover:bg-white/10 transition-all duration-300">
             <div className="text-center mb-6">
-              <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
-                <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-16 h-16 bg-blue-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                 </svg>
               </div>
@@ -93,10 +93,10 @@ const About = () => {
             </ul>
           </div>
           
-          <div className="bg-gradient-to-br from-green-500/10 to-green-600/20 backdrop-blur-sm rounded-xl p-8 border border-green-400/30 animate-slide-up animate-on-scroll hover:bg-green-500/20 hover:border-green-400/50 transition-all duration-300 hover:scale-105">
+          <div className="bg-white/5 backdrop-blur-sm rounded-xl p-8 border border-white/10 animate-slide-up animate-on-scroll hover:bg-white/10 transition-all duration-300">
             <div className="text-center mb-6">
-              <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
-                <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-16 h-16 bg-blue-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
@@ -118,10 +118,10 @@ const About = () => {
             </ul>
           </div>
           
-          <div className="bg-gradient-to-br from-purple-500/10 to-purple-600/20 backdrop-blur-sm rounded-xl p-8 border border-purple-400/30 animate-slide-up animate-on-scroll hover:bg-purple-500/20 hover:border-purple-400/50 transition-all duration-300 hover:scale-105 md:col-span-2 lg:col-span-1">
+          <div className="bg-white/5 backdrop-blur-sm rounded-xl p-8 border border-white/10 animate-slide-up animate-on-scroll hover:bg-white/10 transition-all duration-300 md:col-span-2 lg:col-span-1">
             <div className="text-center mb-6">
-              <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
-                <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-16 h-16 bg-blue-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" />
                 </svg>
               </div>

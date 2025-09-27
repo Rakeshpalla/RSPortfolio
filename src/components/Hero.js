@@ -17,34 +17,6 @@ const Hero = () => {
         }}></div>
       </div>
       
-      {/* Floating Tech Icons */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-20 left-10 w-16 h-16 bg-blue-500/20 rounded-full flex items-center justify-center animate-pulse">
-          <svg className="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-          </svg>
-        </div>
-        <div className="absolute top-40 right-20 w-12 h-12 bg-green-500/20 rounded-full flex items-center justify-center animate-bounce">
-          <svg className="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-          </svg>
-        </div>
-        <div className="absolute bottom-40 left-20 w-14 h-14 bg-purple-500/20 rounded-full flex items-center justify-center animate-pulse">
-          <svg className="w-7 h-7 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" />
-          </svg>
-        </div>
-        <div className="absolute top-60 left-1/4 w-10 h-10 bg-yellow-500/20 rounded-full flex items-center justify-center animate-bounce">
-          <svg className="w-5 h-5 text-yellow-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
-        </div>
-        <div className="absolute bottom-60 right-1/4 w-18 h-18 bg-red-500/20 rounded-full flex items-center justify-center animate-pulse">
-          <svg className="w-9 h-9 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-          </svg>
-        </div>
-      </div>
       
       {/* Corporate Building Silhouette */}
       <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-slate-800 to-transparent opacity-20">
@@ -136,35 +108,20 @@ const Hero = () => {
 
           {/* Executive Impact Metrics */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 animate-slide-up">
-            <div className="text-center p-8 bg-gradient-to-br from-blue-500/10 to-blue-600/20 backdrop-blur-sm rounded-xl border border-blue-400/30 hover:border-blue-400/50 transition-all duration-300 hover:scale-105">
-              <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" />
-                </svg>
-              </div>
-              <div className="text-4xl md:text-5xl font-bold text-blue-300 mb-2">100K+</div>
-              <div className="text-lg text-gray-200 font-medium">Enterprise Users</div>
-              <div className="text-sm text-blue-200 mt-2">Global enterprise clients</div>
+            <div className="text-center p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10 hover:bg-white/10 transition-all duration-300">
+              <div className="text-3xl md:text-4xl font-bold text-blue-300 mb-2">100K+</div>
+              <div className="text-sm md:text-base text-gray-300 font-medium">Enterprise Users</div>
+              <div className="text-xs text-gray-400 mt-1">Global enterprise clients</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-green-500/10 to-green-600/20 backdrop-blur-sm rounded-xl border border-green-400/30 hover:border-green-400/50 transition-all duration-300 hover:scale-105">
-              <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                </svg>
-              </div>
-              <div className="text-4xl md:text-5xl font-bold text-green-300 mb-2">85%</div>
-              <div className="text-lg text-gray-200 font-medium">Adoption Rate</div>
-              <div className="text-sm text-green-200 mt-2">Product feature adoption</div>
+            <div className="text-center p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10 hover:bg-white/10 transition-all duration-300">
+              <div className="text-3xl md:text-4xl font-bold text-blue-300 mb-2">85%</div>
+              <div className="text-sm md:text-base text-gray-300 font-medium">Adoption Rate</div>
+              <div className="text-xs text-gray-400 mt-1">Product feature adoption</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-purple-500/10 to-purple-600/20 backdrop-blur-sm rounded-xl border border-purple-400/30 hover:border-purple-400/50 transition-all duration-300 hover:scale-105">
-              <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                </svg>
-              </div>
-              <div className="text-4xl md:text-5xl font-bold text-purple-300 mb-2">15+</div>
-              <div className="text-lg text-gray-200 font-medium">Global Teams</div>
-              <div className="text-sm text-purple-200 mt-2">Cross-functional leadership</div>
+            <div className="text-center p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10 hover:bg-white/10 transition-all duration-300">
+              <div className="text-3xl md:text-4xl font-bold text-blue-300 mb-2">15+</div>
+              <div className="text-sm md:text-base text-gray-300 font-medium">Global Teams</div>
+              <div className="text-xs text-gray-400 mt-1">Cross-functional leadership</div>
             </div>
           </div>
         </div>

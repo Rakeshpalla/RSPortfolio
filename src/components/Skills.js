@@ -55,31 +55,20 @@ const Skills = () => {
       <div key={i} className="p-8">
         <div className="grid md:grid-cols-2 gap-8">
           {slideSkills.map((skill, index) => (
-            <div key={index} className="bg-gradient-to-br from-white to-blue-50 rounded-2xl p-8 shadow-xl border border-blue-100 hover:shadow-2xl hover:scale-105 transition-all duration-300 relative overflow-hidden">
-              {/* Background Pattern */}
-              <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-blue-100 to-blue-200 rounded-full -translate-y-10 translate-x-10 opacity-50"></div>
-              <div className="absolute bottom-0 left-0 w-16 h-16 bg-gradient-to-tr from-blue-100 to-blue-200 rounded-full translate-y-8 -translate-x-8 opacity-50"></div>
-              
-              <div className="text-center mb-6 relative z-10">
-                <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
-                  <div className="text-3xl">{skill.icon}</div>
-                </div>
+            <div key={index} className="bg-white rounded-2xl p-8 shadow-lg border border-slate-200 hover:shadow-xl transition-all duration-300">
+              <div className="text-center mb-6">
+                <div className="text-5xl mb-4">{skill.icon}</div>
                 <h3 className="text-xl font-bold text-slate-800 mb-3">{skill.category}</h3>
                 <p className="text-slate-600 leading-relaxed text-sm mb-6">{skill.description}</p>
               </div>
               
-              <div className="space-y-4 relative z-10">
+              <div className="space-y-4">
                 <div>
-                  <h4 className="font-semibold text-slate-800 mb-3 text-sm flex items-center">
-                    <svg className="w-4 h-4 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                    Key Achievements:
-                  </h4>
+                  <h4 className="font-semibold text-slate-800 mb-3 text-sm">Key Achievements:</h4>
                   <div className="space-y-2">
                     {skill.achievements.map((achievement, achIndex) => (
-                      <div key={achIndex} className="flex items-center space-x-3">
-                        <div className="w-2 h-2 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex-shrink-0"></div>
+                      <div key={achIndex} className="flex items-center space-x-2">
+                        <div className="w-1.5 h-1.5 bg-blue-500 rounded-full flex-shrink-0"></div>
                         <span className="text-slate-600 text-sm">{achievement}</span>
                       </div>
                     ))}
@@ -87,15 +76,10 @@ const Skills = () => {
                 </div>
                 
                 <div>
-                  <h4 className="font-semibold text-slate-800 mb-3 text-sm flex items-center">
-                    <svg className="w-4 h-4 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-                    </svg>
-                    Core Skills:
-                  </h4>
+                  <h4 className="font-semibold text-slate-800 mb-3 text-sm">Core Skills:</h4>
                   <div className="flex flex-wrap gap-2">
                     {skill.skills.map((skillItem, skillIndex) => (
-                      <span key={skillIndex} className="px-3 py-1 bg-gradient-to-r from-blue-50 to-blue-100 text-blue-700 rounded-full text-xs font-medium border border-blue-200 hover:from-blue-100 hover:to-blue-200 transition-colors duration-200">
+                      <span key={skillIndex} className="px-2 py-1 bg-blue-50 text-blue-700 rounded-full text-xs font-medium">
                         {skillItem}
                       </span>
                     ))}
@@ -130,56 +114,48 @@ const Skills = () => {
         />
         
         {/* Leadership Impact Summary */}
-        <div className="mt-12 bg-gradient-to-r from-slate-800 via-slate-900 to-blue-900 rounded-2xl p-8 text-white relative overflow-hidden">
-          {/* Background Pattern */}
-          <div className="absolute inset-0 opacity-10">
-            <div className="absolute inset-0" style={{
-              backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-              backgroundRepeat: 'repeat'
-            }}></div>
-          </div>
+        <div className="mt-12 bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl p-8 text-white">
+          <h3 className="text-2xl font-bold mb-6 text-center">Leadership Impact</h3>
           
-          <h3 className="text-2xl font-bold mb-6 text-center relative z-10">Leadership Impact</h3>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 relative z-10">
-            <div className="text-center p-4 bg-gradient-to-br from-blue-500/20 to-blue-600/30 rounded-xl border border-blue-400/30 hover:border-blue-400/50 transition-all duration-300 hover:scale-105">
-              <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="text-center">
+              <div className="w-16 h-16 bg-blue-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" />
                 </svg>
               </div>
-              <div className="text-3xl font-bold mb-2 text-blue-300">85%</div>
-              <div className="text-blue-200 font-medium">Adoption Rate</div>
+              <div className="text-2xl font-bold mb-2">85%</div>
+              <div className="text-blue-200">Adoption Rate</div>
             </div>
             
-            <div className="text-center p-4 bg-gradient-to-br from-green-500/20 to-green-600/30 rounded-xl border border-green-400/30 hover:border-green-400/50 transition-all duration-300 hover:scale-105">
-              <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="text-center">
+              <div className="w-16 h-16 bg-blue-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <div className="text-3xl font-bold mb-2 text-green-300">35%</div>
-              <div className="text-green-200 font-medium">Efficiency Gain</div>
+              <div className="text-2xl font-bold mb-2">35%</div>
+              <div className="text-blue-200">Efficiency Gain</div>
             </div>
             
-            <div className="text-center p-4 bg-gradient-to-br from-purple-500/20 to-purple-600/30 rounded-xl border border-purple-400/30 hover:border-purple-400/50 transition-all duration-300 hover:scale-105">
-              <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="text-center">
+              <div className="w-16 h-16 bg-blue-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <div className="text-3xl font-bold mb-2 text-purple-300">100K+</div>
-              <div className="text-purple-200 font-medium">Users Impacted</div>
+              <div className="text-2xl font-bold mb-2">100K+</div>
+              <div className="text-blue-200">Users Impacted</div>
             </div>
             
-            <div className="text-center p-4 bg-gradient-to-br from-red-500/20 to-red-600/30 rounded-xl border border-red-400/30 hover:border-red-400/50 transition-all duration-300 hover:scale-105">
-              <div className="w-16 h-16 bg-gradient-to-br from-red-500 to-red-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="text-center">
+              <div className="w-16 h-16 bg-blue-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                 </svg>
               </div>
-              <div className="text-3xl font-bold mb-2 text-red-300">40%</div>
-              <div className="text-red-200 font-medium">Bottlenecks Reduced</div>
+              <div className="text-2xl font-bold mb-2">40%</div>
+              <div className="text-blue-200">Bottlenecks Reduced</div>
             </div>
           </div>
         </div>
