@@ -39,12 +39,6 @@ const About = () => {
                   <p className="text-lg text-gray-300 leading-relaxed">
                     As a Product and Delivery Manager at <strong className="text-blue-300">Deloitte</strong>, I led the growth of a multimillion dollar portfolio across three product lines, overseeing the entire product lifecycle from ideation to launch and beyond. My leadership transformed the work experience for <strong className="text-blue-300">100,000+ enterprise users</strong>.
                   </p>
-                  
-                  <p className="text-lg text-gray-300 leading-relaxed">
-                    Leading <strong className="text-blue-300">100K+ enterprise users</strong> through digital transformations, I've consistently 
-                    delivered <strong className="text-blue-300">20% productivity improvements</strong> and <strong className="text-blue-300">18% cost reductions</strong> 
-                    through strategic automation and analytics initiatives.
-                  </p>
                 </div>
                 
                 <div className="space-y-4">
