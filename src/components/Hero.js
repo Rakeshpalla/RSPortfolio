@@ -79,8 +79,7 @@ const Hero = () => {
               As a Product and Delivery Manager at Deloitte, I led the growth of a multi-million-dollar portfolio across three product lines, 
               overseeing the entire product lifecycle from ideation to launch and beyond. My leadership transformed the work experience for 
               over <strong className="text-blue-300">100,000 enterprise users</strong>. By building strong, collaborative product teams and 
-              driving adoption rates above <strong className="text-blue-300">85 percent</strong>, I enabled a 
-              <strong className="text-blue-300">35 percent increase in operational efficiency</strong> along with significant improvements 
+              driving adoption rates above <strong className="text-blue-300">85 percent</strong>, I enabled a <strong className="text-blue-300">35 percent increase in operational efficiency</strong> along with significant improvements 
               in customer satisfaction.
             </p>
             
