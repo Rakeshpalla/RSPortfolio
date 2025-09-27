@@ -30,7 +30,7 @@ const Hero = () => {
         <div className="animate-fade-in">
 
           {/* Profile Photo */}
-          <div className="mb-8 animate-slide-up">
+          <div className="mt-4 md:mt-6 mb-8 animate-slide-up">
             <div className="w-32 h-32 md:w-40 md:h-40 mx-auto mb-6 rounded-full overflow-hidden border-4 border-blue-400/30 shadow-2xl">
               <img 
                 src={`${process.env.PUBLIC_URL}/profile-photo.jpeg`} 
