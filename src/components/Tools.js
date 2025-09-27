@@ -33,7 +33,7 @@ const Tools = () => {
   ];
 
   return (
-    <section id="tools" className="py-20 relative bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100 overflow-hidden">
+    <section id="tools" className="py-10 relative bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100 overflow-hidden">
       {/* Professional Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{

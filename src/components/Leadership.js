@@ -34,7 +34,7 @@ const Leadership = () => {
   ];
 
   return (
-    <section id="leadership" className="py-20 relative bg-gradient-to-br from-white via-slate-50 to-blue-50 overflow-hidden">
+    <section id="leadership" className="py-10 relative bg-gradient-to-br from-white via-slate-50 to-blue-50 overflow-hidden">
       {/* Professional Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{

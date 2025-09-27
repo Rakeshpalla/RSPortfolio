@@ -71,7 +71,7 @@ const Hero = () => {
           </div>
           
           {/* Compelling Story */}
-          <div className="max-w-4xl mx-auto mb-12">
+          <div className="max-w-4xl mx-auto mb-6">
             <p className="text-xl md:text-2xl text-gray-200 font-light leading-relaxed mb-6 animate-slide-up">
               Transforming enterprise organizations through strategic product innovation and digital transformation
             </p>
@@ -94,7 +94,7 @@ const Hero = () => {
           </div>
 
           {/* Call-to-Action Button */}
-          <div className="flex justify-center mb-16 animate-slide-up">
+          <div className="flex justify-center mb-8 animate-slide-up">
             <button 
               onClick={handleLinkedInConnect}
               className="inline-flex items-center px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"

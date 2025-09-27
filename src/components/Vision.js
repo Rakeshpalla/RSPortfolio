@@ -3,7 +3,7 @@ import CollapsibleSection from './CollapsibleSection';
 
 const Vision = () => {
   return (
-    <section id="vision" className="py-20 relative bg-gradient-to-br from-blue-50 via-slate-50 to-blue-100 overflow-hidden">
+    <section id="vision" className="py-10 relative bg-gradient-to-br from-blue-50 via-slate-50 to-blue-100 overflow-hidden">
       {/* Professional Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{

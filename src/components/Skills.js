@@ -110,7 +110,7 @@ const Skills = () => {
   }
 
   return (
-    <section id="skills" className="py-20 relative bg-gradient-to-br from-white via-slate-50 to-blue-50 overflow-hidden">
+    <section id="skills" className="py-10 relative bg-gradient-to-br from-white via-slate-50 to-blue-50 overflow-hidden">
       {/* Professional Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
