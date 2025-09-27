@@ -29,6 +29,17 @@ const Hero = () => {
       <div className="max-w-6xl mx-auto text-center relative z-10">
         <div className="animate-fade-in">
 
+          {/* Profile Photo */}
+          <div className="mb-8 animate-slide-up">
+            <div className="w-32 h-32 md:w-40 md:h-40 mx-auto mb-6 rounded-full overflow-hidden border-4 border-blue-400/30 shadow-2xl">
+              <img 
+                src="/profile-photo.jpeg" 
+                alt="Rakesh Sharma Palla - Product and Delivery Manager" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+
           {/* Executive Headline */}
           <div className="mb-8">
             <span className="inline-block px-4 py-2 bg-blue-600/20 border border-blue-400/30 rounded-full text-blue-300 text-sm font-medium mb-6 animate-slide-up">
