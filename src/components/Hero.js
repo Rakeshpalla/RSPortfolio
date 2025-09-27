@@ -76,7 +76,7 @@ const Hero = () => {
             </p>
             
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed animate-slide-up">
-              As a Product and Delivery Manager at Deloitte, I led the growth of a multi-million-dollar portfolio across three product lines, 
+              As a Product and Delivery Manager at Deloitte, I led the growth of a multimillion dollar portfolio across three product lines, 
               overseeing the entire product lifecycle from ideation to launch and beyond. My leadership transformed the work experience for 
               over <strong className="text-blue-300">100,000 enterprise users</strong>. By building strong, collaborative product teams and 
               driving adoption rates above <strong className="text-blue-300">85 percent</strong>, I enabled a <strong className="text-blue-300">35 percent increase in operational efficiency</strong> along with significant improvements 
@@ -84,8 +84,8 @@ const Hero = () => {
             </p>
             
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed animate-slide-up mt-6">
-              My leadership style is hands-on and people-centered. I have successfully guided multiple cross-functional teams, managed 
-              extensive program portfolios, and overseen the end-to-end delivery of enterprise-wide initiatives. Through effective 
+              My leadership style is hands on and people centered. I have successfully guided multiple cross-functional teams, managed 
+              extensive program portfolios, and overseen the end to end delivery of enterprise wide initiatives. Through effective 
               communication and proactive risk mitigation that reduced project bottlenecks by <strong className="text-blue-300">40 percent</strong>, 
               I create high-performing cultures that deliver measurable, scalable, and sustainable success. I am passionate about fostering 
               collaboration, continuous improvement, and consistently delivering outcomes that matter to stakeholders at every level.
