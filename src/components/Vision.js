@@ -1,5 +1,4 @@
 import React from 'react';
-import CollapsibleSection from './CollapsibleSection';
 
 const Vision = () => {
   return (
@@ -13,14 +12,25 @@ const Vision = () => {
       </div>
       
       <div className="max-w-6xl mx-auto px-4 relative z-10">
-        <CollapsibleSection
-          id="vision"
-          title="Executive Vision & Aspiration"
-          icon={<svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" /></svg>}
-          gradient="from-slate-700 to-slate-800"
-          isOpenByDefault={false}
-        >
-          <div className="p-8">
+        {/* Always Visible Vision Section */}
+        <div className="mb-3">
+          <div className="bg-white rounded-xl shadow-lg border border-slate-200 hover:shadow-xl transition-all duration-300 overflow-hidden">
+            {/* Header - Non-collapsible */}
+            <div className="w-full bg-gradient-to-r from-slate-700 to-slate-800 p-6 text-white">
+              <div className="flex items-center space-x-4">
+                <div className="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center">
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                  </svg>
+                </div>
+                <h2 className="text-xl md:text-2xl font-bold">Executive Vision & Aspiration</h2>
+              </div>
+            </div>
+
+            {/* Content - Always Visible */}
+            <div className="max-h-none opacity-100">
+              <div className="p-8">
             <div className="text-center mb-12">
               <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed mb-8">
                 My vision is to step into senior leadership roles (Director, Principal Product Manager, or Program Management Leader) 
@@ -89,8 +99,10 @@ const Vision = () => {
               </blockquote>
               <div className="mt-6 text-blue-300 font-semibold">— Rakesh Sharma Palla</div>
             </div>
+              </div>
+            </div>
           </div>
-        </CollapsibleSection>
+        </div>
       </div>
     </section>
   );
