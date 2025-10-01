@@ -37,13 +37,6 @@ const Education = () => {
 
   return (
     <section id="education" className="py-8 relative bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100 overflow-hidden">
-      {/* Professional Background Pattern */}
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute inset-0" style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.1'%3E%3Crect x='0' y='0' width='50' height='50'/%3E%3Crect x='50' y='50' width='50' height='50'/%3E%3C/g%3E%3C/svg%3E")`,
-          backgroundRepeat: 'repeat'
-        }}></div>
-      </div>
       
       <div className="max-w-6xl mx-auto px-4 relative z-10">
         <CollapsibleSection

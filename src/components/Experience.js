@@ -153,13 +153,6 @@ const Experience = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-slate-50/90 via-blue-50/85 to-slate-100/90"></div>
       </div>
       
-      {/* Professional Background Pattern Overlay */}
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute inset-0" style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.1'%3E%3Crect x='0' y='0' width='40' height='40'/%3E%3Crect x='40' y='40' width='40' height='40'/%3E%3C/g%3E%3C/svg%3E")`,
-          backgroundRepeat: 'repeat'
-        }}></div>
-      </div>
       
       <div className="max-w-6xl mx-auto px-4 relative z-10">
         {/* Section Header */}
