@@ -11,13 +11,13 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-secondary-800 text-white py-8">
+    <footer id="contact" className="bg-secondary-800 text-white py-6" role="contentinfo">
       <div className="max-w-6xl mx-auto px-4">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* Contact Information */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Get In Touch</h3>
-            <div className="space-y-3">
+            <h3 className="text-xl font-bold mb-3">Get In Touch</h3>
+            <div className="space-y-2">
               <div className="flex items-center space-x-3">
                 <svg className="w-5 h-5 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -42,7 +42,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Quick Links</h3>
+            <h3 className="text-xl font-bold mb-3">Quick Links</h3>
             <ul className="space-y-2">
               <li><a href="#about" className="text-gray-300 hover:text-primary-400 transition-colors">About</a></li>
               <li><a href="#experience" className="text-gray-300 hover:text-primary-400 transition-colors">Experience</a></li>
@@ -52,7 +52,7 @@ const Footer = () => {
 
           {/* Expertise */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Core Expertise</h3>
+            <h3 className="text-xl font-bold mb-3">Core Expertise</h3>
             <ul className="space-y-2 text-gray-300">
               <li>Product Strategy</li>
               <li>SaaS Solutions</li>
@@ -64,8 +64,8 @@ const Footer = () => {
 
           {/* Action Buttons */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Connect With Me</h3>
-            <div className="space-y-3">
+            <h3 className="text-xl font-bold mb-3">Connect With Me</h3>
+            <div className="space-y-2">
               <button 
                 onClick={handleLinkedInConnect}
                 className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors flex items-center justify-center space-x-2"
@@ -85,6 +85,15 @@ const Footer = () => {
                 </svg>
                 <span>Email</span>
               </button>
+
+              <a
+                href={`${process.env.PUBLIC_URL}/Rakesh Sharma Palla Resume.docx`}
+                target="_blank"
+                rel="noreferrer"
+                className="w-full inline-flex items-center justify-center bg-white/10 hover:bg-white/20 text-white font-semibold py-2 px-4 rounded-lg transition-colors border border-white/30"
+              >
+                Download Resume
+              </a>
             </div>
           </div>
         </div>

@@ -51,26 +51,26 @@ const Skills = () => {
   const carouselItems = [];
   for (let i = 0; i < skills.length; i += 2) {
     const slideSkills = skills.slice(i, i + 2);
-    carouselItems.push(
-      <div key={i} className="p-8">
-        <div className="grid md:grid-cols-2 gap-8">
+        carouselItems.push(
+          <div key={i} className="p-8">
+        <div className="grid md:grid-cols-2 gap-6">
           {slideSkills.map((skill, index) => (
             <div key={index} className="bg-gradient-to-br from-white to-blue-50 rounded-2xl p-8 shadow-xl border border-blue-100 hover:shadow-2xl hover:scale-105 transition-all duration-300 relative overflow-hidden">
               {/* Background Pattern */}
               <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-blue-100 to-blue-200 rounded-full -translate-y-10 translate-x-10 opacity-50"></div>
               <div className="absolute bottom-0 left-0 w-16 h-16 bg-gradient-to-tr from-blue-100 to-blue-200 rounded-full translate-y-8 -translate-x-8 opacity-50"></div>
               
-              <div className="text-center mb-6 relative z-10">
-                <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
-                  <div className="text-3xl">{skill.icon}</div>
+              <div className="text-center mb-4 relative z-10">
+                <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-3 shadow-lg">
+                  <div className="text-2xl">{skill.icon}</div>
                 </div>
-                <h3 className="text-xl font-bold text-slate-800 mb-3">{skill.category}</h3>
-                <p className="text-slate-600 leading-relaxed text-sm mb-6">{skill.description}</p>
+                <h3 className="text-lg font-bold text-slate-800 mb-2">{skill.category}</h3>
+                <p className="text-slate-600 leading-relaxed text-sm mb-4">{skill.description}</p>
               </div>
               
-              <div className="space-y-4 relative z-10">
+              <div className="space-y-3 relative z-10">
                 <div>
-                  <h4 className="font-semibold text-slate-800 mb-3 text-sm flex items-center">
+                  <h4 className="font-semibold text-slate-800 mb-2 text-sm flex items-center">
                     <svg className="w-4 h-4 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
@@ -87,7 +87,7 @@ const Skills = () => {
                 </div>
                 
                 <div>
-                  <h4 className="font-semibold text-slate-800 mb-3 text-sm flex items-center">
+                  <h4 className="font-semibold text-slate-800 mb-2 text-sm flex items-center">
                     <svg className="w-4 h-4 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
                     </svg>
@@ -110,8 +110,18 @@ const Skills = () => {
   }
 
   return (
-    <section id="skills" className="py-10 relative bg-gradient-to-br from-white via-slate-50 to-blue-50 overflow-hidden">
-      {/* Professional Background Pattern */}
+        <section id="skills" className="py-16 relative overflow-hidden">
+      {/* Professional Background Image */}
+      <div className="absolute inset-0">
+        <img 
+          src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" 
+          alt="Professional skills background" 
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-white/90 via-slate-50/85 to-blue-50/90"></div>
+      </div>
+      
+      {/* Professional Background Pattern Overlay */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
           backgroundImage: `url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.1'%3E%3Cpath d='M40 0L80 40L40 80L0 40z'/%3E%3C/g%3E%3C/svg%3E")`,

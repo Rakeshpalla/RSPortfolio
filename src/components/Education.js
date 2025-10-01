@@ -36,7 +36,7 @@ const Education = () => {
   ];
 
   return (
-    <section id="education" className="py-10 relative bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100 overflow-hidden">
+    <section id="education" className="py-8 relative bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100 overflow-hidden">
       {/* Professional Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
@@ -53,17 +53,17 @@ const Education = () => {
           gradient="from-teal-700 to-teal-800"
           isOpenByDefault={false}
         >
-          <div className="p-8">
-            <div className="text-center mb-16">
-              <h3 className="text-2xl font-bold text-slate-800 mb-6">Academic & Professional Credentials</h3>
+          <div className="p-6">
+            <div className="text-center mb-8">
+              <h3 className="text-2xl font-bold text-slate-800 mb-4">Academic & Professional Credentials</h3>
               <p className="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
                 Strong educational foundation and continuous professional development in product management and business leadership
               </p>
             </div>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
               {education.map((item, index) => (
-                <div key={index} className="bg-white rounded-2xl p-6 shadow-lg border border-slate-200 hover:shadow-xl transition-all duration-300">
+                <div key={index} className="bg-white rounded-2xl p-4 shadow-lg border border-slate-200 hover:shadow-xl transition-all duration-300">
                   <div className="flex items-start space-x-4">
                     <div className="text-3xl">{item.icon}</div>
                     <div className="flex-1">
@@ -85,10 +85,10 @@ const Education = () => {
             </div>
 
             {/* Additional Learning */}
-            <div className="bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl p-8 text-white">
-              <h3 className="text-2xl font-bold mb-6 text-center">Continuous Learning & Development</h3>
+            <div className="bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl p-6 text-white">
+              <h3 className="text-2xl font-bold mb-4 text-center">Continuous Learning & Development</h3>
               
-              <div className="grid md:grid-cols-3 gap-8">
+              <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center">
                   <div className="w-16 h-16 bg-blue-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
                     <svg className="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">

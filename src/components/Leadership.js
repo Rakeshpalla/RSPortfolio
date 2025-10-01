@@ -34,7 +34,7 @@ const Leadership = () => {
   ];
 
   return (
-    <section id="leadership" className="py-10 relative bg-gradient-to-br from-white via-slate-50 to-blue-50 overflow-hidden">
+    <section id="leadership" className="py-8 relative bg-gradient-to-br from-white via-slate-50 to-blue-50 overflow-hidden">
       {/* Professional Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
@@ -51,21 +51,21 @@ const Leadership = () => {
           gradient="from-rose-700 to-rose-800"
           isOpenByDefault={false}
         >
-          <div className="p-8">
-            <div className="text-center mb-16">
-              <h3 className="text-2xl font-bold text-slate-800 mb-6">Community Leadership & Impact</h3>
+          <div className="p-6">
+            <div className="text-center mb-8">
+              <h3 className="text-2xl font-bold text-slate-800 mb-4">Community Leadership & Impact</h3>
               <p className="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
                 Active leadership in professional communities and commitment to advancing the business analysis and product management fields
               </p>
             </div>
             
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="grid md:grid-cols-2 gap-6">
               {leadershipItems.map((item, index) => (
-                <div key={index} className="bg-white rounded-2xl p-6 shadow-lg border border-slate-200 hover:shadow-xl transition-all duration-300">
+                <div key={index} className="bg-white rounded-2xl p-4 shadow-lg border border-slate-200 hover:shadow-xl transition-all duration-300">
                   <div className="flex items-start space-x-4">
                     <div className="text-3xl">{item.icon}</div>
                     <div className="flex-1">
-                      <h3 className="text-xl font-bold text-slate-800 mb-3">{item.category}</h3>
+                      <h3 className="text-lg font-bold text-slate-800 mb-2">{item.category}</h3>
                       <ul className="space-y-2">
                         {item.items.map((achievement, achIndex) => (
                           <li key={achIndex} className="flex items-start space-x-2">

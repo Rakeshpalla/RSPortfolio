@@ -91,7 +91,7 @@ deploy_github() {
     npm run deploy
     
     print_success "Deployed to GitHub Pages!"
-    print_status "URL: https://rakeshpalla364-byte.github.io/CAREER_PORTFOLIO"
+    print_status "URL: https://rakeshpalla.github.io/RSPortfolio"
 }
 
 # Function to deploy to Netlify

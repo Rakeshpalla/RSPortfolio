@@ -37,7 +37,7 @@ echo [INFO] Deploying to GitHub Pages...
 call npm run build:github
 call npm run deploy
 echo [SUCCESS] Deployed to GitHub Pages!
-echo [INFO] URL: https://rakeshpalla364-byte.github.io/CAREER_PORTFOLIO
+echo [INFO] URL: https://rakeshpalla.github.io/RSPortfolio
 goto end
 
 :deploy_netlify

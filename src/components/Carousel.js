@@ -38,16 +38,16 @@ const Carousel = ({ items, title, icon, gradient, autoPlay = true, interval = 50
   return (
     <div className="relative">
       {/* Carousel Header */}
-      <div className="flex items-center justify-between mb-8">
-        <div className="flex items-center space-x-4">
-          <div className={`w-12 h-12 bg-gradient-to-r ${gradient} rounded-xl flex items-center justify-center shadow-lg`}>
+      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-6">
+        <div className="flex items-center space-x-3">
+          <div className={`w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r ${gradient} rounded-xl flex items-center justify-center shadow-lg`}>
             {icon}
           </div>
-          <h2 className="text-3xl font-bold text-slate-800">{title}</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-slate-800">{title}</h2>
         </div>
         
         {/* Controls */}
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-3">
           {/* Play/Pause Button */}
           {items.length > 1 && (
             <button
@@ -121,7 +121,7 @@ const Carousel = ({ items, title, icon, gradient, autoPlay = true, interval = 50
 
       {/* Dots Indicator */}
       {items.length > 1 && (
-        <div className="flex justify-center space-x-2 mt-6">
+        <div className="flex justify-center space-x-2 mt-4">
           {items.map((_, index) => (
             <button
               key={index}
@@ -139,7 +139,7 @@ const Carousel = ({ items, title, icon, gradient, autoPlay = true, interval = 50
 
       {/* Slide Counter */}
       {items.length > 1 && (
-        <div className="text-center mt-4">
+        <div className="text-center mt-3">
           <span className="text-sm text-slate-500">
             {currentIndex + 1} of {items.length}
           </span>

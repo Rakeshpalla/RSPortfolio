@@ -28,8 +28,9 @@ echo Cleaning up temporary branch...
 git branch -D gh-pages-temp
 
 echo ✅ Deployment complete! Your portfolio should be live at:
-echo https://rakeshpalla364-byte.github.io/CAREER_PORTFOLIO/
+echo https://rakeshpalla.github.io/RSPortfolio/
 pause
+
 
 
 
