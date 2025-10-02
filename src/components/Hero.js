@@ -42,11 +42,11 @@ const Hero = () => {
           </div>
 
               {/* Name and Title */}
-              <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 animate-slide-up leading-tight">
+              <h1 className="text-3xl md:text-5xl font-bold text-white mb-6 animate-slide-up leading-tight">
             Rakesh Sharma Palla
           </h1>
           
-          <h2 className="text-2xl md:text-3xl font-semibold text-blue-300 mb-8 animate-slide-up">
+          <h2 className="text-xl md:text-2xl font-semibold text-blue-300 mb-8 animate-slide-up">
             Senior Product & Program Management Executive
           </h2>
 
