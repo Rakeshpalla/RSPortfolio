@@ -85,10 +85,9 @@ const Vision = () => {
             <div className="bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl p-8 text-white text-center">
               <h3 className="text-2xl font-bold mb-6">Leadership Philosophy</h3>
               <blockquote className="text-lg text-gray-200 leading-relaxed max-w-4xl mx-auto italic">
-                "Great leaders don't just manage products—they architect the future. My vision is to build organizations 
-                that don't just adapt to change, but create it. Through strategic thinking, collaborative leadership, 
-                and relentless focus on customer value, I aim to transform how enterprises approach digital innovation 
-                and deliver exceptional outcomes that exceed expectations."
+                "Great leadership is about more than managing products; it is about shaping the future. I build organizations 
+                that drive change, foster collaboration, and focus relentlessly on customer value to deliver digital 
+                innovations that exceed expectations."
               </blockquote>
               <div className="mt-6 text-blue-300 font-semibold">— Rakesh Sharma Palla</div>
             </div>
