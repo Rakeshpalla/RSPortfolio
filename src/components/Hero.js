@@ -90,7 +90,7 @@ const Hero = () => {
               in customer satisfaction.
             </p>
             
-            <p className="text-lg md:text-xl text-gray-300 leading-relaxed animate-slide-up mt-3">
+            <p className="text-lg md:text-xl text-gray-300 leading-relaxed animate-slide-up mt-3 text-center">
               <strong className="text-blue-300">Results-driven leader</strong> with a hands-on, people-first approach. Led cross-functional teams across global portfolios, 
               delivering enterprise initiatives that cut bottlenecks by <strong className="text-blue-300">40%</strong> and drove measurable business impact. 
               Expert in building high-performing cultures, strategic stakeholder alignment, and scalable solutions that exceed expectations.
