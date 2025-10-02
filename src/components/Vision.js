@@ -85,7 +85,7 @@ const Vision = () => {
             <div className="bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl p-8 text-white text-center">
               <h3 className="text-2xl font-bold mb-6">Leadership Philosophy</h3>
               <blockquote className="text-lg text-gray-200 leading-relaxed max-w-4xl mx-auto italic">
-                "Great leadership is about more than managing products; it is about shaping the future. I build organizations 
+                "Great leadership is about more than managing products. It is about shaping the future. I build organizations 
                 that drive change, foster collaboration, and focus relentlessly on customer value to deliver digital 
                 innovations that exceed expectations."
               </blockquote>
