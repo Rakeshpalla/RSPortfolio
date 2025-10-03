@@ -22,10 +22,10 @@ const projects = [
     problem: 'Standalone audit product operated in isolation, forcing users to switch between multiple systems with rigid architecture unable to support client-specific requirements.',
     action: 'Led cross-functional teams to integrate audit product into unified suite. Collaborated with engineering, UX, and client services to design modular architecture with API integrations across 5 internal products.',
     result: [
-      '100k+ enterprise clients served',
+      '100K+ enterprise users served',
       '40% reduction in client onboarding time',
-      '35% increase in cross-product adoption',
-      'Integrated user experience achieved'
+    '35% increase in cross-product adoption',
+      'Integrated enterprise user experience achieved'
     ],
     skills: ['Cross-functional Leadership', 'API Integration', 'Modular Architecture', 'Client Configuration', 'Product Integration', 'Enterprise Solutions']
   },

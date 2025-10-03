@@ -37,7 +37,7 @@ const Experience = () => {
         }
       ],
       current: true,
-      story: "At Deloitte, I have built scalable enterprise platforms and launched SaaS products, mentoring global product teams to achieve measurable results, including 30% higher adoption, 25% reduction in operational risk, and 20% improvement in customer satisfaction. I have led multiple products through the full product lifecycle, from ideation to launch, scale and sustainment, driving revenue growth of over $10M and consistently enhancing product adoption and business impact."
+      story: "At Deloitte, I have led a $65M portfolio across three enterprise product lines, mentoring 15+ global product teams to achieve measurable results including 85% product adoption, 35% improvement in operational efficiency, and $10M+ revenue growth over 24 months. I have led multiple products through the full product lifecycle, from ideation to launch, scale and sustainment, consistently enhancing customer satisfaction and business impact across 100,000+ enterprise users."
     },
     {
       title: "Senior Associate Consultant",
@@ -258,12 +258,12 @@ const Experience = () => {
               <div className="text-blue-200">Leading Companies</div>
             </div>
             <div>
-              <div className="text-3xl font-bold mb-2">$65M+</div>
-              <div className="text-blue-200">Total Portfolio Value</div>
+              <div className="text-3xl font-bold mb-2">$65M</div>
+              <div className="text-blue-200">Portfolio Value Managed</div>
             </div>
             <div>
               <div className="text-3xl font-bold mb-2">100K+</div>
-              <div className="text-blue-200">Users Impacted</div>
+              <div className="text-blue-200">Enterprise Users Impacted</div>
             </div>
           </div>
         </div>

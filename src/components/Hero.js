@@ -83,17 +83,17 @@ const Hero = () => {
             </p>
             
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed animate-slide-up">
-              As a Product and Delivery Manager at Deloitte, I led the growth of a multimillion dollar portfolio across three product lines, 
+              As a Product and Delivery Manager at Deloitte, I led a $65M portfolio across three enterprise product lines, 
               overseeing the entire product lifecycle from ideation to launch and beyond. My leadership transformed the work experience for 
-              over <strong className="text-blue-300">100,000 enterprise users</strong>. By building strong, collaborative product teams and 
-              driving adoption rates above <strong className="text-blue-300">85 percent</strong>, I enabled a <strong className="text-blue-300">35 percent increase in operational efficiency</strong> along with significant improvements 
-              in customer satisfaction.
+              over <strong className="text-blue-300">100,000 enterprise users</strong> globally. By building collaborative product teams and 
+              driving product adoption rates above <strong className="text-blue-300">85%</strong>, I achieved a 
+              <strong className="text-blue-300">35% increase in operational efficiency</strong> and secured $10M+ revenue growth over 24 months.
             </p>
             
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed animate-slide-up mt-3 text-center">
-              <strong className="text-blue-300">Results-driven leader</strong> with a hands-on, people-first approach. Led cross-functional teams across global portfolios, 
-              delivering enterprise initiatives that cut bottlenecks by <strong className="text-blue-300">40%</strong> and drove measurable business impact. 
-              Expert in building high-performing cultures, strategic stakeholder alignment, and scalable solutions that exceed expectations.
+              <strong className="text-blue-300">Results-driven leader</strong> with a hands-on, people-first approach. Led cross-functional teams across 15+ global portfolios, 
+              delivering enterprise initiatives that reduced bottlenecks by <strong className="text-blue-300">40%</strong> and drove measurable business impact through strategic product innovation. 
+              Expert in building high-performing cultures, stakeholder alignment, and scalable solutions that exceed expectations.
             </p>
           </div>
 
