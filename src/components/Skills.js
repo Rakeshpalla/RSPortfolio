@@ -44,6 +44,13 @@ const Skills = () => {
       icon: "🚀",
       achievements: ["Cloud Adoption", "Process Automation", "Digital Transformation"],
       skills: ["Cloud Platforms", "Process Automation", "Strategic Roadmaps", "Digital Transformation", "Technology Innovation"]
+    },
+    {
+      category: "Modern Development Tools & AI",
+      description: "Senior Product Manager leveraging cutting-edge AI development tools to accelerate product delivery, validate concepts, and bridge technical gaps",
+      icon: "⚡",
+      achievements: ["AI-Powered Development", "Rapid Prototyping", "Technical Validation"],
+      skills: ["Cursor IDE", "Lovable Platform", "Bolt New", "Claude AI", "ChatGPT", "Vibe Coding", "AI Product Tools"]
     }
   ];
 
@@ -52,20 +59,20 @@ const Skills = () => {
   for (let i = 0; i < skills.length; i += 2) {
     const slideSkills = skills.slice(i, i + 2);
         carouselItems.push(
-          <div key={i} className="p-8">
-        <div className="grid md:grid-cols-2 gap-6">
+          <div key={i} className="p-4 md:p-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
           {slideSkills.map((skill, index) => (
-            <div key={index} className="bg-gradient-to-br from-white to-blue-50 rounded-2xl p-8 shadow-xl border border-blue-100 hover:shadow-2xl hover:scale-105 transition-all duration-300 relative overflow-hidden">
+            <div key={index} className="bg-gradient-to-br from-white to-blue-50 rounded-2xl p-4 md:p-8 shadow-xl border border-blue-100 hover:shadow-2xl hover:scale-105 transition-all duration-300 relative overflow-hidden">
               {/* Background Pattern */}
               <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-blue-100 to-blue-200 rounded-full -translate-y-10 translate-x-10 opacity-50"></div>
               <div className="absolute bottom-0 left-0 w-16 h-16 bg-gradient-to-tr from-blue-100 to-blue-200 rounded-full translate-y-8 -translate-x-8 opacity-50"></div>
               
-              <div className="text-center mb-4 relative z-10">
-                <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-3 shadow-lg">
-                  <div className="text-2xl">{skill.icon}</div>
+              <div className="text-center mb-3 md:mb-4 relative z-10">
+                <div className="w-12 h-12 md:w-16 md:h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-2 md:mb-3 shadow-lg">
+                  <div className="text-xl md:text-2xl">{skill.icon}</div>
                 </div>
-                <h3 className="text-lg font-bold text-slate-800 mb-2">{skill.category}</h3>
-                <p className="text-slate-600 leading-relaxed text-sm mb-4">{skill.description}</p>
+                <h3 className="text-base md:text-lg font-bold text-slate-800 mb-1 md:mb-2">{skill.category}</h3>
+                <p className="text-slate-600 leading-relaxed text-xs md:text-sm mb-3 md:mb-4">{skill.description}</p>
               </div>
               
               <div className="space-y-3 relative z-10">
@@ -80,7 +87,7 @@ const Skills = () => {
                     {skill.achievements.map((achievement, achIndex) => (
                       <div key={achIndex} className="flex items-center space-x-3">
                         <div className="w-2 h-2 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex-shrink-0"></div>
-                        <span className="text-slate-600 text-sm">{achievement}</span>
+                        <span className="text-slate-600 text-xs md:text-sm">{achievement}</span>
                       </div>
                     ))}
                   </div>
@@ -95,7 +102,7 @@ const Skills = () => {
                   </h4>
                   <div className="flex flex-wrap gap-2">
                     {skill.skills.map((skillItem, skillIndex) => (
-                      <span key={skillIndex} className="px-3 py-1 bg-gradient-to-r from-blue-50 to-blue-100 text-blue-700 rounded-full text-xs font-medium border border-blue-200 hover:from-blue-100 hover:to-blue-200 transition-colors duration-200">
+                      <span key={skillIndex} className="px-2 md:px-3 py-1 bg-gradient-to-r from-blue-50 to-blue-100 text-blue-700 rounded-full text-xs font-medium border border-blue-200 hover:from-blue-100 hover:to-blue-200 transition-colors duration-200">
                         {skillItem}
                       </span>
                     ))}
