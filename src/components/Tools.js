@@ -29,6 +29,15 @@ const Tools = () => {
       features: ["Data Visualization", "Business Intelligence", "Reporting", "Analytics", "Dashboard Creation"],
       experience: "Advanced",
       color: "from-yellow-500 to-orange-600"
+    },
+    {
+      name: "MS SQL Server",
+      category: "Database Management",
+      description: "Enterprise database management with advanced querying, data relationships analysis, and database operations",
+      icon: "🗃️",
+      features: ["SQL Querying", "Data Relationships", "Database Logs", "Data Restoration", "Performance Analysis"],
+      experience: "Advanced",
+      color: "from-purple-500 to-indigo-600"
     }
   ];
 
