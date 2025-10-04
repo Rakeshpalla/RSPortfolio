@@ -244,6 +244,62 @@ const Experience = () => {
             ))}
           </div>
         </div>
+
+        {/* Leadership Recognition Testimonial */}
+        <div className="mt-12 mb-8">
+          <div className="bg-gradient-to-r from-emerald-50 via-blue-50 to-indigo-50 rounded-2xl p-8 border border-emerald-200 shadow-lg hover:shadow-xl transition-all duration-300">
+            {/* Testimonial Header */}
+            <div className="text-center mb-6">
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-emerald-500 to-blue-500 rounded-full mb-4">
+                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold text-slate-800 mb-2">Leadership Recognition</h3>
+              <div className="w-20 h-1 bg-gradient-to-r from-emerald-500 to-blue-500 mx-auto rounded-full"></div>
+            </div>
+
+            {/* Testimonial Quote */}
+            <div className="max-w-4xl mx-auto">
+              <blockquote className="text-lg text-slate-700 leading-relaxed text-center italic mb-6 relative">
+                <div className="absolute -top-2 -left-2 text-4xl text-emerald-400 font-serif">"</div>
+                <div className="px-6 py-2">
+                  Rakesh made significant contributions to the successful release of <strong className="text-emerald-600">EMS 4.9, AAT 4.8, and Excel Analytics 4.3.1</strong>. He played a vital role in setting up the backlog for NCR features in Omnia POD while maintaining his existing Product Owner responsibilities for EMS, AAT, and Excel Analytics. His dedication to grooming and mentoring Business Systems Analysts has resulted in excellent production support for member firms. His contributions to the <strong className="text-blue-600">BSA Community of Practice</strong> and <strong className="text-blue-600">Tech It Easy platform initiatives</strong> are highly valued. He has been effectively driving the <strong className="text-indigo-600">'Auditutor'</strong> and <strong className="text-indigo-600">'Know Your Domain'</strong> initiatives, demonstrating exceptional leadership and domain expertise.
+                </div>
+                <div className="absolute -bottom-2 -right-2 text-4xl text-emerald-400 font-serif">"</div>
+              </blockquote>
+
+              {/* Attribution */}
+              <div className="text-center">
+                <div className="inline-flex items-center space-x-3 bg-white/70 rounded-full px-6 py-3 shadow-sm">
+                  <div className="w-10 h-10 bg-gradient-to-r from-emerald-500 to-blue-500 rounded-full flex items-center justify-center">
+                    <span className="text-white font-bold text-sm">DT</span>
+                  </div>
+                  <div className="text-left">
+                    <cite className="text-slate-700 font-semibold not-italic">Deloitte Leadership Team</cite>
+                    <div className="text-slate-500 text-sm">Product Release Recognition</div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Key Highlights */}
+              <div className="mt-8 grid md:grid-cols-3 gap-4">
+                <div className="text-center p-4 bg-white/50 rounded-xl border border-emerald-200">
+                  <div className="text-2xl font-bold text-emerald-600 mb-1">3</div>
+                  <div className="text-sm text-slate-600">Major Product Releases</div>
+                </div>
+                <div className="text-center p-4 bg-white/50 rounded-xl border border-blue-200">
+                  <div className="text-2xl font-bold text-blue-600 mb-1">BSA</div>
+                  <div className="text-sm text-slate-600">Community Leadership</div>
+                </div>
+                <div className="text-center p-4 bg-white/50 rounded-xl border border-indigo-200">
+                  <div className="text-2xl font-bold text-indigo-600 mb-1">2</div>
+                  <div className="text-sm text-slate-600">Key Initiatives</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         
           {/* Career Summary */}
           <div className="mt-12 bg-gradient-to-r from-blue-600 to-blue-800 rounded-2xl p-8 text-white text-center">
