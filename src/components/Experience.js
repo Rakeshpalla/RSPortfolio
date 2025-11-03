@@ -167,7 +167,7 @@ const Experience = () => {
             <div className="w-24 h-1 bg-gradient-to-r from-emerald-500 to-blue-500 mx-auto rounded-full"></div>
           </div>
 
-          <div className="grid lg:grid-cols-3 gap-6">
+          <div className="grid lg:grid-cols-2 gap-6">
             {/* First Testimonial */}
             <div className="bg-gradient-to-r from-emerald-50 via-blue-50 to-indigo-50 rounded-2xl p-6 border border-emerald-200 shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="text-center mb-4">
@@ -175,12 +175,10 @@ const Experience = () => {
                 <div className="w-16 h-1 bg-gradient-to-r from-emerald-500 to-blue-500 mx-auto rounded-full"></div>
               </div>
 
-              <blockquote className="text-slate-700 leading-relaxed italic mb-4 relative">
-                <div className="absolute -top-1 -left-1 text-2xl text-emerald-400 font-serif">"</div>
+              <blockquote className="text-slate-700 leading-relaxed italic mb-4">
                 <div className="px-4 py-1">
                   Rakesh made significant contributions to the successful release of <strong className="text-emerald-600">EMS 4.9, AAT 4.8, and Excel Analytics 4.3.1</strong>. He played a vital role in setting up the backlog for NCR features in Omnia POD while maintaining his existing Product Owner responsibilities for EMS, AAT, and Excel Analytics. His dedication to grooming and mentoring Business Systems Analysts has resulted in excellent production support for member firms. His contributions to the <strong className="text-blue-600">BSA Community of Practice</strong> and <strong className="text-blue-600">Tech It Easy platform initiatives</strong> are highly valued. He has been effectively driving the <strong className="text-indigo-600">'Auditutor'</strong> and <strong className="text-indigo-600">'Know Your Domain'</strong> initiatives, demonstrating exceptional leadership and domain expertise.
                 </div>
-                <div className="absolute -bottom-1 -right-1 text-2xl text-emerald-400 font-serif">"</div>
               </blockquote>
 
               <div className="text-center">
@@ -203,12 +201,10 @@ const Experience = () => {
                 <div className="w-16 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto rounded-full"></div>
               </div>
 
-              <blockquote className="text-slate-700 leading-relaxed italic mb-4 relative">
-                <div className="absolute -top-1 -left-1 text-2xl text-blue-400 font-serif">"</div>
+              <blockquote className="text-slate-700 leading-relaxed italic mb-4">
                 <div className="px-4 py-1">
                   Rakesh has been instrumental for the delivery of <strong className="text-blue-600">AAT 4.12 release</strong>. He has picked delivery activities apart from PO activities. His contributions towards <strong className="text-indigo-600">AAT Redesign work</strong> are well received by stakeholders. Apart from Project deliverables, he is contributing to below initiatives which is much appreciated. Thanks for all the good work Rakesh! <strong className="text-purple-600">L&D SPOC from Audit KYD sessions for AAPS</strong> and <strong className="text-purple-600">CoP – BSA</strong>.
                 </div>
-                <div className="absolute -bottom-1 -right-1 text-2xl text-blue-400 font-serif">"</div>
               </blockquote>
 
               <div className="text-center">
@@ -231,12 +227,10 @@ const Experience = () => {
                 <div className="w-16 h-1 bg-gradient-to-r from-orange-500 to-pink-500 mx-auto rounded-full"></div>
               </div>
 
-              <blockquote className="text-slate-700 leading-relaxed italic mb-4 relative">
-                <div className="absolute -top-1 -left-1 text-2xl text-orange-400 font-serif">"</div>
+              <blockquote className="text-slate-700 leading-relaxed italic mb-4">
                 <div className="px-4 py-1">
                   For leading <strong className="text-slate-800">Serengeti Megatron team</strong> and his special efforts in ensuring keep all deliverables to track. He navigated the <strong className="text-slate-800">new environment</strong>, handle and mitigate <strong className="text-slate-800">critical delivery and resource challenges</strong> and ensuring <strong className="text-slate-800">on time quality deliverables</strong>.
                 </div>
-                <div className="absolute -bottom-1 -right-1 text-2xl text-orange-400 font-serif">"</div>
               </blockquote>
 
               <div className="text-center">
@@ -247,6 +241,32 @@ const Experience = () => {
                   <div className="text-left">
                     <cite className="text-slate-700 font-semibold not-italic text-sm">Deloitte Leadership Team</cite>
                     <div className="text-slate-500 text-xs">Adaptability Recognition</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Fourth Testimonial - IIBA Recognition */}
+            <div className="bg-gradient-to-r from-violet-50 via-purple-50 to-fuchsia-50 rounded-2xl p-6 border border-violet-200 shadow-lg hover:shadow-xl transition-all duration-300">
+              <div className="text-center mb-4">
+                <h4 className="text-lg font-semibold text-slate-800 mb-2">Volunteer Excellence & Conference Leadership</h4>
+                <div className="w-16 h-1 bg-gradient-to-r from-violet-500 to-fuchsia-500 mx-auto rounded-full"></div>
+              </div>
+
+              <blockquote className="text-slate-700 leading-relaxed italic mb-4">
+                <div className="px-4 py-1">
+                  He has been a great <strong className="text-violet-600">IIBA volunteer</strong> who has ensured every speaker gets a great experience before, during and after the <strong className="text-purple-600">IIBA event</strong>. He has been the <strong className="text-fuchsia-600">face of IIBA</strong> for each of the conference. Great attitude and hard worker, keeping others interests in mind and working towards the common goal of providing a great experience to all the stakeholders attending the conference. Works well with other teams to ensure smooth handling of any challenges faced before or during the event. Besides this, he has consistently been a part of the various <strong className="text-violet-600">milaps (meet ups)</strong>, and other <strong className="text-purple-600">Hyderabad chapter events</strong> during August 2023 to July 2024 period. I am extremely extremely happy with his contributions and would like to nominate him for the <strong className="text-fuchsia-600">'Volunteer of the Year'</strong> for his immense contributions to the success of the two major <strong className="text-violet-600">Business Analysis Conferences</strong> held in Hyderabad during 2024.
+                </div>
+              </blockquote>
+
+              <div className="text-center">
+                <div className="inline-flex items-center space-x-2 bg-white/70 rounded-full px-4 py-2 shadow-sm">
+                  <div className="w-8 h-8 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded-full flex items-center justify-center">
+                    <span className="text-white font-bold text-xs">IIBA</span>
+                  </div>
+                  <div className="text-left">
+                    <cite className="text-slate-700 font-semibold not-italic text-sm">IIBA Leader</cite>
+                    <div className="text-slate-500 text-xs">Volunteer of the Year Nomination</div>
                   </div>
                 </div>
               </div>
