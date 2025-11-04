@@ -75,13 +75,9 @@ const Education = () => {
                       <h3 className="text-lg font-bold text-slate-800 mb-1">{item.degree}</h3>
                       <p className="text-slate-600 text-sm">{item.institution}</p>
                       {item.type === 'Certification' && (
-                        <a 
-                          href="#" 
-                          className="text-xs text-blue-600 hover:text-blue-800 mt-1 inline-block"
-                          onClick={(e) => e.preventDefault()}
-                        >
+                        <span className="text-xs text-blue-600 mt-1 inline-block">
                           View Credential →
-                        </a>
+                        </span>
                       )}
                     </div>
                   </div>
