@@ -4,18 +4,18 @@ import Carousel from './Carousel';
 const Skills = () => {
   const skills = [
     {
-      category: "Project & Program Management",
-      description: "SAFe POPM certified leader with expertise in Agile & Scaled Agile Frameworks, driving enterprise transformation across global teams",
-      icon: "📋",
-      achievements: ["SAFe POPM Certification", "Agile & Scaled Agile Frameworks", "Global Team Leadership"],
-      skills: ["SAFe POPM", "Agile Methodologies", "Scaled Agile Frameworks", "Program Management", "Cross-Functional Leadership"]
+      category: "Product Management",
+      description: "End-to-end product management experience: user research, requirement gathering, roadmap planning, feature prioritization, and product launches. Hands-on experience writing user stories, acceptance criteria, and working with UX/UI teams.",
+      icon: "🎯",
+      achievements: ["Product Roadmaps & Backlog Management", "User Research & Requirements Gathering", "Feature Prioritization & Launch"],
+      skills: ["Product Strategy", "Roadmap Planning", "User Stories & Acceptance Criteria", "Feature Prioritization", "Requirements Gathering", "Stakeholder Management", "Product Launch"]
     },
     {
-      category: "Product Management & Strategy",
-      description: "Strategic product leader with expertise in 0-to-1 product development, roadmap strategy, and go-to-market enablement",
-      icon: "🎯",
-      achievements: ["0-to-1 Product Development", "Strategic Roadmaps", "Go-to-Market Enablement"],
-      skills: ["Product Strategy", "Roadmap Planning", "Customer Discovery", "Developer Experience", "Ecosystem Partnerships"]
+      category: "Delivery Management",
+      description: "Practical delivery management: sprint planning, release management, risk mitigation, and team coordination. Experience managing timelines, dependencies, and quality gates to ensure on-time delivery.",
+      icon: "📋",
+      achievements: ["Sprint Planning & Release Management", "Risk Management & Blockers Removal", "Quality Assurance & Testing Coordination"],
+      skills: ["Sprint Planning", "Release Management", "Risk Management", "Dependency Management", "Quality Gates", "Agile Methodologies", "SAFe POPM", "Scrum"]
     },
     {
       category: "Audit & Finance Expertise",

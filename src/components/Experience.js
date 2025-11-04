@@ -4,40 +4,40 @@ const Experience = () => {
 
   const experiences = [
     {
-      title: "Senior Product Manager",
+      title: "Senior Product Manager & Delivery Manager",
       company: "Deloitte",
       duration: "December 2013 – Present",
       location: "Hyderabad, India",
       companyLogo: "🏢",
       achievements: [
         {
-          metric: "30% Higher Adoption",
-          description: "Built scalable enterprise platforms and launched SaaS products with measurable adoption improvements",
-          impact: "Product Growth & Scale"
+          metric: "Product Management",
+          description: "Manage product roadmaps, write user stories, prioritize backlog, conduct user research, and coordinate with UX/UI teams for product design",
+          impact: "Product Ownership"
         },
         {
-          metric: "25% Risk Reduction",
-          description: "Led multiple products through full lifecycle from ideation to launch, scale and sustainment",
-          impact: "Operational Excellence"
+          metric: "Delivery Management",
+          description: "Lead sprint planning, manage releases, remove blockers, coordinate QA testing, and ensure quality gates are met before production deployment",
+          impact: "Delivery Excellence"
         },
         {
-          metric: "20% Customer Satisfaction",
-          description: "Mentored global product teams to achieve measurable results in customer success",
-          impact: "Customer Experience"
+          metric: "Cross-Functional Leadership",
+          description: "Work closely with engineering, QA, UX, and business stakeholders to align product vision with technical delivery capabilities",
+          impact: "Team Collaboration"
         },
         {
-          metric: "$10M+ Revenue Growth",
-          description: "Drove revenue growth through strategic product launches and sustained business impact",
-          impact: "Business Impact"
+          metric: "Requirements & Documentation",
+          description: "Gather requirements from stakeholders, write detailed acceptance criteria, create product specifications, and maintain product documentation",
+          impact: "Product Documentation"
         },
         {
-          metric: "Full Product Lifecycle",
-          description: "Led multiple products from ideation to launch, scale and sustainment across enterprise platforms",
-          impact: "Product Leadership"
+          metric: "Release & Quality Management",
+          description: "Coordinate release schedules, manage dependencies, conduct pre-release reviews, and ensure successful product launches",
+          impact: "Release Management"
         }
       ],
       current: true,
-      story: "At Deloitte, I have led a $65M portfolio across three enterprise product lines, mentoring 15+ global product teams to achieve measurable results including 85% product adoption, 35% improvement in operational efficiency, and $10M+ revenue growth over 24 months. I have led multiple products through the full product lifecycle, from ideation to launch, scale and sustainment, consistently enhancing customer satisfaction and business impact across 100,000+ enterprise users."
+      story: "At Deloitte, I wear two hats: Product Manager and Delivery Manager. As a Product Manager, I manage product roadmaps, write user stories, prioritize features, conduct user research, and work with UX teams to design solutions. As a Delivery Manager, I lead sprint planning sessions, manage release cycles, remove blockers, coordinate QA testing, and ensure quality gates are met. This dual role has given me deep understanding of both product strategy and execution—I know what to build and how to deliver it successfully. I've managed products serving 100,000+ enterprise users, ensuring they get features that solve real problems, delivered on time and with quality."
     },
     {
       title: "Senior Associate Consultant",

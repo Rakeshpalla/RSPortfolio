@@ -19,8 +19,7 @@ const About = () => {
               🎯 Product Leadership | 🤝 People Centered | 📈 Outcome Driven
             </div>
             <p className="text-xl text-gray-200 leading-relaxed max-w-4xl mx-auto">
-              <strong className="text-blue-300 font-semibold">19+ years</strong> of proven leadership transforming enterprise organizations through strategic product innovation, 
-              delivering measurable business outcomes and building high-performing teams across global markets.
+              Here's what drives me: <strong className="text-blue-300 font-semibold">solving real problems for real people</strong>. Over 19 years, I've learned that the best product leaders are those who listen first, fail fast, and never stop learning. Every challenge is an opportunity to grow—and I've faced plenty.
             </p>
           </div>
 
@@ -33,29 +32,29 @@ const About = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                   </svg>
                 </div>
-                <h4 className="text-lg font-bold text-white mb-2">Strategic Product Leadership</h4>
-                <span className="text-sm text-blue-200 bg-blue-600/20 px-3 py-1 rounded-full">Deloitte</span>
+                <h4 className="text-lg font-bold text-white mb-2">Product Management</h4>
+                <span className="text-sm text-blue-200 bg-blue-600/20 px-3 py-1 rounded-full">Product Owner</span>
               </div>
               <ul className="space-y-2 text-gray-300">
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Led <strong className="text-blue-300">multimillion-dollar product portfolio</strong> across three product lines</span>
+                  <span><strong className="text-blue-300">Product Management:</strong> Manage product roadmaps, write user stories with acceptance criteria, prioritize backlog based on user needs and business value</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Drove <strong className="text-blue-300">100,000+ enterprise user adoption</strong> across platforms</span>
+                  <span><strong className="text-blue-300">Requirements Gathering:</strong> Conduct user interviews, workshops, and stakeholder meetings to gather requirements and translate them into product features</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Achieved <strong className="text-blue-300">85% feature adoption rates</strong> through customer-centric design</span>
+                  <span><strong className="text-blue-300">Delivery Management:</strong> Lead sprint planning, manage release schedules, remove blockers, coordinate QA testing, and ensure on-time delivery</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Transformed product lifecycle management from ideation to scale</span>
+                  <span><strong className="text-blue-300">Cross-Functional Collaboration:</strong> Work closely with engineering, UX/UI, QA, and business stakeholders to align product vision with delivery capabilities</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Delivered <strong className="text-blue-300">35% operational efficiency gains</strong> and significant customer satisfaction improvements</span>
+                  <span>Managed products serving <strong className="text-blue-300">100,000+ enterprise users</strong>—ensuring features solve real problems and are delivered with quality</span>
                 </li>
               </ul>
             </div>
@@ -68,29 +67,29 @@ const About = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </div>
-                <h4 className="text-lg font-bold text-white mb-2">Enterprise Delivery Excellence</h4>
-                <span className="text-sm text-green-200 bg-green-600/20 px-3 py-1 rounded-full">SAFe Certified</span>
+                <h4 className="text-lg font-bold text-white mb-2">Delivery Management</h4>
+                <span className="text-sm text-green-200 bg-green-600/20 px-3 py-1 rounded-full">SAFe POPM Certified</span>
               </div>
               <ul className="space-y-2 text-gray-300">
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Orchestrated <strong className="text-blue-300">scaled agile transformation</strong> across <strong className="text-blue-300">15+ global teams</strong></span>
+                  <span><strong className="text-blue-300">Sprint Planning & Execution:</strong> Facilitate sprint planning sessions, manage sprint backlogs, track velocity, and ensure sprint goals are met</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Implemented SAFe methodologies for enterprise-wide adoption</span>
+                  <span><strong className="text-blue-300">Release Management:</strong> Coordinate release schedules, manage dependencies between teams, conduct pre-release reviews, and ensure successful deployments</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Delivered <strong className="text-blue-300">40% faster release cycles</strong> through process optimization</span>
+                  <span><strong className="text-blue-300">Risk & Blocker Management:</strong> Identify risks early, proactively remove blockers, escalate issues when needed, and keep stakeholders informed</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Achieved <strong className="text-blue-300">accelerated time-to-market</strong> for product launches</span>
+                  <span><strong className="text-blue-300">Quality Assurance:</strong> Coordinate QA testing, manage test cases, ensure quality gates are met, and maintain product quality standards</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Reduced project bottlenecks by <strong className="text-blue-300">40%</strong> through proactive risk management and cross-functional collaboration</span>
+                  <span>SAFe POPM certified with hands-on experience applying Agile and Scrum methodologies in real-world product delivery</span>
                 </li>
               </ul>
             </div>
@@ -109,27 +108,19 @@ const About = () => {
               <ul className="space-y-2 text-gray-300">
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Established the <strong className="text-blue-300">Product Management Community of Practice</strong> at Deloitte</span>
+                  <span>Founded the <strong className="text-blue-300">Product Management Community of Practice</strong> at Deloitte—because I believe in giving back</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Mentored <strong className="text-blue-300">20+ BAs and Product Owners</strong> through certification programs and study groups</span>
+                  <span>Mentored <strong className="text-blue-300">20+ professionals</strong>—many have gone on to become leaders themselves. That's what success looks like to me</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Conducted domain training sessions to help technical teams think from a business perspective</span>
+                  <span>As <strong className="text-blue-300">President of IIBA Hyderabad</strong>, I organized major conferences—learned that community building is as important as product building</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Enabled better decision-making during product development through strategic guidance</span>
-                </li>
-                <li className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>As <strong className="text-blue-300">President of IIBA Hyderabad</strong>, organized professional conferences</span>
-                </li>
-                <li className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span><strong className="text-blue-300">Consecutively nominated as 'Volunteer of the Year'</strong> for community leadership impact</span>
+                  <span><strong className="text-blue-300">Volunteer of the Year nominee</strong>—not for the recognition, but because I genuinely care about helping others grow</span>
                 </li>
               </ul>
             </div>

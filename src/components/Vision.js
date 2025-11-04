@@ -81,13 +81,13 @@ const Vision = () => {
               </div>
             </div>
             
-            {/* Vision Statement */}
+            {/* Vision Statement - More Personal */}
             <div className="bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl p-8 text-white text-center">
-              <h3 className="text-2xl font-bold mb-6">Leadership Philosophy</h3>
-              <blockquote className="text-lg text-gray-200 leading-relaxed max-w-4xl mx-auto italic">
-                "Great leadership is about more than managing products. It is about shaping the future. I build organizations 
-                that drive change, foster collaboration, and focus relentlessly on customer value to deliver digital 
-                innovations that exceed expectations."
+              <h3 className="text-2xl font-bold mb-6">My Leadership Philosophy</h3>
+              <blockquote className="text-lg text-gray-200 leading-relaxed max-w-4xl mx-auto italic mb-6">
+                "I've learned that great leadership isn't about having all the answers. It's about asking the right questions, 
+                listening deeply, and creating spaces where people can do their best work. Every product I've built, every team 
+                I've led, has taught me something new. And I'm still learning."
               </blockquote>
               <div className="mt-6 text-blue-300 font-semibold">— Rakesh Sharma Palla</div>
             </div>

@@ -37,7 +37,7 @@ const Hero = () => {
               {/* Executive Headline */}
               <div className="mb-6">
             <span className="inline-block px-4 py-2 bg-blue-600/20 border border-blue-400/30 rounded-full text-blue-300 text-sm font-medium mb-3 animate-slide-up">
-              🏆 Award-Winning Product Leader | Deloitte | 19+ Years Experience
+              🏆 Product Manager & Delivery Manager | Deloitte | 19+ Years Experience
             </span>
           </div>
 
@@ -47,7 +47,7 @@ const Hero = () => {
           </h1>
           
           <h2 className="text-xl md:text-2xl font-semibold text-blue-300 mb-8 animate-slide-up">
-            Senior Product & Program Management Executive
+            Senior Product Manager & Delivery Manager
           </h2>
 
           
@@ -76,45 +76,51 @@ const Hero = () => {
             </div>
           </div>
           
-          {/* Compelling Story */}
+          {/* Compelling Story - More Personal and Less Repetitive */}
           <div className="max-w-4xl mx-auto mb-8">
             <p className="text-xl md:text-2xl text-gray-200 font-light leading-relaxed mb-3 animate-slide-up">
               Transforming enterprise organizations through strategic product innovation and digital transformation
             </p>
             
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed animate-slide-up">
-              As a Product and Delivery Manager at Deloitte, I led a $65M portfolio across three enterprise product lines, 
-              overseeing the entire product lifecycle from ideation to launch and beyond. My leadership transformed the work experience for 
-              over <strong className="text-blue-300">100,000 enterprise users</strong> globally. By building collaborative product teams and 
-              driving product adoption rates above <strong className="text-blue-300">85%</strong>, I achieved a 
-              <strong className="text-blue-300">35% increase in operational efficiency</strong> and secured $10M+ revenue growth over 24 months.
+              I'm a Product Manager who builds products users love, and a Delivery Manager who ensures teams deliver on time and on quality. Over 19 years, I've balanced both roles—defining what to build while ensuring we actually build it right. 
             </p>
             
-            <p className="text-lg md:text-xl text-gray-300 leading-relaxed animate-slide-up mt-3 text-center">
-              <strong className="text-blue-300">Results-driven leader</strong> with a hands-on, people-first approach. Led cross-functional teams across 15+ global portfolios, 
-              delivering enterprise initiatives that reduced bottlenecks by <strong className="text-blue-300">40%</strong> and drove measurable business impact through strategic product innovation. 
-              Expert in building high-performing cultures, stakeholder alignment, and scalable solutions that exceed expectations.
+            <p className="text-lg md:text-xl text-gray-300 leading-relaxed animate-slide-up mt-3">
+              At Deloitte, I've managed product roadmaps, prioritized features, conducted user research, and worked closely with engineering teams to deliver products that serve <strong className="text-blue-300">100,000+ enterprise users</strong>. I've also owned delivery—managing sprint planning, removing blockers, coordinating releases, and ensuring quality gates are met. It's this dual expertise that makes me effective: I understand both the "what" and the "how."
             </p>
           </div>
 
-          {/* Call-to-Action Button */}
-          <div className="flex justify-center gap-3 mb-8 animate-slide-up">
+          {/* Enhanced Call-to-Action Buttons */}
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-8 animate-slide-up">
             <button 
               onClick={handleLinkedInConnect}
-              className="inline-flex items-center px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+              className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-base"
             >
               <svg className="w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
               </svg>
-              Connect on LinkedIn
+              Let's Connect
             </button>
             <a
-              href={`${process.env.PUBLIC_URL}/Rakesh Sharma Palla Resume.docx`}
+              href="mailto:rakeshpalla364@gmail.com?subject=Let's Talk About Product Leadership&body=Hi Rakesh, I'd love to discuss..."
+              className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-base"
+            >
+              <svg className="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+              </svg>
+              Book a Call
+            </a>
+            <a
+              href={`${process.env.PUBLIC_URL}/portfolio.pdf`}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-lg border border-white/30 transition-all"
+              className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-lg border border-white/30 transition-all text-base"
             >
-              Download Resume
+              <svg className="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+              Download Resume (PDF)
             </a>
           </div>
 
