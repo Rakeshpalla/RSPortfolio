@@ -19,7 +19,7 @@ const About = () => {
               🎯 Product Leadership | 🤝 People Centered | 📈 Outcome Driven
             </div>
             <p className="text-xl text-gray-200 leading-relaxed max-w-4xl mx-auto">
-              Here's what drives me: <strong className="text-blue-300 font-semibold">solving real problems for real people</strong>. Over 19 years, I've learned that the best product leaders are those who listen first, fail fast, and never stop learning. Every challenge is an opportunity to grow—and I've faced plenty.
+              Here's what drives me: <strong className="text-blue-300 font-semibold">solving real problems for real people</strong>. Over 19 years, I've learned that the best product leaders are those who listen first, fail fast, and never stop learning. Every challenge is an opportunity to grow and I've faced plenty.
             </p>
           </div>
 
