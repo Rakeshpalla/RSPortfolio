@@ -83,11 +83,11 @@ const Hero = () => {
             </p>
             
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed animate-slide-up">
-              I'm a Product Manager who builds products users love, and a Delivery Manager who ensures teams deliver on time and on quality. Over 19 years, I've balanced both roles—defining what to build while ensuring we actually build it right. 
+              I'm a Product Manager who builds products users love, and a Delivery Manager who ensures teams deliver on time and on quality. Over 19 years, I've balanced both roles, defining what to build while ensuring we actually build it right. 
             </p>
             
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed animate-slide-up mt-3">
-              At Deloitte, I've managed product roadmaps, prioritized features, conducted user research, and worked closely with engineering teams to deliver products that serve <strong className="text-blue-300">100,000+ enterprise users</strong>. I've also owned delivery—managing sprint planning, removing blockers, coordinating releases, and ensuring quality gates are met. It's this dual expertise that makes me effective: I understand both the "what" and the "how."
+              At Deloitte, I've managed product roadmaps, prioritized features, conducted user research, and worked closely with engineering teams to deliver products that serve <strong className="text-blue-300">100,000+ enterprise users</strong>. I've also owned delivery by managing sprint planning, removing blockers, coordinating releases, and ensuring quality gates are met. It's this dual expertise that makes me effective: I understand both the "what" and the "how."
             </p>
           </div>
 
