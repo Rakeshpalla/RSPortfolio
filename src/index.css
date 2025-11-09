@@ -11,6 +11,24 @@
     font-family: 'Inter', system-ui, sans-serif;
     line-height: 1.6;
   }
+  
+  /* Experience section - zoom resistant layout */
+  #experience {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Ensure cards maintain consistent width at all zoom levels */
+  #experience .relative {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  #experience .rounded-xl {
+    width: 100%;
+    box-sizing: border-box;
+  }
 }
 
 @layer components {
