@@ -1,6 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Experience = () => {
+  const [expandedCards, setExpandedCards] = useState([]);
+  
+  const toggleCard = (index) => {
+    setExpandedCards(prev => 
+      prev.includes(index) 
+        ? prev.filter(i => i !== index)
+        : [...prev, index]
+    );
+  };
 
   const experiences = [
     {
@@ -11,29 +20,34 @@ const Experience = () => {
       companyLogo: "🏢",
       achievements: [
         {
-          metric: "Product Management",
-          description: "Manage product roadmaps, write user stories, prioritize backlog, conduct user research, and coordinate with UX/UI teams for product design",
-          impact: "Product Ownership"
+          metric: "$50M+ SaaS Portfolio Growth",
+          description: "Led the growth of a multimillion dollar portfolio across three product lines, overseeing the entire product lifecycle from ideation to launch and beyond",
+          impact: "Portfolio Growth"
         },
         {
-          metric: "Delivery Management",
-          description: "Lead sprint planning, manage releases, remove blockers, coordinate QA testing, and ensure quality gates are met before production deployment",
-          impact: "Delivery Excellence"
+          metric: "100,000+ Enterprise Users Impacted",
+          description: "Transformed the work experience for over 100,000 enterprise users through strategic product management and delivery excellence",
+          impact: "User Impact"
         },
         {
-          metric: "Cross-Functional Leadership",
-          description: "Work closely with engineering, QA, UX, and business stakeholders to align product vision with technical delivery capabilities",
-          impact: "Team Collaboration"
+          metric: "85%+ Adoption Rates",
+          description: "Drove adoption rates above 85% by building strong, collaborative product teams and delivering user-centric solutions",
+          impact: "Product Adoption"
         },
         {
-          metric: "Requirements & Documentation",
-          description: "Gather requirements from stakeholders, write detailed acceptance criteria, create product specifications, and maintain product documentation",
-          impact: "Product Documentation"
+          metric: "35% Operational Efficiency Increase",
+          description: "Enabled a 35% increase in operational efficiency along with significant improvements in customer satisfaction through strategic product initiatives",
+          impact: "Operational Excellence"
         },
         {
-          metric: "Release & Quality Management",
-          description: "Coordinate release schedules, manage dependencies, conduct pre-release reviews, and ensure successful product launches",
-          impact: "Release Management"
+          metric: "40% Reduction in Project Bottlenecks",
+          description: "Reduced project bottlenecks by 40% through effective communication, proactive risk mitigation, and streamlined delivery processes",
+          impact: "Delivery Optimization"
+        },
+        {
+          metric: "Multiple Product Releases",
+          description: "Successfully delivered EMS 4.9, AAT 4.8, Excel Analytics 4.3.1, and AAT 4.12 releases, maintaining product ownership responsibilities",
+          impact: "Product Delivery"
         }
       ],
       current: true,
@@ -284,84 +298,285 @@ const Experience = () => {
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-3">Executive Career Journey</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-indigo-600 to-indigo-800 mx-auto rounded-full"></div>
+          <p className="text-slate-600 text-sm mt-4 max-w-2xl mx-auto">
+            Click on any role to explore detailed achievements and impact
+          </p>
         </div>
 
-        {/* Vertical Timeline */}
+        {/* Interactive Timeline - Horizontal on Desktop, Vertical on Mobile */}
         <div className="relative">
-          {/* Timeline Line */}
-          <div className="absolute left-8 md:left-1/2 md:-translate-x-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-indigo-600 via-blue-500 to-indigo-600"></div>
+          {/* Timeline Line - Horizontal on Desktop */}
+          <div className="hidden xl:block absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-indigo-600 via-blue-500 to-indigo-600 transform -translate-y-1/2 rounded-full shadow-lg">
+            <div className="absolute inset-0 bg-gradient-to-r from-indigo-400/20 via-blue-400/20 to-indigo-400/20 rounded-full animate-pulse"></div>
+          </div>
           
-            {/* Timeline Items */}
-            <div className="space-y-8">
-            {experiences.map((exp, index) => (
-              <div key={index} className="relative flex items-start">
-                {/* Timeline Node */}
-                <div className={`absolute left-6 md:left-1/2 md:-translate-x-1/2 w-4 h-4 rounded-full border-4 border-white shadow-lg z-20 ${
-                  exp.current ? 'bg-green-500' : 'bg-blue-500'
-                }`}>
-                  {exp.current && (
-                    <div className="absolute -top-1 -right-1 w-2 h-2 bg-green-400 rounded-full animate-pulse z-30"></div>
-                  )}
-                </div>
-                
-                {/* Content Card */}
-                <div className={`ml-16 md:ml-0 md:w-1/2 ${
-                  index % 2 === 0 ? 'md:pr-8' : 'md:pl-8 md:ml-auto'
-                }`}>
-                    <div className="bg-white rounded-xl shadow-lg border border-slate-200 p-6 hover:shadow-xl transition-all duration-300">
-                    {/* Header */}
-                    <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-3">
-                      <div className="flex-1">
-                        <h3 className="text-xl font-bold text-slate-900 mb-1">{exp.title}</h3>
-                        <div className="flex items-center space-x-2 mb-2">
-                          <span className="text-blue-600 font-semibold">{exp.company}</span>
-                          <span className="text-slate-400">•</span>
-                          <span className="text-slate-500 text-sm">{exp.industry}</span>
+          {/* Timeline Items Container */}
+          <div className="relative">
+            {/* Desktop: Horizontal Layout */}
+            <div className="hidden xl:flex xl:justify-between xl:items-start xl:gap-4 xl:px-4">
+              {experiences.map((exp, index) => (
+                <div key={index} className="flex-1 max-w-[280px] relative">
+                  {/* Timeline Node */}
+                  <div className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-6 h-6 rounded-full border-4 border-white shadow-xl z-20 transition-all duration-500 ${
+                    exp.current 
+                      ? 'bg-gradient-to-br from-green-500 to-emerald-600 scale-110' 
+                      : expandedCards.includes(index)
+                      ? 'bg-gradient-to-br from-indigo-500 to-blue-600 scale-125 ring-4 ring-indigo-200'
+                      : 'bg-gradient-to-br from-blue-400 to-indigo-500 scale-100'
+                  }`}>
+                    {exp.current && (
+                      <div className="absolute -top-1 -right-1 w-3 h-3 bg-green-400 rounded-full animate-pulse z-30 ring-2 ring-white"></div>
+                    )}
+                    {expandedCards.includes(index) && !exp.current && (
+                      <div className="absolute inset-0 rounded-full bg-white/30 animate-ping"></div>
+                    )}
+                    <div className="absolute inset-1 rounded-full bg-white/40"></div>
+                  </div>
+                  
+                  {/* Card */}
+                  <div className="mt-8">
+                    <div 
+                      className={`bg-white rounded-xl shadow-md border-2 transition-all duration-300 overflow-hidden ${
+                        expandedCards.includes(index) 
+                          ? 'border-indigo-500 shadow-2xl scale-105' 
+                          : 'border-slate-200 hover:border-indigo-300 hover:shadow-lg'
+                      }`}
+                    >
+                      {/* Compact View - Always Visible - Clickable Header */}
+                      <div 
+                        className="p-4 cursor-pointer"
+                        onClick={() => toggleCard(index)}
+                      >
+                        <div className="text-center mb-3">
+                          <h3 className="text-base font-bold text-slate-900 mb-1 line-clamp-2">{exp.title}</h3>
+                          <div className="text-sm text-blue-600 font-semibold mb-1">{exp.company}</div>
+                          <div className="text-xs text-slate-500">{exp.duration}</div>
+                          {exp.current && (
+                            <span className="inline-block mt-2 px-2 py-0.5 bg-green-100 text-green-700 text-xs font-medium rounded-full">
+                              Current
+                            </span>
+                          )}
+                        </div>
+                        
+                        {/* Expand/Collapse Indicator */}
+                        <div className="flex justify-center">
+                          <svg 
+                            className={`w-5 h-5 text-indigo-600 transition-all duration-500 ${
+                              expandedCards.includes(index) ? 'transform rotate-180 scale-110' : 'scale-100'
+                            }`}
+                            fill="none" 
+                            stroke="currentColor" 
+                            viewBox="0 0 24 24"
+                          >
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                          </svg>
                         </div>
                       </div>
-                      <div className="text-left md:text-right">
-                        <div className="text-sm text-slate-500 mb-1">{exp.duration}</div>
-                        <div className="text-sm text-slate-500">{exp.location}</div>
-                        {exp.current && (
-                          <span className="inline-block mt-2 px-2 py-1 bg-green-100 text-green-700 text-xs font-medium rounded-full">
-                            Current Role
-                          </span>
-                        )}
-                      </div>
-                    </div>
-                    
-                    {/* Description */}
-                    <p className="text-slate-600 leading-relaxed mb-3 italic">
-                      "{exp.story}"
-                    </p>
-                    
-                    {/* Key Achievements */}
-                    <div className="mb-3">
-                      <h4 className="font-semibold text-slate-800 mb-2">Key Achievements:</h4>
-                      <div className="flex flex-wrap gap-2">
-                        {exp.achievements.slice(0, 3).map((achievement, achIndex) => (
-                          <span key={achIndex} className="px-3 py-1 bg-green-100 text-green-700 text-sm rounded-full">
-                            {achievement.metric}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
-                    
-                    {/* Technologies/Impact Areas */}
-                    <div>
-                      <h4 className="font-semibold text-slate-800 mb-2">Impact Areas:</h4>
-                      <div className="flex flex-wrap gap-2">
-                        {exp.achievements.map((achievement, achIndex) => (
-                          <span key={achIndex} className="px-3 py-1 bg-blue-100 text-blue-700 text-sm rounded-full">
-                            {achievement.impact}
-                          </span>
-                        ))}
+                      
+                      {/* Expanded Content */}
+                      <div 
+                        className={`overflow-hidden transition-all duration-700 ease-in-out ${
+                          expandedCards.includes(index) ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'
+                        }`}
+                        onClick={(e) => e.stopPropagation()}
+                        onMouseDown={(e) => e.stopPropagation()}
+                        style={{ userSelect: 'text', WebkitUserSelect: 'text' }}
+                      >
+                        <div className="px-4 pb-4 border-t border-slate-100 pt-4 space-y-4 select-text">
+                          {/* Experience Summary */}
+                          <div>
+                            <h4 className="text-xs font-semibold text-slate-700 uppercase tracking-wide mb-2 select-text">Experience Summary</h4>
+                            <p className="text-sm text-slate-600 leading-relaxed line-clamp-3 select-text">
+                              {exp.story}
+                            </p>
+                          </div>
+                          
+                          {/* Key Achievements */}
+                          <div>
+                            <h4 className="text-xs font-semibold text-slate-700 uppercase tracking-wide mb-2 select-text">Key Achievements</h4>
+                            <ul className="space-y-2 select-text">
+                              {exp.achievements.map((achievement, achIndex) => (
+                                <li key={achIndex} className="flex items-start space-x-2 select-text">
+                                  <span className="text-green-500 mt-1 flex-shrink-0">•</span>
+                                  <div className="flex-1 select-text">
+                                    <span className="text-sm font-medium text-slate-800 select-text">{achievement.metric}: </span>
+                                    <span className="text-sm text-slate-600 select-text">{achievement.description}</span>
+                                  </div>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                          
+                          {/* Impact Areas */}
+                          <div>
+                            <h4 className="text-xs font-semibold text-slate-700 uppercase tracking-wide mb-2 select-text">Impact Areas</h4>
+                            <div className="flex flex-wrap gap-2 select-text">
+                              {exp.achievements.map((achievement, achIndex) => (
+                                <span 
+                                  key={achIndex} 
+                                  className="px-2.5 py-1 bg-gradient-to-r from-blue-50 to-indigo-50 text-blue-700 text-xs font-medium rounded-full border border-blue-200 select-text"
+                                >
+                                  {achievement.impact}
+                                </span>
+                              ))}
+                            </div>
+                          </div>
+                          
+                          {/* Collapse Button - Bottom of Expanded Content - Desktop Only */}
+                          {expandedCards.includes(index) && (
+                            <div key={`collapse-desktop-${index}`} className="pt-4 border-t border-slate-200 mt-4">
+                              <button
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  toggleCard(index);
+                                }}
+                                className="w-full flex items-center justify-center py-3 px-4 bg-gradient-to-r from-indigo-50 to-blue-50 hover:from-indigo-100 hover:to-blue-100 rounded-lg transition-all duration-300 group cursor-pointer border border-indigo-200 hover:border-indigo-300"
+                                aria-label="Collapse card"
+                              >
+                                <svg 
+                                  className="w-5 h-5 text-indigo-600 group-hover:text-indigo-800 transition-transform duration-300 group-hover:translate-y-0.5" 
+                                  fill="none" 
+                                  stroke="currentColor" 
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
+                                </svg>
+                              </button>
+                            </div>
+                          )}
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
+            
+            {/* Mobile/Tablet: Vertical Layout */}
+            <div className="xl:hidden space-y-6 md:space-y-8">
+              {experiences.map((exp, index) => {
+                const isExpanded = expandedCards.includes(index);
+                return (
+                  <div key={index} className="relative">
+                    {/* Card */}
+                    <div className="w-full">
+                    <div 
+                      className={`bg-white rounded-xl shadow-md border-2 transition-all duration-500 overflow-hidden ${
+                        isExpanded 
+                          ? 'border-indigo-500 shadow-2xl ring-2 ring-indigo-100' 
+                          : 'border-slate-200 hover:border-indigo-300 hover:shadow-lg'
+                      }`}
+                    >
+                      {/* Compact View - Always Visible - Clickable Header */}
+                      <div 
+                        className="p-4 md:p-5 cursor-pointer"
+                        onClick={() => toggleCard(index)}
+                      >
+                        <div className="mb-3">
+                          <h3 className="text-base md:text-lg font-bold text-slate-900 mb-1">{exp.title}</h3>
+                          <div className="text-sm md:text-base text-blue-600 font-semibold mb-1">{exp.company}</div>
+                          <div className="text-xs md:text-sm text-slate-500">{exp.duration}</div>
+                          {exp.current && (
+                            <span className="inline-block mt-2 px-2 py-0.5 bg-green-100 text-green-700 text-xs font-medium rounded-full">
+                              Current Role
+                            </span>
+                          )}
+                        </div>
+                        
+                        {/* Expand/Collapse Indicator */}
+                        <div className="flex justify-center">
+                          <svg 
+                            className={`w-5 h-5 text-indigo-600 transition-all duration-500 ${
+                              isExpanded ? 'transform rotate-180 scale-110' : 'scale-100'
+                            }`}
+                            fill="none" 
+                            stroke="currentColor" 
+                            viewBox="0 0 24 24"
+                          >
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                          </svg>
+                        </div>
+                      </div>
+                      
+                      {/* Expanded Content */}
+                      <div 
+                        className={`overflow-hidden transition-all duration-700 ease-in-out ${
+                          isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'
+                        }`}
+                        onClick={(e) => e.stopPropagation()}
+                        onMouseDown={(e) => e.stopPropagation()}
+                        style={{ userSelect: 'text', WebkitUserSelect: 'text' }}
+                      >
+                        <div className="px-4 pb-4 border-t border-slate-100 pt-4 space-y-4 select-text">
+                          {/* Experience Summary */}
+                          <div>
+                            <h4 className="text-xs font-semibold text-slate-700 uppercase tracking-wide mb-2 select-text">Experience Summary</h4>
+                            <p className="text-sm text-slate-600 leading-relaxed select-text">
+                              {exp.story}
+                            </p>
+                          </div>
+                          
+                          {/* Key Achievements */}
+                          <div>
+                            <h4 className="text-xs font-semibold text-slate-700 uppercase tracking-wide mb-2 select-text">Key Achievements</h4>
+                            <ul className="space-y-2 select-text">
+                              {exp.achievements.map((achievement, achIndex) => (
+                                <li key={achIndex} className="flex items-start space-x-2 select-text">
+                                  <span className="text-green-500 mt-1 flex-shrink-0">•</span>
+                                  <div className="flex-1 select-text">
+                                    <span className="text-sm font-medium text-slate-800 select-text">{achievement.metric}: </span>
+                                    <span className="text-sm text-slate-600 select-text">{achievement.description}</span>
+                                  </div>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                          
+                          {/* Impact Areas */}
+                          <div>
+                            <h4 className="text-xs font-semibold text-slate-700 uppercase tracking-wide mb-2 select-text">Impact Areas</h4>
+                            <div className="flex flex-wrap gap-2 select-text">
+                              {exp.achievements.map((achievement, achIndex) => (
+                                <span 
+                                  key={achIndex} 
+                                  className="px-2.5 py-1 bg-gradient-to-r from-blue-50 to-indigo-50 text-blue-700 text-xs font-medium rounded-full border border-blue-200 select-text"
+                                >
+                                  {achievement.impact}
+                                </span>
+                              ))}
+                            </div>
+                          </div>
+                          
+                          {/* Collapse Button - Bottom of Expanded Content - Mobile Only */}
+                          {isExpanded && (
+                            <div key={`collapse-mobile-${index}`} className="pt-4 border-t border-slate-200 mt-4">
+                              <button
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  toggleCard(index);
+                                }}
+                                className="w-full flex items-center justify-center py-3 px-4 bg-gradient-to-r from-indigo-50 to-blue-50 hover:from-indigo-100 hover:to-blue-100 rounded-lg transition-all duration-300 group cursor-pointer border border-indigo-200 hover:border-indigo-300"
+                                aria-label="Collapse card"
+                              >
+                                <svg 
+                                  className="w-5 h-5 text-indigo-600 group-hover:text-indigo-800 transition-transform duration-300 group-hover:translate-y-0.5" 
+                                  fill="none" 
+                                  stroke="currentColor" 
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
+                                </svg>
+                              </button>
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+            </div>
           </div>
         </div>
 
