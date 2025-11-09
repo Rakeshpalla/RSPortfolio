@@ -303,38 +303,40 @@ const Experience = () => {
           </p>
         </div>
 
-        {/* Interactive Timeline - Horizontal on Desktop, Vertical on Mobile */}
+        {/* Interactive Timeline - Consistent Layout Across Zoom Levels */}
         <div className="relative">
           {/* Timeline Line - Horizontal on Desktop */}
-          <div className="hidden xl:block absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-indigo-600 via-blue-500 to-indigo-600 transform -translate-y-1/2 rounded-full shadow-lg">
+          <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-indigo-600 via-blue-500 to-indigo-600 transform -translate-y-1/2 rounded-full shadow-lg">
             <div className="absolute inset-0 bg-gradient-to-r from-indigo-400/20 via-blue-400/20 to-indigo-400/20 rounded-full animate-pulse"></div>
           </div>
           
           {/* Timeline Items Container */}
           <div className="relative">
-            {/* Desktop: Horizontal Layout */}
-            <div className="hidden xl:flex xl:justify-between xl:items-start xl:gap-4 xl:px-4">
-              {experiences.map((exp, index) => (
-                <div key={index} className="flex-1 max-w-[280px] relative">
-                  {/* Timeline Node */}
-                  <div className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-6 h-6 rounded-full border-4 border-white shadow-xl z-20 transition-all duration-500 ${
-                    exp.current 
-                      ? 'bg-gradient-to-br from-green-500 to-emerald-600 scale-110' 
-                      : expandedCards.includes(index)
-                      ? 'bg-gradient-to-br from-indigo-500 to-blue-600 scale-125 ring-4 ring-indigo-200'
-                      : 'bg-gradient-to-br from-blue-400 to-indigo-500 scale-100'
-                  }`}>
-                    {exp.current && (
-                      <div className="absolute -top-1 -right-1 w-3 h-3 bg-green-400 rounded-full animate-pulse z-30 ring-2 ring-white"></div>
-                    )}
-                    {expandedCards.includes(index) && !exp.current && (
-                      <div className="absolute inset-0 rounded-full bg-white/30 animate-ping"></div>
-                    )}
-                    <div className="absolute inset-1 rounded-full bg-white/40"></div>
-                  </div>
-                  
-                  {/* Card */}
-                  <div className="mt-8">
+            {/* Desktop: Horizontal Scrollable Layout (Consistent at all zoom levels) */}
+            <div className="hidden lg:block">
+              <div className="overflow-x-auto pb-4 scrollbar-thin" style={{ scrollbarWidth: 'thin', scrollbarColor: '#c4b5fd #f1f5f9' }}>
+                <div className="flex gap-4 px-4" style={{ minWidth: 'max-content' }}>
+                  {experiences.map((exp, index) => (
+                    <div key={index} className="flex-shrink-0 relative" style={{ width: 'min(280px, 18vw)' }}>
+                      {/* Timeline Node */}
+                      <div className={`absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-6 h-6 rounded-full border-4 border-white shadow-xl z-20 transition-all duration-500 ${
+                        exp.current 
+                          ? 'bg-gradient-to-br from-green-500 to-emerald-600 scale-110' 
+                          : expandedCards.includes(index)
+                          ? 'bg-gradient-to-br from-indigo-500 to-blue-600 scale-125 ring-4 ring-indigo-200'
+                          : 'bg-gradient-to-br from-blue-400 to-indigo-500 scale-100'
+                      }`}>
+                        {exp.current && (
+                          <div className="absolute -top-1 -right-1 w-3 h-3 bg-green-400 rounded-full animate-pulse z-30 ring-2 ring-white"></div>
+                        )}
+                        {expandedCards.includes(index) && !exp.current && (
+                          <div className="absolute inset-0 rounded-full bg-white/30 animate-ping"></div>
+                        )}
+                        <div className="absolute inset-1 rounded-full bg-white/40"></div>
+                      </div>
+                      
+                      {/* Card */}
+                      <div className="mt-6">
                     <div 
                       className={`bg-white rounded-xl shadow-md border-2 transition-all duration-300 overflow-hidden ${
                         expandedCards.includes(index) 
@@ -348,9 +350,9 @@ const Experience = () => {
                         onClick={() => toggleCard(index)}
                       >
                         <div className="text-center mb-3">
-                          <h3 className="text-base font-bold text-slate-900 mb-1 line-clamp-2">{exp.title}</h3>
-                          <div className="text-sm text-blue-600 font-semibold mb-1">{exp.company}</div>
-                          <div className="text-xs text-slate-500">{exp.duration}</div>
+                          <h3 className="text-sm lg:text-base font-bold text-slate-900 mb-1 leading-tight break-words">{exp.title}</h3>
+                          <div className="text-xs lg:text-sm text-blue-600 font-semibold mb-1 break-words">{exp.company}</div>
+                          <div className="text-xs text-slate-500 break-words">{exp.duration}</div>
                           {exp.current && (
                             <span className="inline-block mt-2 px-2 py-0.5 bg-green-100 text-green-700 text-xs font-medium rounded-full">
                               Current
@@ -450,10 +452,12 @@ const Experience = () => {
                   </div>
                 </div>
               ))}
+                </div>
+              </div>
             </div>
             
             {/* Mobile/Tablet: Vertical Layout */}
-            <div className="xl:hidden space-y-6 md:space-y-8">
+            <div className="lg:hidden space-y-6 md:space-y-8">
               {experiences.map((exp, index) => {
                 const isExpanded = expandedCards.includes(index);
                 return (
