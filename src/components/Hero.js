@@ -112,8 +112,8 @@ const Hero = () => {
               Book a Call
             </a>
             <a
-              href={`${process.env.PUBLIC_URL}/portfolio.pdf`}
-              download="Rakesh_Sharma_Palla_Resume.pdf"
+              href={`${process.env.PUBLIC_URL}/Rakesh%20Sharma%20Palla%20Resume.docx`}
+              download="Rakesh_Sharma_Palla_Resume.docx"
               className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-lg border border-white/30 transition-all text-base"
             >
               <svg className="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">

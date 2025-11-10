@@ -87,8 +87,8 @@ const Footer = () => {
               </button>
 
               <a
-                href={`${process.env.PUBLIC_URL}/portfolio.pdf`}
-                download="Rakesh_Sharma_Palla_Resume.pdf"
+                href={`${process.env.PUBLIC_URL}/Rakesh%20Sharma%20Palla%20Resume.docx`}
+                download="Rakesh_Sharma_Palla_Resume.docx"
                 className="w-full inline-flex items-center justify-center bg-white/10 hover:bg-white/20 text-white font-semibold py-2 px-4 rounded-lg transition-colors border border-white/30"
               >
                 <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
