@@ -37,7 +37,7 @@ const Hero = () => {
               {/* Executive Headline */}
               <div className="mb-6">
             <span className="inline-block px-4 py-2 bg-blue-600/20 border border-blue-400/30 rounded-full text-blue-300 text-sm font-medium mb-3 animate-slide-up">
-              🏆 Enterprise SaaS Portfolio Leader | $65M P&L | 100K+ User Transformation | Org Builder | Digital Innovator
+              🏆 Enterprise SaaS Product and Platform Leader | Senior Product Strategy and Delivery Leader | Digital Modernization and Transformation Lead
             </span>
           </div>
 
@@ -47,7 +47,7 @@ const Hero = () => {
           </h1>
           
           <h2 className="text-xl md:text-2xl font-semibold text-blue-300 mb-8 animate-slide-up">
-            Enterprise Portfolio Leader | Strategic Product Executive | Digital Transformation Architect
+            Enterprise SaaS Platform Leader with experience driving large scale digital modernization, scaling global teams, and directing product strategy influencing a 65M plus business portfolio
           </h2>
 
           
@@ -78,16 +78,12 @@ const Hero = () => {
           
           {/* Compelling Story - Executive-Level Narrative */}
           <div className="max-w-4xl mx-auto mb-8">
-            <p className="text-xl md:text-2xl text-gray-200 font-light leading-relaxed mb-3 animate-slide-up">
-              Enterprise SaaS Portfolio Leader—Owned $65M P&L, Led 100K+ User Digital Transformation, Architected Enterprise Cloud Adoption
-            </p>
-            
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed animate-slide-up">
-              Over 19 years, I've evolved from individual contributor to strategic leader, owning P&L accountability across multimillion-dollar portfolios and driving org-wide transformations. I don't just manage products—I architect business outcomes, build high-performing organizations, and shape market-facing strategy that delivers measurable ROI.
+              Over 19 years, I have progressed from hands-on contributor to senior product and delivery leader, driving large scale SaaS modernization, multi product platform strategy, and enterprise wide transformation. I lead cross functional organizations, align product strategy with business outcomes, and deliver measurable ROI across global markets.
             </p>
             
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed animate-slide-up mt-3">
-              At Deloitte, I've owned <strong className="text-blue-300">$65M+ portfolio P&L</strong> across 5 product lines, personally steered product strategy and investment roadmaps for C-suite/Board, resulting in <strong className="text-blue-300">85%+ adoption</strong>, <strong className="text-blue-300">35% operational efficiency gains</strong>, and <strong className="text-blue-300">double-digit YOY portfolio growth</strong>. I've built, scaled, and restructured global cross-functional teams (40+ FTEs, APAC/EMEA/US), acted as trusted advisor to executive leadership, and driven consensus on multi-year tech vision that unlocked <strong className="text-blue-300">$20M+ in new revenue</strong>.
+              At Deloitte, I led product strategy and delivery across five enterprise SaaS product lines, influencing a 65M plus portfolio. I drove more than 85 percent adoption, delivered 35 percent operational efficiency improvement, and achieved double digit year over year portfolio growth. I built and scaled cross functional global teams of more than 40 FTEs across APAC, EMEA, and the US, partnered with executive leadership on multi year platform modernization, and contributed to initiatives that unlocked more than 20M in new revenue.
             </p>
           </div>
 

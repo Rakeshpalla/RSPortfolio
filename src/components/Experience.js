@@ -56,7 +56,7 @@ const Experience = () => {
         }
       ],
       current: true,
-      story: "At Deloitte, I've evolved from individual contributor to strategic portfolio leader, owning $65M+ P&L across 5 product lines and driving org-wide transformations. I personally steered product strategy, investment roadmaps, and business case articulation for C-suite/Board, resulting in 85%+ adoption, 35% operational efficiency gains, and double-digit YOY portfolio growth. Built, scaled, and restructured global cross-functional teams (40+ FTEs, APAC/EMEA/US) to drive market-leading product launches. Acted as trusted advisor to executive leadership, driving consensus on multi-year tech vision, leading crisis turnaround of at-risk division ($10M risk), and building robust pipeline for talent development—20+ team promotions and 30% retention improvement. Led enterprise cloud adoption unlocking $20M+ in new revenue and org-wide adoption of AI/automation platforms saving $2M+ annual cost."
+      story: "At Deloitte, I led product strategy and delivery across five enterprise SaaS product lines, influencing a 65M plus portfolio. I drove more than 85 percent adoption, delivered 35 percent operational efficiency improvement, and achieved double digit year over year portfolio growth. I built and scaled cross functional global teams of more than 40 FTEs across APAC, EMEA, and the US, partnered with executive leadership on multi year platform modernization, and contributed to initiatives that unlocked more than 20M in new revenue."
     },
     {
       title: "Senior Associate Consultant",
