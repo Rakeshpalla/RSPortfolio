@@ -2,46 +2,49 @@ import React from 'react';
 
 const projects = [
   {
-    title: 'Legacy Platform Modernization Initiative',
-    role: 'Senior Product Manager',
+    title: 'Enterprise Platform Transformation & Investment Strategy',
+    role: 'Portfolio Leader & Strategic Executive',
     timeframe: '2023 – 2024',
-    problem: '5-year-old platform losing users due to 68% dissatisfaction with 15+ click workflows and 40% increase in support tickets.',
-    action: 'Led 3-month user research, facilitated 20+ design workshops, built prototypes, and secured $1.8M investment through executive presentation.',
+    problem: '5-year-old platform losing market share due to 68% user dissatisfaction, threatening $10M+ revenue risk. Legacy architecture unable to support enterprise scale, driving 40% increase in support costs.',
+    action: 'Architected enterprise transformation strategy, secured $1.8M investment through C-suite/Board presentation, and led org-wide modernization initiative. Steered cross-functional alignment (Product, Engineering, Sales, Customer Success) to drive market-facing transformation.',
     result: [
-      '30% adoption increase',
-      'Satisfaction scores 6.2→8.4/10',
-      '45% faster task completion',
-      '12 hours/week saved per user'
+      '30% adoption increase—market share recovery',
+      'Satisfaction scores 6.2→8.4/10—competitive positioning restored',
+      '45% faster task completion—operational efficiency',
+      '$2M+ annual cost savings through streamlined workflows',
+      'Investment ROI delivered—business case validated'
     ],
-    skills: ['User Research', 'Design Workshops', 'Prototyping', 'Executive Communication', 'Investment Securing', 'UX Optimization']
+    skills: ['Strategic Planning', 'Executive Engagement', 'Investment Securing', 'Business Transformation', 'Market Strategy', 'Org Alignment']
   },
   {
-    title: 'Unified Audit Platform Development',
-    role: 'Product & Delivery Manager',
+    title: 'Unified Enterprise Platform Architecture',
+    role: 'Portfolio Leader & Business Architect',
     timeframe: '2022 – 2023',
-    problem: 'Standalone audit product operated in isolation, forcing users to switch between multiple systems with rigid architecture unable to support client-specific requirements.',
-    action: 'Led cross-functional teams to integrate audit product into unified suite. Collaborated with engineering, UX, and client services to design modular architecture with API integrations across 5 internal products.',
+    problem: 'Fragmented product portfolio operating in isolation, limiting cross-sell opportunities and increasing TCO. Rigid architecture unable to support enterprise client requirements, impacting $15M+ revenue potential.',
+    action: 'Led strategic integration initiative across 5 product lines, architected modular platform strategy, and drove executive consensus on unified vision. Steered cross-functional teams (40+ FTEs) to deliver enterprise-grade solution.',
     result: [
-      '100K+ enterprise users served',
-      '40% reduction in client onboarding time',
-    '35% increase in cross-product adoption',
-      'Integrated enterprise user experience achieved'
+      '100K+ enterprise users served—market expansion',
+      '40% reduction in client onboarding time—cost efficiency',
+      '35% increase in cross-product adoption—revenue growth',
+      '$15M+ revenue opportunity unlocked',
+      'Enterprise-grade platform positioning achieved'
     ],
-    skills: ['Cross-functional Leadership', 'API Integration', 'Modular Architecture', 'Client Configuration', 'Product Integration', 'Enterprise Solutions']
+    skills: ['Portfolio Strategy', 'Platform Architecture', 'Executive Steering', 'Revenue Growth', 'Enterprise Solutions', 'Business Model Shaping']
   },
   {
-    title: 'Audit Review Notes Feature Implementation',
-    role: 'Senior Product Manager',
+    title: 'Compliance & Risk Management Transformation',
+    role: 'Strategic Product Executive',
     timeframe: '2021 – 2022',
-    problem: 'Auditors lacked standardized way to add review notes, leading to inconsistent processes, compliance gaps, and data integrity risks in cloud environment.',
-    action: 'Designed comprehensive review notes workflow with approval stages and role-based access controls. Conducted end-to-end impact assessment across cloud infrastructure and collaborated with compliance team for regulatory requirements.',
+    problem: 'Regulatory compliance gaps threatening enterprise client relationships and $5M+ contract renewals. Data integrity risks in cloud environment creating material business risk.',
+    action: 'Architected compliance transformation strategy, secured executive buy-in for regulatory investment, and led org-wide adoption. Collaborated with C-suite on risk mitigation and business case for compliance platform.',
     result: [
-      '85% of active auditors using feature within 3 months',
-      '25% improvement in audit completion time',
-      '100% data integrity compliance achieved',
-      'Zero audit trail violations post-launch'
+      '85% adoption within 3 months—org-wide transformation',
+      '25% improvement in audit completion time—operational efficiency',
+      '100% compliance achieved—risk mitigation',
+      '$5M+ contract renewals secured',
+      'Zero audit violations—regulatory positioning strengthened'
     ],
-    skills: ['Workflow Design', 'Role-based Access Control', 'Cloud Infrastructure', 'Compliance Management', 'Data Integrity', 'Regulatory Requirements']
+    skills: ['Risk Management', 'Executive Engagement', 'Compliance Strategy', 'Business Case', 'Org Transformation', 'Regulatory Leadership']
   }
 ];
 

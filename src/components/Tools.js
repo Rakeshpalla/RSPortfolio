@@ -4,40 +4,31 @@ import CollapsibleSection from './CollapsibleSection';
 const Tools = () => {
   const tools = [
     {
-      name: "Azure DevOps",
-      category: "DevOps & CI/CD",
-      description: "Enterprise-grade DevOps platform for source control, build automation, and release management",
-      icon: "🔧",
-      features: ["Source Control", "Build Automation", "Release Management", "Work Item Tracking", "Test Management"],
-      experience: "Advanced",
+      name: "Enterprise Cloud Platforms",
+      category: "Strategic Technology Adoption",
+      description: "Led org-wide adoption of enterprise cloud platforms, driving $20M+ revenue unlock and 35% operational efficiency gains. Architected cloud transformation strategy that reshaped market positioning.",
+      icon: "☁️",
+      features: ["Cloud Strategy", "Enterprise Adoption", "Revenue Growth", "Market Transformation", "Digital Innovation"],
+      experience: "Strategic Leader",
       color: "from-blue-500 to-blue-700"
     },
     {
-      name: "ServiceNow",
-      category: "IT Service Management",
-      description: "Comprehensive ITSM platform for service management, workflow automation, and enterprise operations",
-      icon: "⚙️",
-      features: ["ITSM", "Workflow Automation", "Service Management", "Incident Management", "Change Management"],
-      experience: "Expert",
+      name: "AI/Automation Platforms",
+      category: "Org-Wide Innovation",
+      description: "Championed org-wide adoption of AI/automation platforms, saving $2M+ annual cost while embedding culture of innovation across global teams. Strategic lever for competitive advantage.",
+      icon: "🤖",
+      features: ["AI Strategy", "Automation Leadership", "Cost Optimization", "Innovation Culture", "Competitive Advantage"],
+      experience: "Strategic Leader",
       color: "from-green-500 to-green-700"
     },
     {
-      name: "Power BI",
-      category: "Business Intelligence",
-      description: "Microsoft's business analytics service for data visualization, reporting, and business intelligence",
+      name: "Business Intelligence & Analytics",
+      category: "Data-Driven Decision Making",
+      description: "Leveraged enterprise analytics platforms to drive data-driven portfolio decisions, investment prioritization, and executive reporting. Enabled strategic insights for C-suite decision-making.",
       icon: "📊",
-      features: ["Data Visualization", "Business Intelligence", "Reporting", "Analytics", "Dashboard Creation"],
-      experience: "Advanced",
+      features: ["Portfolio Analytics", "Investment Insights", "Executive Reporting", "Strategic Decision Making", "Business Intelligence"],
+      experience: "Strategic Leader",
       color: "from-yellow-500 to-orange-600"
-    },
-    {
-      name: "MS SQL Server",
-      category: "Database Management",
-      description: "Enterprise database management with advanced querying, data relationships analysis, and database operations",
-      icon: "🗃️",
-      features: ["SQL Querying", "Data Relationships", "Database Logs", "Data Restoration", "Performance Analysis"],
-      experience: "Advanced",
-      color: "from-purple-500 to-indigo-600"
     }
   ];
 
@@ -54,9 +45,9 @@ const Tools = () => {
         >
           <div className="p-8">
             <div className="text-center mb-16">
-              <h3 className="text-2xl font-bold text-slate-800 mb-6">Enterprise Platform Expertise</h3>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6">Strategic Technology Leadership</h3>
               <p className="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                Proficient in leading enterprise platforms that drive digital transformation and operational excellence
+                Led org-wide adoption of strategic platforms that drove measurable business outcomes—revenue growth, cost optimization, and market transformation
               </p>
             </div>
             

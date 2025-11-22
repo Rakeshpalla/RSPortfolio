@@ -19,7 +19,7 @@ const About = () => {
               🎯 Product Leadership | 🤝 People Centered | 📈 Outcome Driven
             </div>
             <p className="text-xl text-gray-200 leading-relaxed max-w-4xl mx-auto">
-              Here's what drives me: <strong className="text-blue-300 font-semibold">solving real problems for real people</strong>. Over 19 years, I've learned that the best product leaders are those who listen first, fail fast, and never stop learning. Every challenge is an opportunity to grow and I've faced plenty.
+              I architect enterprise transformations that drive measurable business outcomes. Over 19 years, I've evolved from executing projects to owning P&L, building organizations, and shaping market strategy. My leadership philosophy centers on <strong className="text-blue-300 font-semibold">strategic vision, org-building, and quantifiable impact</strong>—transforming businesses, not just delivering features.
             </p>
           </div>
 
@@ -32,95 +32,95 @@ const About = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                   </svg>
                 </div>
-                <h4 className="text-lg font-bold text-white mb-2">Product Management</h4>
-                <span className="text-sm text-blue-200 bg-blue-600/20 px-3 py-1 rounded-full">Product Owner</span>
+                <h4 className="text-lg font-bold text-white mb-2">Portfolio & P&L Leadership</h4>
+                <span className="text-sm text-blue-200 bg-blue-600/20 px-3 py-1 rounded-full">Strategic Executive</span>
               </div>
               <ul className="space-y-2 text-gray-300">
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span><strong className="text-blue-300">Product Management:</strong> Manage product roadmaps, write user stories with acceptance criteria, prioritize backlog based on user needs and business value</span>
+                  <span><strong className="text-blue-300">P&L Ownership:</strong> Owned $65M+ portfolio P&L across 5 product lines, driving investment prioritization, budget management, and double-digit YOY growth</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span><strong className="text-blue-300">Requirements Gathering:</strong> Conduct user interviews, workshops, and stakeholder meetings to gather requirements and translate them into product features</span>
+                  <span><strong className="text-blue-300">Strategic Planning:</strong> Architected multi-year product vision, investment roadmaps, and business case articulation for C-suite/Board approval</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span><strong className="text-blue-300">Delivery Management:</strong> Lead sprint planning, manage release schedules, remove blockers, coordinate QA testing, and ensure on-time delivery</span>
+                  <span><strong className="text-blue-300">Business Transformation:</strong> Led enterprise cloud adoption unlocking $20M+ in new revenue, 35% operational efficiency gains, and 85%+ adoption rates</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span><strong className="text-blue-300">Cross-Functional Collaboration:</strong> Work closely with engineering, UX/UI, QA, and business stakeholders to align product vision with delivery capabilities</span>
+                  <span><strong className="text-blue-300">Executive Engagement:</strong> Acted as trusted advisor to executive leadership, steering product strategy, investment decisions, and crisis turnaround of at-risk divisions</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Managed products serving <strong className="text-blue-300">100,000+ enterprise users</strong>—ensuring features solve real problems and are delivered with quality</span>
+                  <span>Transformed products serving <strong className="text-blue-300">100,000+ enterprise users</strong>—architecting digital transformation that reshaped market positioning</span>
                 </li>
               </ul>
             </div>
 
-            {/* Enterprise Delivery Excellence Card */}
+            {/* Org Building & People Leadership Card */}
             <div className="bg-gradient-to-br from-green-500/10 to-green-600/20 backdrop-blur-sm rounded-xl p-6 border border-green-400/30 animate-slide-up animate-on-scroll hover:bg-green-500/20 hover:border-green-400/50 transition-all duration-300 hover:scale-105">
               <div className="text-center mb-4">
                 <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center mx-auto mb-3 shadow-lg">
                   <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" />
                   </svg>
                 </div>
-                <h4 className="text-lg font-bold text-white mb-2">Delivery Management</h4>
-                <span className="text-sm text-green-200 bg-green-600/20 px-3 py-1 rounded-full">SAFe POPM Certified</span>
+                <h4 className="text-lg font-bold text-white mb-2">Org Building & People Leadership</h4>
+                <span className="text-sm text-green-200 bg-green-600/20 px-3 py-1 rounded-full">Team Builder</span>
               </div>
               <ul className="space-y-2 text-gray-300">
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span><strong className="text-blue-300">Sprint Planning & Execution:</strong> Facilitate sprint planning sessions, manage sprint backlogs, track velocity, and ensure sprint goals are met</span>
+                  <span><strong className="text-blue-300">Team Building & Scaling:</strong> Built, scaled, and restructured global cross-functional teams (40+ FTEs across APAC/EMEA/US), driving org-wide alignment</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span><strong className="text-blue-300">Release Management:</strong> Coordinate release schedules, manage dependencies between teams, conduct pre-release reviews, and ensure successful deployments</span>
+                  <span><strong className="text-blue-300">People Development:</strong> Built robust pipeline for talent development—20+ team promotions, 30% retention improvement, and measurable upskilling outcomes</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span><strong className="text-blue-300">Risk & Blocker Management:</strong> Identify risks early, proactively remove blockers, escalate issues when needed, and keep stakeholders informed</span>
+                  <span><strong className="text-blue-300">Crisis Leadership:</strong> Led crisis turnaround of at-risk division ($10M risk), navigating critical delivery challenges and ensuring on-time quality deliverables</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span><strong className="text-blue-300">Quality Assurance:</strong> Coordinate QA testing, manage test cases, ensure quality gates are met, and maintain product quality standards</span>
+                  <span><strong className="text-blue-300">Cross-Functional Influence:</strong> Steered exec/steerco meetings, aligning Product, Engineering, Sales, Marketing, Customer Success at enterprise level</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>SAFe POPM certified with hands-on experience applying Agile and Scrum methodologies in real-world product delivery</span>
+                  <span>Led org-wide adoption of AI/automation platforms, saving <strong className="text-blue-300">$2M+ annual cost</strong> while embedding culture of innovation</span>
                 </li>
               </ul>
             </div>
 
-            {/* Thought Leadership & Community Impact Card */}
+            {/* Market Impact & Innovation Card */}
             <div className="bg-gradient-to-br from-purple-500/10 to-purple-600/20 backdrop-blur-sm rounded-xl p-6 border border-purple-400/30 animate-slide-up animate-on-scroll hover:bg-purple-500/20 hover:border-purple-400/50 transition-all duration-300 hover:scale-105">
               <div className="text-center mb-4">
                 <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-3 shadow-lg">
                   <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                   </svg>
                 </div>
-                <h4 className="text-lg font-bold text-white mb-2">Thought Leadership & Community Impact</h4>
-                <span className="text-sm text-purple-200 bg-purple-600/20 px-3 py-1 rounded-full">Product Community</span>
+                <h4 className="text-lg font-bold text-white mb-2">Market Impact & Innovation</h4>
+                <span className="text-sm text-purple-200 bg-purple-600/20 px-3 py-1 rounded-full">Industry Leader</span>
               </div>
               <ul className="space-y-2 text-gray-300">
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Founded the <strong className="text-blue-300">Product Management Community of Practice</strong> at Deloitte—because I believe in giving back</span>
+                  <span>Scaled professional development impact from <strong className="text-blue-300">200 to 500+ members</strong> as President, IIBA Hyderabad—embedding culture of innovation across orgs</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Mentored <strong className="text-blue-300">20+ professionals</strong>—many have gone on to become leaders themselves. That's what success looks like to me</span>
+                  <span>Championed industry best practices and innovation—led org-wide adoption of AI/automation platforms, saving <strong className="text-blue-300">$2M+ annual cost</strong></span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>As <strong className="text-blue-300">President of IIBA Hyderabad</strong>, I organized major conferences—learned that community building is as important as product building</span>
+                  <span>Built <strong className="text-blue-300">Product Management Community of Practice</strong> at Deloitte—institutionalizing best practices across global delivery teams</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span><strong className="text-blue-300">Volunteer of the Year nominee</strong>—not for the recognition, but because I genuinely care about helping others grow</span>
+                  <span>Drove measurable people development outcomes—<strong className="text-blue-300">20+ promotions</strong>, <strong className="text-blue-300">30% retention improvement</strong>, and quantifiable upskilling data</span>
                 </li>
               </ul>
             </div>

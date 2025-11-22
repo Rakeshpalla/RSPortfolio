@@ -20,38 +20,43 @@ const Experience = () => {
       companyLogo: "🏢",
       achievements: [
         {
-          metric: "$50M+ SaaS Portfolio Growth",
-          description: "Led the growth of a multimillion dollar portfolio across three product lines, overseeing the entire product lifecycle from ideation to launch and beyond",
-          impact: "Portfolio Growth"
+          metric: "$65M Portfolio P&L Ownership",
+          description: "Owned $65M+ portfolio P&L across 5 product lines, driving investment prioritization, budget management, and double-digit YOY growth through strategic vision and business case articulation for C-suite/Board",
+          impact: "P&L Leadership"
         },
         {
-          metric: "100,000+ Enterprise Users Impacted",
-          description: "Transformed the work experience for over 100,000 enterprise users through strategic product management and delivery excellence",
-          impact: "User Impact"
+          metric: "$20M+ New Revenue Unlocked",
+          description: "Architected enterprise cloud adoption strategy that unlocked $20M+ in new revenue, transforming market positioning and competitive advantage",
+          impact: "Revenue Growth"
         },
         {
-          metric: "85%+ Adoption Rates",
-          description: "Drove adoption rates above 85% by building strong, collaborative product teams and delivering user-centric solutions",
-          impact: "Product Adoption"
+          metric: "100,000+ User Digital Transformation",
+          description: "Led 100K+ user digital transformation, personally steering product strategy and investment roadmaps that reshaped enterprise user experience",
+          impact: "Digital Transformation"
         },
         {
-          metric: "35% Operational Efficiency Increase",
-          description: "Enabled a 35% increase in operational efficiency along with significant improvements in customer satisfaction through strategic product initiatives",
+          metric: "40+ Global Team Built & Scaled",
+          description: "Built, scaled, and restructured global cross-functional teams (40+ FTEs across APAC/EMEA/US), driving org-wide alignment and market-leading product launches",
+          impact: "Org Building"
+        },
+        {
+          metric: "35% Operational Efficiency Gains",
+          description: "Enabled 35% operational efficiency gains through strategic product initiatives, org-wide AI/automation adoption saving $2M+ annual cost",
           impact: "Operational Excellence"
         },
         {
-          metric: "40% Reduction in Project Bottlenecks",
-          description: "Reduced project bottlenecks by 40% through effective communication, proactive risk mitigation, and streamlined delivery processes",
-          impact: "Delivery Optimization"
+          metric: "85%+ Adoption & Executive Engagement",
+          description: "Drove 85%+ adoption rates while acting as trusted advisor to executive leadership, steering product strategy and crisis turnaround of at-risk division ($10M risk)",
+          impact: "Executive Impact"
         },
         {
-          metric: "Multiple Product Releases",
-          description: "Successfully delivered EMS 4.9, AAT 4.8, Excel Analytics 4.3.1, and AAT 4.12 releases, maintaining product ownership responsibilities",
-          impact: "Product Delivery"
+          metric: "20+ Promotions & 30% Retention Improvement",
+          description: "Built robust pipeline for talent development—20+ team promotions, 30% retention improvement, and measurable upskilling outcomes demonstrating quantifiable people leadership",
+          impact: "People Development"
         }
       ],
       current: true,
-      story: "At Deloitte, I wear two hats: Product Manager and Delivery Manager. As a Product Manager, I manage product roadmaps, write user stories, prioritize features, conduct user research, and work with UX teams to design solutions. As a Delivery Manager, I lead sprint planning sessions, manage release cycles, remove blockers, coordinate QA testing, and ensure quality gates are met. This dual role has given me deep understanding of both product strategy and execution—I know what to build and how to deliver it successfully. I've managed products serving 100,000+ enterprise users, ensuring they get features that solve real problems, delivered on time and with quality."
+      story: "At Deloitte, I've evolved from individual contributor to strategic portfolio leader, owning $65M+ P&L across 5 product lines and driving org-wide transformations. I personally steered product strategy, investment roadmaps, and business case articulation for C-suite/Board, resulting in 85%+ adoption, 35% operational efficiency gains, and double-digit YOY portfolio growth. Built, scaled, and restructured global cross-functional teams (40+ FTEs, APAC/EMEA/US) to drive market-leading product launches. Acted as trusted advisor to executive leadership, driving consensus on multi-year tech vision, leading crisis turnaround of at-risk division ($10M risk), and building robust pipeline for talent development—20+ team promotions and 30% retention improvement. Led enterprise cloud adoption unlocking $20M+ in new revenue and org-wide adoption of AI/automation platforms saving $2M+ annual cost."
     },
     {
       title: "Senior Associate Consultant",

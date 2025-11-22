@@ -37,7 +37,7 @@ const Hero = () => {
               {/* Executive Headline */}
               <div className="mb-6">
             <span className="inline-block px-4 py-2 bg-blue-600/20 border border-blue-400/30 rounded-full text-blue-300 text-sm font-medium mb-3 animate-slide-up">
-              🏆 Product Manager & Delivery Manager | Deloitte | 19+ Years Experience
+              🏆 Enterprise SaaS Portfolio Leader | $65M P&L | 100K+ User Transformation | Org Builder | Digital Innovator
             </span>
           </div>
 
@@ -47,7 +47,7 @@ const Hero = () => {
           </h1>
           
           <h2 className="text-xl md:text-2xl font-semibold text-blue-300 mb-8 animate-slide-up">
-            Senior Product Manager & Delivery Manager
+            Enterprise Portfolio Leader | Strategic Product Executive | Digital Transformation Architect
           </h2>
 
           
@@ -76,18 +76,18 @@ const Hero = () => {
             </div>
           </div>
           
-          {/* Compelling Story - More Personal and Less Repetitive */}
+          {/* Compelling Story - Executive-Level Narrative */}
           <div className="max-w-4xl mx-auto mb-8">
             <p className="text-xl md:text-2xl text-gray-200 font-light leading-relaxed mb-3 animate-slide-up">
-              Transforming enterprise organizations through strategic product innovation and digital transformation
+              Enterprise SaaS Portfolio Leader—Owned $65M P&L, Led 100K+ User Digital Transformation, Architected Enterprise Cloud Adoption
             </p>
             
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed animate-slide-up">
-              I'm a Product Manager who builds products users love, and a Delivery Manager who ensures teams deliver on time and on quality. Over 19 years, I've balanced both roles, defining what to build while ensuring we actually build it right. 
+              Over 19 years, I've evolved from individual contributor to strategic leader, owning P&L accountability across multimillion-dollar portfolios and driving org-wide transformations. I don't just manage products—I architect business outcomes, build high-performing organizations, and shape market-facing strategy that delivers measurable ROI.
             </p>
             
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed animate-slide-up mt-3">
-              At Deloitte, I've managed product roadmaps, prioritized features, conducted user research, and worked closely with engineering teams to deliver products that serve <strong className="text-blue-300">100,000+ enterprise users</strong>. I've also owned delivery by managing sprint planning, removing blockers, coordinating releases, and ensuring quality gates are met. It's this dual expertise that makes me effective: I understand both the "what" and the "how."
+              At Deloitte, I've owned <strong className="text-blue-300">$65M+ portfolio P&L</strong> across 5 product lines, personally steered product strategy and investment roadmaps for C-suite/Board, resulting in <strong className="text-blue-300">85%+ adoption</strong>, <strong className="text-blue-300">35% operational efficiency gains</strong>, and <strong className="text-blue-300">double-digit YOY portfolio growth</strong>. I've built, scaled, and restructured global cross-functional teams (40+ FTEs, APAC/EMEA/US), acted as trusted advisor to executive leadership, and driven consensus on multi-year tech vision that unlocked <strong className="text-blue-300">$20M+ in new revenue</strong>.
             </p>
           </div>
 
@@ -124,21 +124,26 @@ const Hero = () => {
           </div>
 
           {/* Executive Impact Metrics */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 animate-slide-up">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 animate-slide-up">
             <div className="text-center p-6 bg-gradient-to-br from-blue-500/10 to-blue-600/20 backdrop-blur-sm rounded-xl border border-blue-400/30 hover:bg-blue-500/20 hover:border-blue-400/50 transition-all duration-300">
-              <div className="text-3xl md:text-4xl font-bold text-blue-300 mb-2">100K+</div>
-              <div className="text-sm md:text-base text-gray-200 font-medium">Enterprise Users</div>
-              <div className="text-xs text-blue-200 mt-1">Global enterprise clients</div>
+              <div className="text-3xl md:text-4xl font-bold text-blue-300 mb-2">$65M</div>
+              <div className="text-sm md:text-base text-gray-200 font-medium">Portfolio P&L</div>
+              <div className="text-xs text-blue-200 mt-1">Owned & transformed</div>
             </div>
             <div className="text-center p-6 bg-gradient-to-br from-green-500/10 to-green-600/20 backdrop-blur-sm rounded-xl border border-green-400/30 hover:bg-green-500/20 hover:border-green-400/50 transition-all duration-300">
-              <div className="text-3xl md:text-4xl font-bold text-green-300 mb-2">85%</div>
-              <div className="text-sm md:text-base text-gray-200 font-medium">Adoption Rate</div>
-              <div className="text-xs text-green-200 mt-1">Product feature adoption</div>
+              <div className="text-3xl md:text-4xl font-bold text-green-300 mb-2">100K+</div>
+              <div className="text-sm md:text-base text-gray-200 font-medium">Enterprise Users</div>
+              <div className="text-xs text-green-200 mt-1">Digital transformation</div>
             </div>
             <div className="text-center p-6 bg-gradient-to-br from-purple-500/10 to-purple-600/20 backdrop-blur-sm rounded-xl border border-purple-400/30 hover:bg-purple-500/20 hover:border-purple-400/50 transition-all duration-300">
-              <div className="text-3xl md:text-4xl font-bold text-purple-300 mb-2">15+</div>
-              <div className="text-sm md:text-base text-gray-200 font-medium">Global Teams</div>
-              <div className="text-xs text-purple-200 mt-1">Cross-functional leadership</div>
+              <div className="text-3xl md:text-4xl font-bold text-purple-300 mb-2">40+</div>
+              <div className="text-sm md:text-base text-gray-200 font-medium">Global Team</div>
+              <div className="text-xs text-purple-200 mt-1">Built & scaled (FTEs)</div>
+            </div>
+            <div className="text-center p-6 bg-gradient-to-br from-orange-500/10 to-orange-600/20 backdrop-blur-sm rounded-xl border border-orange-400/30 hover:bg-orange-500/20 hover:border-orange-400/50 transition-all duration-300">
+              <div className="text-3xl md:text-4xl font-bold text-orange-300 mb-2">35%</div>
+              <div className="text-sm md:text-base text-gray-200 font-medium">Efficiency Gain</div>
+              <div className="text-xs text-orange-200 mt-1">Operational impact</div>
             </div>
           </div>
         </div>

@@ -26,8 +26,9 @@ const Vision = () => {
               <div className="p-8">
             <div className="text-center mb-12">
               <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed mb-8">
-                My vision is to step into senior leadership roles (Director, Principal Product Manager, or Program Management Leader) 
-                where I can make a transformative impact across organizations and drive the next generation of digital innovation.
+                My vision is to lead at the highest levels—Director, VP, or Principal Product Manager—where I can own P&L accountability, 
+                architect org-wide transformations, and shape market-facing strategy. I've proven I can build businesses, not just deliver projects. 
+                Now I'm ready to scale that impact across enterprise organizations and drive the next generation of digital innovation.
               </p>
             </div>
 
@@ -38,9 +39,9 @@ const Vision = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-slate-800 mb-4">Strategic Leadership</h3>
+                <h3 className="text-xl font-bold text-slate-800 mb-4">P&L Ownership & Business Building</h3>
                 <p className="text-slate-600 leading-relaxed">
-                  Shape long-term product strategy across SaaS, Cloud, and digital transformation programs that drive competitive advantage
+                  Own portfolio P&L accountability, drive investment prioritization, and shape business models that deliver measurable ROI and market differentiation
                 </p>
               </div>
 
@@ -50,9 +51,9 @@ const Vision = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-slate-800 mb-4">Enterprise Adoption</h3>
+                <h3 className="text-xl font-bold text-slate-800 mb-4">Org Building & Transformation</h3>
                 <p className="text-slate-600 leading-relaxed">
-                  Drive enterprise-wide adoption of customer-centric solutions that deliver measurable ROI and market differentiation
+                  Build, scale, and restructure global teams, drive org-wide change, and architect transformations that reshape market positioning
                 </p>
               </div>
 
@@ -62,9 +63,9 @@ const Vision = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-slate-800 mb-4">Team Development</h3>
+                <h3 className="text-xl font-bold text-slate-800 mb-4">Executive Engagement & Influence</h3>
                 <p className="text-slate-600 leading-relaxed">
-                  Mentor and scale product management organizations, building future-ready leaders who drive innovation
+                  Act as trusted advisor to C-suite/Board, steer strategic decisions at material business risk levels, and drive consensus on multi-year vision
                 </p>
               </div>
 
@@ -74,9 +75,9 @@ const Vision = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-slate-800 mb-4">Value Delivery</h3>
+                <h3 className="text-xl font-bold text-slate-800 mb-4">Market Impact & Revenue Growth</h3>
                 <p className="text-slate-600 leading-relaxed">
-                  Translate complex challenges into simple, actionable roadmaps that maximize business value and stakeholder satisfaction
+                  Unlock new revenue streams, drive cost optimization, and shape competitive strategy that delivers measurable financial outcomes
                 </p>
               </div>
             </div>
@@ -85,9 +86,9 @@ const Vision = () => {
             <div className="bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl p-8 text-white text-center">
               <h3 className="text-2xl font-bold mb-6">My Leadership Philosophy</h3>
               <blockquote className="text-lg text-gray-200 leading-relaxed max-w-4xl mx-auto italic mb-6">
-                "I've learned that great leadership isn't about having all the answers. It's about asking the right questions, 
-                listening deeply, and creating spaces where people can do their best work. Every product I've built, every team 
-                I've led, has taught me something new. And I'm still learning."
+                "I've evolved from executing projects to owning businesses. Great leadership isn't about managing backlogs—it's about 
+                architecting transformations, building organizations, and driving measurable outcomes. I've owned $65M P&L, built 40+ person teams, 
+                and unlocked $20M+ in revenue. Now I'm ready to scale that impact at the highest levels."
               </blockquote>
               <div className="mt-6 text-blue-300 font-semibold">— Rakesh Sharma Palla</div>
             </div>
