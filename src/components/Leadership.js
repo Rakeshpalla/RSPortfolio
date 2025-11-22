@@ -8,7 +8,7 @@ const Leadership = () => {
       items: [
         "Built, scaled, and restructured global cross-functional teams (40+ FTEs across APAC/EMEA/US)",
         "20+ team promotions driven through robust talent development pipeline",
-        "30% retention improvement—quantifiable people leadership outcomes",
+        "30% retention improvement demonstrating quantifiable people leadership outcomes",
         "Measurable upskilling data demonstrating org-wide capability development"
       ],
       icon: "👥"
@@ -17,24 +17,24 @@ const Leadership = () => {
       category: "Industry Leadership & Community Impact",
       items: [
         "Scaled professional development impact from 200 to 500+ members as President, IIBA Hyderabad",
-        "Led 20+ industry events annually—embedding culture of innovation across orgs",
-        "Built Product Management Community of Practice at Deloitte—institutionalizing best practices globally"
+        "Led 20+ industry events annually, embedding culture of innovation across orgs",
+        "Built Product Management Community of Practice at Deloitte, institutionalizing best practices globally"
       ],
       icon: "👑"
     },
     {
       category: "Executive Engagement & Strategic Influence",
       items: [
-        "Acted as trusted advisor to executive leadership—steering product strategy and investment decisions",
-        "Led crisis turnaround of at-risk division ($10M risk)—demonstrating high-stakes leadership",
-        "Drove consensus on multi-year tech vision—C-suite/Board engagement at material business risk levels"
+        "Acted as trusted advisor to executive leadership, steering product strategy and investment decisions",
+        "Led crisis turnaround of at-risk division ($10M risk), demonstrating high-stakes leadership",
+        "Drove consensus on multi-year tech vision with C-suite/Board engagement at material business risk levels"
       ],
       icon: "💼"
     },
     {
       category: "Market Impact & Innovation",
       items: [
-        "Championed org-wide adoption of AI/automation platforms—saving $2M+ annual cost",
+        "Championed org-wide adoption of AI/automation platforms, saving $2M+ annual cost",
         "Led enterprise cloud adoption unlocking $20M+ in new revenue",
         "35% operational efficiency gains through strategic transformation initiatives"
       ],
@@ -57,7 +57,7 @@ const Leadership = () => {
             <div className="text-center mb-8">
               <h3 className="text-2xl font-bold text-slate-800 mb-4">Executive Leadership & Org Impact</h3>
               <p className="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                Quantifiable leadership outcomes: team building, people development, executive engagement, and market transformation—demonstrating Director/VP-level impact
+                Quantifiable leadership outcomes: team building, people development, executive engagement, and market transformation demonstrating Director/VP-level impact
               </p>
             </div>
             

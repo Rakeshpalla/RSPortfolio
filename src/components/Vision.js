@@ -26,9 +26,7 @@ const Vision = () => {
               <div className="p-8">
             <div className="text-center mb-12">
               <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed mb-8">
-                My vision is to lead at the highest levels—Director, VP, or Principal Product Manager—where I can own P&L accountability, 
-                architect org-wide transformations, and shape market-facing strategy. I've proven I can build businesses, not just deliver projects. 
-                Now I'm ready to scale that impact across enterprise organizations and drive the next generation of digital innovation.
+                I'm targeting Director, Senior Manager, VP, or Principal Product Manager roles where I can drive product strategy, own portfolio-level outcomes, and lead complex global initiatives. My experience spans multi-product portfolio management, major revenue impact, and leading cross-functional teams through SaaS modernization and enterprise transformation. I'm looking for a role where I can apply this at larger scale, take direct ownership of business performance, and steer product direction to strengthen customer value and long-term growth.
               </p>
             </div>
 
@@ -86,11 +84,11 @@ const Vision = () => {
             <div className="bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl p-8 text-white text-center">
               <h3 className="text-2xl font-bold mb-6">My Leadership Philosophy</h3>
               <blockquote className="text-lg text-gray-200 leading-relaxed max-w-4xl mx-auto italic mb-6">
-                "I've evolved from executing projects to owning businesses. Great leadership isn't about managing backlogs—it's about 
+                "I've evolved from executing projects to owning businesses. Great leadership isn't about managing backlogs. It's about 
                 architecting transformations, building organizations, and driving measurable outcomes. I've owned $65M P&L, built 40+ person teams, 
                 and unlocked $20M+ in revenue. Now I'm ready to scale that impact at the highest levels."
               </blockquote>
-              <div className="mt-6 text-blue-300 font-semibold">— Rakesh Sharma Palla</div>
+              <div className="mt-6 text-blue-300 font-semibold">Rakesh Sharma Palla</div>
             </div>
               </div>
             </div>

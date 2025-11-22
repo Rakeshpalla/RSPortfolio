@@ -11,7 +11,6 @@ import Experience from './components/Experience';
 import Education from './components/Education';
 import Leadership from './components/Leadership';
 import Footer from './components/Footer';
-import Projects from './components/Projects';
 import { observeElements } from './utils/scrollAnimation';
 
 function App() {
@@ -29,7 +28,6 @@ function App() {
         <Vision />
         <About />
             <Experience />
-            <Projects />
             <Skills />
             <Tools />
             <Education />

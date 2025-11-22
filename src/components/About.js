@@ -19,7 +19,7 @@ const About = () => {
               🎯 Product Leadership | 🤝 People Centered | 📈 Outcome Driven
             </div>
             <p className="text-xl text-gray-200 leading-relaxed max-w-4xl mx-auto">
-              I architect enterprise transformations that drive measurable business outcomes. Over 19 years, I've evolved from executing projects to owning P&L, building organizations, and shaping market strategy. My leadership philosophy centers on <strong className="text-blue-300 font-semibold">strategic vision, org-building, and quantifiable impact</strong>—transforming businesses, not just delivering features.
+              I lead large-scale product strategy, portfolio execution, and enterprise transformation with a focus on measurable business impact. Over 19 years, I've moved from delivering projects to driving multi product portfolios, shaping market direction, and influencing revenue outcomes. My approach is grounded in strategic clarity, organizational leadership, and high accountability execution, building products and teams that improve customer value and long term growth rather than just shipping features.
             </p>
           </div>
 
@@ -54,7 +54,7 @@ const About = () => {
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Transformed products serving <strong className="text-blue-300">100,000+ enterprise users</strong>—architecting digital transformation that reshaped market positioning</span>
+                  <span>Transformed products serving <strong className="text-blue-300">100,000+ enterprise users</strong> by architecting digital transformation that reshaped market positioning</span>
                 </li>
               </ul>
             </div>
@@ -77,7 +77,7 @@ const About = () => {
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span><strong className="text-blue-300">People Development:</strong> Built robust pipeline for talent development—20+ team promotions, 30% retention improvement, and measurable upskilling outcomes</span>
+                  <span><strong className="text-blue-300">People Development:</strong> Built robust pipeline for talent development resulting in 20+ team promotions, 30% retention improvement, and measurable upskilling outcomes</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
@@ -108,19 +108,19 @@ const About = () => {
               <ul className="space-y-2 text-gray-300">
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Scaled professional development impact from <strong className="text-blue-300">200 to 500+ members</strong> as President, IIBA Hyderabad—embedding culture of innovation across orgs</span>
+                  <span>Scaled professional development impact from <strong className="text-blue-300">200 to 500+ members</strong> as President, IIBA Hyderabad, embedding culture of innovation across orgs</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Championed industry best practices and innovation—led org-wide adoption of AI/automation platforms, saving <strong className="text-blue-300">$2M+ annual cost</strong></span>
+                  <span>Championed industry best practices and innovation by leading org-wide adoption of AI/automation platforms, saving <strong className="text-blue-300">$2M+ annual cost</strong></span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Built <strong className="text-blue-300">Product Management Community of Practice</strong> at Deloitte—institutionalizing best practices across global delivery teams</span>
+                  <span>Built <strong className="text-blue-300">Product Management Community of Practice</strong> at Deloitte, institutionalizing best practices across global delivery teams</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Drove measurable people development outcomes—<strong className="text-blue-300">20+ promotions</strong>, <strong className="text-blue-300">30% retention improvement</strong>, and quantifiable upskilling data</span>
+                  <span>Drove measurable people development outcomes including <strong className="text-blue-300">20+ promotions</strong>, <strong className="text-blue-300">30% retention improvement</strong>, and quantifiable upskilling data</span>
                 </li>
               </ul>
             </div>

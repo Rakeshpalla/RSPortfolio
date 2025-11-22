@@ -47,7 +47,7 @@ const Tools = () => {
             <div className="text-center mb-16">
               <h3 className="text-2xl font-bold text-slate-800 mb-6">Strategic Technology Leadership</h3>
               <p className="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                Led org-wide adoption of strategic platforms that drove measurable business outcomes—revenue growth, cost optimization, and market transformation
+                Led org-wide adoption of strategic platforms that drove measurable business outcomes including revenue growth, cost optimization, and market transformation
               </p>
             </div>
             

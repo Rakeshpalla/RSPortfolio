@@ -51,12 +51,12 @@ const Experience = () => {
         },
         {
           metric: "20+ Promotions & 30% Retention Improvement",
-          description: "Built robust pipeline for talent development—20+ team promotions, 30% retention improvement, and measurable upskilling outcomes demonstrating quantifiable people leadership",
+          description: "Built robust pipeline for talent development resulting in 20+ team promotions, 30% retention improvement, and measurable upskilling outcomes demonstrating quantifiable people leadership",
           impact: "People Development"
         }
       ],
       current: true,
-      story: "At Deloitte, I led product strategy and delivery across five enterprise SaaS product lines, influencing a 65M plus portfolio. I drove more than 85 percent adoption, delivered 35 percent operational efficiency improvement, and achieved double digit year over year portfolio growth. I built and scaled cross functional global teams of more than 40 FTEs across APAC, EMEA, and the US, partnered with executive leadership on multi year platform modernization, and contributed to initiatives that unlocked more than 20M in new revenue."
+      story: "At Deloitte, I directed product strategy and delivery for five enterprise SaaS product lines, shaping a portfolio that influenced more than 65M in business impact. I led initiatives that drove more than 85 percent <strong>adoption</strong>, improved operational efficiency by 35 percent, and delivered sustained double digit year over year <strong>portfolio growth</strong>. I built and scaled <strong>global teams</strong> of more than 40 professionals across APAC, EMEA, and the US, partnered with senior and executive leadership on multi year <strong>platform modernization</strong> programs, and contributed to outcomes that generated more than 20M in new revenue. These results reflect my ability to lead complex product ecosystems, steer organizational transformation, and consistently deliver high value outcomes at scale."
     },
     {
       title: "Senior Associate Consultant",
@@ -373,9 +373,7 @@ const Experience = () => {
                           {/* Experience Summary */}
                           <div>
                             <h4 className="text-xs font-semibold text-slate-700 uppercase tracking-wide mb-2 select-text">Experience Summary</h4>
-                            <p className="text-sm text-slate-600 leading-relaxed select-text">
-                              {exp.story}
-                            </p>
+                            <p className="text-sm text-slate-600 leading-relaxed select-text" dangerouslySetInnerHTML={{ __html: exp.story }} />
                           </div>
                           
                           {/* Key Achievements */}

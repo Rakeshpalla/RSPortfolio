@@ -46,7 +46,7 @@ const Hero = () => {
             Rakesh Sharma Palla
           </h1>
           
-          <h2 className="text-xl md:text-2xl font-semibold text-blue-300 mb-8 animate-slide-up">
+          <h2 className="text-xl md:text-2xl font-semibold text-blue-300 mb-8 animate-slide-up" aria-label="Enterprise SaaS Platform Leader with experience driving large scale digital modernization, scaling global teams, and directing product strategy influencing a 65M plus business portfolio">
             Enterprise SaaS Platform Leader with experience driving large scale digital modernization, scaling global teams, and directing product strategy influencing a 65M plus business portfolio
           </h2>
 
@@ -79,11 +79,7 @@ const Hero = () => {
           {/* Compelling Story - Executive-Level Narrative */}
           <div className="max-w-4xl mx-auto mb-8">
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed animate-slide-up">
-              Over 19 years, I have progressed from hands-on contributor to senior product and delivery leader, driving large scale SaaS modernization, multi product platform strategy, and enterprise wide transformation. I lead cross functional organizations, align product strategy with business outcomes, and deliver measurable ROI across global markets.
-            </p>
-            
-            <p className="text-lg md:text-xl text-gray-300 leading-relaxed animate-slide-up mt-3">
-              At Deloitte, I led product strategy and delivery across five enterprise SaaS product lines, influencing a 65M plus portfolio. I drove more than 85 percent adoption, delivered 35 percent operational efficiency improvement, and achieved double digit year over year portfolio growth. I built and scaled cross functional global teams of more than 40 FTEs across APAC, EMEA, and the US, partnered with executive leadership on multi year platform modernization, and contributed to initiatives that unlocked more than 20M in new revenue.
+              With over 19 years of experience, I have grown from a hands on product contributor into a senior leader trusted to drive enterprise scale <strong>SaaS modernization</strong>, <strong>multi product platform strategy</strong>, and end to end <strong>digital transformation</strong>. My work focuses on unifying <strong>cross functional teams</strong>, aligning product strategy with measurable <strong>business outcomes</strong>, and delivering <strong>ROI</strong> across global markets. I bring a balance of <strong>product vision</strong>, <strong>operational rigor</strong>, and <strong>execution leadership</strong> that consistently accelerates <strong>adoption</strong>, performance, and customer value.
             </p>
           </div>
 
