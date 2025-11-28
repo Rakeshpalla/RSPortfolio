@@ -37,7 +37,7 @@ const Hero = () => {
               {/* Executive Headline */}
               <div className="mb-6">
             <span className="inline-block px-4 py-2 bg-blue-600/20 border border-blue-400/30 rounded-full text-blue-300 text-sm font-medium mb-3 animate-slide-up">
-              🏆 Enterprise SaaS Product and Platform Leader | Senior Product Strategy and Delivery Leader | Digital Modernization and Transformation Lead
+              🏆 Senior Product Manager | Enterprise SaaS Portfolio Leader | $65M+ P&L Owner
             </span>
           </div>
 
@@ -46,8 +46,8 @@ const Hero = () => {
             Rakesh Sharma Palla
           </h1>
           
-          <h2 className="text-xl md:text-2xl font-semibold text-blue-300 mb-8 animate-slide-up" aria-label="Enterprise SaaS Platform Leader with experience driving large scale digital modernization, scaling global teams, and directing product strategy influencing a 65M plus business portfolio">
-            Enterprise SaaS Platform Leader with experience driving large scale digital modernization, scaling global teams, and directing product strategy influencing a 65M plus business portfolio
+          <h2 className="text-xl md:text-2xl font-semibold text-blue-300 mb-8 animate-slide-up" aria-label="Senior Product Manager driving enterprise SaaS portfolio growth, scaling global teams, and delivering $65M+ business impact through digital transformation">
+            Senior Product Manager driving enterprise SaaS portfolio growth, scaling global teams, and delivering $65M+ business impact through digital transformation
           </h2>
 
           
@@ -79,7 +79,7 @@ const Hero = () => {
           {/* Compelling Story - Executive-Level Narrative */}
           <div className="max-w-4xl mx-auto mb-8">
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed animate-slide-up">
-              With over 19 years of experience, I have grown from a hands on product contributor into a senior leader trusted to drive enterprise scale <strong>SaaS modernization</strong>, <strong>multi product platform strategy</strong>, and end to end <strong>digital transformation</strong>. My work focuses on unifying <strong>cross functional teams</strong>, aligning product strategy with measurable <strong>business outcomes</strong>, and delivering <strong>ROI</strong> across global markets. I bring a balance of <strong>product vision</strong>, <strong>operational rigor</strong>, and <strong>execution leadership</strong> that consistently accelerates <strong>adoption</strong>, performance, and customer value.
+              I solve portfolio P&L challenges, build high-performing global teams, and drive enterprise SaaS transformation. With 19 years of experience, I've evolved from hands-on product contributor to senior leader trusted to deliver <strong>$65M+ portfolio growth</strong>, <strong>multi-product platform strategy</strong>, and end-to-end <strong>digital transformation</strong>. My work unifies <strong>cross-functional teams</strong>, aligns product strategy with measurable <strong>business outcomes</strong>, and delivers <strong>ROI</strong> across global markets. I bring <strong>product vision</strong>, <strong>operational rigor</strong>, and <strong>execution leadership</strong> that accelerates <strong>adoption</strong>, performance, and customer value.
             </p>
           </div>
 
@@ -92,16 +92,16 @@ const Hero = () => {
               <svg className="w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
               </svg>
-              Let's Connect
+              Connect on LinkedIn
             </button>
             <a
-              href="mailto:rakeshpalla364@gmail.com?subject=Let's Talk About Product Leadership&body=Hi Rakesh, I'd love to discuss..."
+              href="mailto:rakeshpalla364@gmail.com?subject=Product Portfolio Strategy Discussion&body=Hi Rakesh, I'd like to discuss how you can help drive portfolio growth..."
               className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-base"
             >
               <svg className="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
-              Book a Call
+              Discuss Portfolio Strategy
             </a>
             <a
               href={`${process.env.PUBLIC_URL}/Rakesh%20Sharma%20Palla%20Resume.docx`}
@@ -118,7 +118,7 @@ const Hero = () => {
           {/* Executive Impact Metrics */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 animate-slide-up">
             <div className="text-center p-6 bg-gradient-to-br from-blue-500/10 to-blue-600/20 backdrop-blur-sm rounded-xl border border-blue-400/30 hover:bg-blue-500/20 hover:border-blue-400/50 transition-all duration-300">
-              <div className="text-3xl md:text-4xl font-bold text-blue-300 mb-2">$65M</div>
+              <div className="text-3xl md:text-4xl font-bold text-blue-300 mb-2">$65M+</div>
               <div className="text-sm md:text-base text-gray-200 font-medium">Portfolio P&L</div>
               <div className="text-xs text-blue-200 mt-1">Owned & transformed</div>
             </div>

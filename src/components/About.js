@@ -19,7 +19,7 @@ const About = () => {
               🎯 Product Leadership | 🤝 People Centered | 📈 Outcome Driven
             </div>
             <p className="text-xl text-gray-200 leading-relaxed max-w-4xl mx-auto">
-              I lead large-scale product strategy, portfolio execution, and enterprise transformation with a focus on measurable business impact. Over 19 years, I've moved from delivering projects to driving multi product portfolios, shaping market direction, and influencing revenue outcomes. My approach is grounded in strategic clarity, organizational leadership, and high accountability execution, building products and teams that improve customer value and long term growth rather than just shipping features.
+              I solve portfolio P&L challenges, build high-performing teams, and drive enterprise transformation with measurable business impact. Over 19 years, I've evolved from delivering projects to driving multi-product portfolios, shaping market direction, and influencing revenue outcomes. My approach combines strategic clarity, organizational leadership, and high-accountability execution, building products and teams that improve customer value and long-term growth rather than just shipping features.
             </p>
           </div>
 
@@ -38,7 +38,7 @@ const About = () => {
               <ul className="space-y-2 text-gray-300">
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span><strong className="text-blue-300">P&L Ownership:</strong> Owned $65M+ portfolio P&L across 5 product lines, driving investment prioritization, budget management, and double-digit YOY growth</span>
+                  <span><strong className="text-blue-300">P&L Ownership:</strong> Owned $65M+ portfolio P&L across 5 product lines, driving investment prioritization, budget management, and double-digit year-over-year growth</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
@@ -54,7 +54,7 @@ const About = () => {
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Transformed products serving <strong className="text-blue-300">100,000+ enterprise users</strong> by architecting digital transformation that reshaped market positioning</span>
+                  <span>Transformed products serving <strong className="text-blue-300">100K+ enterprise users</strong> by architecting digital transformation that reshaped market positioning</span>
                 </li>
               </ul>
             </div>

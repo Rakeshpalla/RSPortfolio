@@ -26,7 +26,7 @@ const Vision = () => {
               <div className="p-8">
             <div className="text-center mb-12">
               <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed mb-8">
-                I'm targeting Director, Senior Manager, VP, or Principal Product Manager roles where I can drive product strategy, own portfolio-level outcomes, and lead complex global initiatives. My experience spans multi-product portfolio management, major revenue impact, and leading cross-functional teams through SaaS modernization and enterprise transformation. I'm looking for a role where I can apply this at larger scale, take direct ownership of business performance, and steer product direction to strengthen customer value and long-term growth.
+                I solve portfolio P&L challenges, build high-performing global teams, and drive enterprise SaaS transformation. My experience spans multi-product portfolio management ($65M+ P&L ownership), major revenue impact ($20M+ unlocked), and leading cross-functional teams through SaaS modernization and enterprise transformation. I deliver measurable outcomes: 85%+ adoption rates, 35% operational efficiency gains, and double-digit year-over-year portfolio growth. I'm ready to apply this expertise at larger scale, take direct ownership of business performance, and steer product direction to strengthen customer value and long-term growth.
               </p>
             </div>
 
@@ -84,9 +84,9 @@ const Vision = () => {
             <div className="bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl p-8 text-white text-center">
               <h3 className="text-2xl font-bold mb-6">My Leadership Philosophy</h3>
               <blockquote className="text-lg text-gray-200 leading-relaxed max-w-4xl mx-auto italic mb-6">
-                "I've evolved from executing projects to owning businesses. Great leadership isn't about managing backlogs. It's about 
-                architecting transformations, building organizations, and driving measurable outcomes. I've owned $65M P&L, built 40+ person teams, 
-                and unlocked $20M+ in revenue. Now I'm ready to scale that impact at the highest levels."
+                "I've evolved from executing projects to solving business problems. Great leadership isn't about managing backlogs. It's about 
+                architecting transformations, building organizations, and driving measurable outcomes. I've owned $65M+ P&L, built 40+ person teams, 
+                and unlocked $20M+ in revenue. I solve portfolio challenges, build high-performing teams, and deliver enterprise transformation at scale."
               </blockquote>
               <div className="mt-6 text-blue-300 font-semibold">Rakesh Sharma Palla</div>
             </div>

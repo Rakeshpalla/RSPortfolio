@@ -8,11 +8,11 @@ const projects = [
     problem: '5-year-old platform losing market share due to 68% user dissatisfaction, threatening $10M+ revenue risk. Legacy architecture unable to support enterprise scale, driving 40% increase in support costs.',
     action: 'Architected enterprise transformation strategy, secured $1.8M investment through C-suite/Board presentation, and led org-wide modernization initiative. Steered cross-functional alignment (Product, Engineering, Sales, Customer Success) to drive market-facing transformation.',
     result: [
-      '30% adoption increase—market share recovery',
-      'Satisfaction scores 6.2→8.4/10—competitive positioning restored',
-      '45% faster task completion—operational efficiency',
+      '30% adoption increase resulting in market share recovery',
+      'Satisfaction scores 6.2→8.4/10 restoring competitive positioning',
+      '45% faster task completion improving operational efficiency',
       '$2M+ annual cost savings through streamlined workflows',
-      'Investment ROI delivered—business case validated'
+      'Investment ROI delivered validating business case'
     ],
     skills: ['Strategic Planning', 'Executive Engagement', 'Investment Securing', 'Business Transformation', 'Market Strategy', 'Org Alignment']
   },
@@ -23,9 +23,9 @@ const projects = [
     problem: 'Fragmented product portfolio operating in isolation, limiting cross-sell opportunities and increasing TCO. Rigid architecture unable to support enterprise client requirements, impacting $15M+ revenue potential.',
     action: 'Led strategic integration initiative across 5 product lines, architected modular platform strategy, and drove executive consensus on unified vision. Steered cross-functional teams (40+ FTEs) to deliver enterprise-grade solution.',
     result: [
-      '100K+ enterprise users served—market expansion',
-      '40% reduction in client onboarding time—cost efficiency',
-      '35% increase in cross-product adoption—revenue growth',
+      '100K+ enterprise users served driving market expansion',
+      '40% reduction in client onboarding time improving cost efficiency',
+      '35% increase in cross-product adoption generating revenue growth',
       '$15M+ revenue opportunity unlocked',
       'Enterprise-grade platform positioning achieved'
     ],
@@ -38,11 +38,11 @@ const projects = [
     problem: 'Regulatory compliance gaps threatening enterprise client relationships and $5M+ contract renewals. Data integrity risks in cloud environment creating material business risk.',
     action: 'Architected compliance transformation strategy, secured executive buy-in for regulatory investment, and led org-wide adoption. Collaborated with C-suite on risk mitigation and business case for compliance platform.',
     result: [
-      '85% adoption within 3 months—org-wide transformation',
-      '25% improvement in audit completion time—operational efficiency',
-      '100% compliance achieved—risk mitigation',
+      '85% adoption within 3 months enabling org-wide transformation',
+      '25% improvement in audit completion time improving operational efficiency',
+      '100% compliance achieved mitigating risk',
       '$5M+ contract renewals secured',
-      'Zero audit violations—regulatory positioning strengthened'
+      'Zero audit violations strengthening regulatory positioning'
     ],
     skills: ['Risk Management', 'Executive Engagement', 'Compliance Strategy', 'Business Case', 'Org Transformation', 'Regulatory Leadership']
   }

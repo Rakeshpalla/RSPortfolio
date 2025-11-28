@@ -5,9 +5,9 @@ const Skills = () => {
   const skills = [
     {
       category: "Portfolio & P&L Leadership",
-      description: "Owned $65M+ portfolio P&L across 5 product lines, driving investment prioritization, budget management, and double-digit YOY growth. Architected multi-year product vision and business case articulation for C-suite/Board.",
+      description: "Owned $65M+ portfolio P&L across 5 product lines, driving investment prioritization, budget management, and double-digit year-over-year growth. Architected multi-year product vision and business case articulation for C-suite/Board.",
       icon: "🎯",
-      achievements: ["$65M Portfolio P&L Ownership", "Multi-Year Strategic Planning", "Investment Prioritization & Business Cases", "Double-Digit YOY Growth"],
+      achievements: ["$65M Portfolio P&L Ownership", "Multi-Year Strategic Planning", "Investment Prioritization & Business Cases", "Double-Digit Year-Over-Year Growth"],
       skills: ["Portfolio Strategy", "P&L Management", "Investment Roadmaps", "Business Case Development", "Executive Communication", "Strategic Planning", "Market Strategy"]
     },
     {

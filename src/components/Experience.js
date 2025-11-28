@@ -21,7 +21,7 @@ const Experience = () => {
       achievements: [
         {
           metric: "$65M Portfolio P&L Ownership",
-          description: "Owned $65M+ portfolio P&L across 5 product lines, driving investment prioritization, budget management, and double-digit YOY growth through strategic vision and business case articulation for C-suite/Board",
+          description: "Owned $65M+ portfolio P&L across 5 product lines, driving investment prioritization, budget management, and double-digit year-over-year growth through strategic vision and business case articulation for C-suite/Board",
           impact: "P&L Leadership"
         },
         {
@@ -30,7 +30,7 @@ const Experience = () => {
           impact: "Revenue Growth"
         },
         {
-          metric: "100,000+ User Digital Transformation",
+          metric: "100K+ User Digital Transformation",
           description: "Led 100K+ user digital transformation, personally steering product strategy and investment roadmaps that reshaped enterprise user experience",
           impact: "Digital Transformation"
         },
@@ -56,7 +56,7 @@ const Experience = () => {
         }
       ],
       current: true,
-      story: "At Deloitte, I directed product strategy and delivery for five enterprise SaaS product lines, shaping a portfolio that influenced more than 65M in business impact. I led initiatives that drove more than 85 percent <strong>adoption</strong>, improved operational efficiency by 35 percent, and delivered sustained double digit year over year <strong>portfolio growth</strong>. I built and scaled <strong>global teams</strong> of more than 40 professionals across APAC, EMEA, and the US, partnered with senior and executive leadership on multi year <strong>platform modernization</strong> programs, and contributed to outcomes that generated more than 20M in new revenue. These results reflect my ability to lead complex product ecosystems, steer organizational transformation, and consistently deliver high value outcomes at scale."
+      story: "At Deloitte, I solve portfolio P&L challenges and drive enterprise SaaS transformation across five product lines, delivering $65M+ in business impact. I led initiatives that drove 85%+ <strong>adoption</strong>, improved operational efficiency by 35%, and delivered sustained double-digit year-over-year <strong>portfolio growth</strong>. I built and scaled <strong>global teams</strong> of 40+ professionals across APAC, EMEA, and the US, partnered with senior and executive leadership on multi-year <strong>platform modernization</strong> programs, and contributed to outcomes that generated $20M+ in new revenue. These results reflect my ability to lead complex product ecosystems, steer organizational transformation, and consistently deliver high-value outcomes at scale."
     },
     {
       title: "Senior Associate Consultant",
