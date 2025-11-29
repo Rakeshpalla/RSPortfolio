@@ -16,7 +16,7 @@ const Hero = () => {
           alt="Professional business background" 
           className="w-full h-full object-cover"
         />
-            <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-blue-900/80 to-slate-800/85"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-slate-900/100 via-blue-900/100 to-slate-800/100"></div>
       </div>
       
 
