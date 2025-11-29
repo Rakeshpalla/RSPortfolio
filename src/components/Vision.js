@@ -25,8 +25,11 @@ const Vision = () => {
             <div className="max-h-none opacity-100">
               <div className="p-8">
             <div className="text-center mb-12">
+              <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed mb-4">
+                I lead multi-product portfolios, fix P&L problems, and drive enterprise SaaS transformation at scale. My track record includes $65M+ P&L ownership, over $20M in revenue unlocked, 85% adoption, 35% efficiency gains, and consistent double-digit growth. I build high-performing global teams, modernize platforms, and deliver outcomes that move the business.
+              </p>
               <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed mb-8">
-                I solve portfolio P&L challenges, build high-performing global teams, and drive enterprise SaaS transformation. My experience spans multi-product portfolio management ($65M+ P&L ownership), major revenue impact ($20M+ unlocked), and leading cross-functional teams through SaaS modernization and enterprise transformation. I deliver measurable outcomes: 85%+ adoption rates, 35% operational efficiency gains, and double-digit year-over-year portfolio growth. I'm ready to apply this expertise at larger scale, take direct ownership of business performance, and steer product direction to strengthen customer value and long-term growth. I'm actively exploring opportunities at the Director, Principal Product Manager, Program Manager, AVP, or VP level in product or program management, where I can leverage my proven track record of solving complex business challenges, driving portfolio transformation, and delivering measurable outcomes that strengthen organizational performance and market position.
+                I am focused on senior roles with full accountability such as Director, Principal Product Manager, Program Manager, AVP or VP, where the mandate is to solve complex problems and deliver measurable, repeatable results.
               </p>
             </div>
 
