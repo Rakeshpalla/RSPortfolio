@@ -21,7 +21,7 @@ function App() {
   return (
     <ErrorBoundary>
       <Analytics />
-      <div className="min-h-screen bg-gray-50">
+      <div className="min-h-screen bg-gray-50 space-y-8 md:space-y-12">
         <NavBar />
         <Hero />
         <Vision />

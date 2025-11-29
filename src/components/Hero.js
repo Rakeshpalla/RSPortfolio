@@ -16,7 +16,7 @@ const Hero = () => {
           alt="Professional business background" 
           className="w-full h-full object-cover"
         />
-            <div className="absolute inset-0 bg-gradient-to-br from-slate-900/95 via-blue-900/92 to-slate-800/95"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-blue-900/80 to-slate-800/85"></div>
       </div>
       
 
@@ -77,9 +77,9 @@ const Hero = () => {
           </div>
           
           {/* Compelling Story - Executive-Level Narrative */}
-          <div className="max-w-4xl mx-auto mb-8">
-            <p className="text-lg md:text-xl text-gray-300 leading-relaxed animate-slide-up">
-              I solve portfolio P&L challenges, build high-performing global teams, and drive enterprise SaaS transformation. With 19 years of experience, I've evolved from hands-on product contributor to senior leader trusted to deliver <strong>$65M+ portfolio growth</strong>, <strong>multi-product platform strategy</strong>, and end-to-end <strong>digital transformation</strong>. My work unifies <strong>cross-functional teams</strong>, aligns product strategy with measurable <strong>business outcomes</strong>, and delivers <strong>ROI</strong> across global markets. I bring <strong>product vision</strong>, <strong>operational rigor</strong>, and <strong>execution leadership</strong> that accelerates <strong>adoption</strong>, performance, and customer value.
+          <div className="max-w-3xl mx-auto mb-8">
+            <p className="text-base md:text-lg text-gray-100 leading-relaxed animate-slide-up">
+              I solve portfolio P&L challenges, build high-performing global teams, and drive enterprise SaaS transformation across a <strong>$65M+ portfolio</strong>. I align <strong>multi-product platform strategy</strong> and end-to-end <strong>digital transformation</strong> with measurable <strong>business outcomes</strong>, <strong>ROI</strong>, and <strong>adoption</strong> across global markets. I bring <strong>product vision</strong>, <strong>operational rigor</strong>, and <strong>execution leadership</strong> that improves performance and customer value.
             </p>
           </div>
 

@@ -19,7 +19,7 @@ const About = () => {
               🎯 Product Leadership | 🤝 People Centered | 📈 Outcome Driven
             </div>
             <p className="text-xl text-gray-200 leading-relaxed max-w-4xl mx-auto">
-              I solve portfolio P&L challenges, build high-performing teams, and drive enterprise transformation with measurable business impact. Over 19 years, I've evolved from delivering projects to driving multi-product portfolios, shaping market direction, and influencing revenue outcomes. My approach combines strategic clarity, organizational leadership, and high-accountability execution, building products and teams that improve customer value and long-term growth rather than just shipping features.
+              I lead large-scale product strategy, portfolio execution, and enterprise transformation with measurable business impact. Over 19 years, I've evolved from delivering projects to driving multi-product portfolios, shaping market direction, and influencing revenue outcomes. My approach combines strategic clarity, organizational leadership, and high-accountability execution, building products and teams that improve customer value and long-term growth rather than just shipping features.
             </p>
           </div>
 

@@ -56,7 +56,7 @@ const Experience = () => {
         }
       ],
       current: true,
-      story: "At Deloitte, I solve portfolio P&L challenges and drive enterprise SaaS transformation across five product lines, delivering $65M+ in business impact. I led initiatives that drove 85%+ <strong>adoption</strong>, improved operational efficiency by 35%, and delivered sustained double-digit year-over-year <strong>portfolio growth</strong>. I built and scaled <strong>global teams</strong> of 40+ professionals across APAC, EMEA, and the US, partnered with senior and executive leadership on multi-year <strong>platform modernization</strong> programs, and contributed to outcomes that generated $20M+ in new revenue. These results reflect my ability to lead complex product ecosystems, steer organizational transformation, and consistently deliver high-value outcomes at scale."
+      story: "At Deloitte, I lead a five-line enterprise SaaS portfolio with $65M+ P&L ownership, focusing on transformation and growth. I led initiatives that drove 85%+ <strong>adoption</strong>, improved operational efficiency by 35%, and delivered sustained double-digit year-over-year <strong>portfolio growth</strong>. I built and scaled <strong>global teams</strong> of 40+ professionals across APAC, EMEA, and the US, partnered with senior and executive leadership on multi-year <strong>platform modernization</strong> programs, and contributed to outcomes that generated $20M+ in new revenue."
     },
     {
       title: "Senior Associate Consultant",
@@ -454,8 +454,8 @@ const Experience = () => {
               <div className="text-blue-200">Leading Companies</div>
             </div>
             <div>
-              <div className="text-3xl font-bold mb-2">$65M</div>
-              <div className="text-blue-200">Portfolio Value Managed</div>
+              <div className="text-3xl font-bold mb-2">5</div>
+              <div className="text-blue-200">Product Lines Led</div>
             </div>
             <div>
               <div className="text-3xl font-bold mb-2">100K+</div>
