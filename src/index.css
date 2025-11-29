@@ -5,11 +5,15 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
   }
   
   body {
     font-family: 'Inter', system-ui, sans-serif;
     line-height: 1.6;
+    margin: 0;
+    padding: 0;
   }
   
   /* Experience section - zoom resistant layout */

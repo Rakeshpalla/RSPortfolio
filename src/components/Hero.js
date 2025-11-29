@@ -8,15 +8,16 @@ const Hero = () => {
 
 
   return (
-        <section className="min-h-screen relative flex items-center justify-center px-4 overflow-hidden py-8">
-      {/* Professional Background Image */}
+        <section className="min-h-screen relative flex items-center justify-center px-4 overflow-hidden pt-0 pb-8" style={{ marginTop: 0 }}>
+      {/* Professional Corporate Background Image */}
       <div className="absolute inset-0">
         <img 
-          src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" 
-          alt="Professional business background" 
+          src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&auto=format&fit=crop&w=2069&q=80" 
+          alt="Professional corporate business background" 
           className="w-full h-full object-cover"
         />
             <div className="absolute inset-0 bg-gradient-to-br from-slate-900/100 via-blue-900/100 to-slate-800/100"></div>
+            <div className="absolute inset-0 bg-black/20"></div>
       </div>
       
 
@@ -24,7 +25,7 @@ const Hero = () => {
         <div className="animate-fade-in">
 
               {/* Profile Photo */}
-              <div className="mt-0 mb-6 animate-slide-up">
+              <div className="mt-8 mb-6 animate-slide-up">
             <div className="w-32 h-32 md:w-40 md:h-40 mx-auto mb-3 rounded-full overflow-hidden border-4 border-blue-400/30 shadow-2xl">
               <img 
                 src={`${process.env.PUBLIC_URL}/profile-photo.jpeg`} 
