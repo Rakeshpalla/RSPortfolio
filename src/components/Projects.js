@@ -2,49 +2,46 @@ import React from 'react';
 
 const projects = [
   {
-    title: 'Enterprise Platform Transformation & Investment Strategy',
-    role: 'Portfolio Leader & Strategic Executive',
+    title: 'Platform Modernization: Strategic Portfolio Decision',
+    role: 'Principal Product Manager',
     timeframe: '2023 – 2024',
-    problem: '5-year-old platform losing market share due to 68% user dissatisfaction, threatening $10M+ revenue risk. Legacy architecture unable to support enterprise scale, driving 40% increase in support costs.',
-    action: 'Architected enterprise transformation strategy, secured $1.8M investment through C-suite/Board presentation, and led org-wide modernization initiative. Steered cross-functional alignment (Product, Engineering, Sales, Customer Success) to drive market-facing transformation.',
+    problem: '5-year-old platform losing market share due to 68% user dissatisfaction and inability to support enterprise requirements. Strategic decision: invest in platform modernization vs. continue feature development.',
+    action: 'Led portfolio-level decision to prioritize platform investment over feature velocity. Conducted 3-month user research, built business case securing $1.8M investment, and architected platform modernization roadmap balancing technical debt reduction with business continuity.',
     result: [
-      '30% adoption increase resulting in market share recovery',
-      'Satisfaction scores 6.2→8.4/10 restoring competitive positioning',
-      '45% faster task completion improving operational efficiency',
-      '$2M+ annual cost savings through streamlined workflows',
-      'Investment ROI delivered validating business case'
+      '30% user adoption increase (platform-led growth)',
+      'Satisfaction scores 6.2→8.4/10 (customer retention)',
+      '45% faster feature development (platform ROI)',
+      '12 hours/week saved per user (customer value)'
     ],
-    skills: ['Strategic Planning', 'Executive Engagement', 'Investment Securing', 'Business Transformation', 'Market Strategy', 'Org Alignment']
+    skills: ['Portfolio Strategy', 'Platform Architecture', 'Investment Decision-Making', 'Business Case Development', 'Strategic Trade-offs']
   },
   {
-    title: 'Unified Enterprise Platform Architecture',
-    role: 'Portfolio Leader & Business Architect',
+    title: 'Unified Platform Architecture: Portfolio Integration Strategy',
+    role: 'Principal Product Manager',
     timeframe: '2022 – 2023',
-    problem: 'Fragmented product portfolio operating in isolation, limiting cross-sell opportunities and increasing TCO. Rigid architecture unable to support enterprise client requirements, impacting $15M+ revenue potential.',
-    action: 'Led strategic integration initiative across 5 product lines, architected modular platform strategy, and drove executive consensus on unified vision. Steered cross-functional teams (40+ FTEs) to deliver enterprise-grade solution.',
+    problem: 'Standalone audit product operated in isolation, limiting portfolio value and forcing users to switch between multiple systems. Strategic decision: integrate into unified platform vs. maintain standalone product.',
+    action: 'Led portfolio strategy to integrate standalone product into unified platform. Architected modular platform architecture with API integrations across 5 internal products, making strategic trade-offs between integration complexity and portfolio value.',
     result: [
-      '100K+ enterprise users served driving market expansion',
-      '40% reduction in client onboarding time improving cost efficiency',
-      '35% increase in cross-product adoption generating revenue growth',
-      '$15M+ revenue opportunity unlocked',
-      'Enterprise-grade platform positioning achieved'
+      '100K+ enterprise users served (portfolio scale)',
+      '40% reduction in client onboarding time (platform efficiency)',
+      '35% increase in cross-product adoption (portfolio synergy)',
+      'Unified platform enabling faster feature development'
     ],
-    skills: ['Portfolio Strategy', 'Platform Architecture', 'Executive Steering', 'Revenue Growth', 'Enterprise Solutions', 'Business Model Shaping']
+    skills: ['Portfolio Strategy', 'Platform Architecture', 'API Integration', 'Strategic Trade-offs', 'Cross-Product Integration', 'Platform ROI']
   },
   {
-    title: 'Compliance & Risk Management Transformation',
-    role: 'Strategic Product Executive',
+    title: 'Platform Capability: Strategic Feature Investment',
+    role: 'Principal Product Manager',
     timeframe: '2021 – 2022',
-    problem: 'Regulatory compliance gaps threatening enterprise client relationships and $5M+ contract renewals. Data integrity risks in cloud environment creating material business risk.',
-    action: 'Architected compliance transformation strategy, secured executive buy-in for regulatory investment, and led org-wide adoption. Collaborated with C-suite on risk mitigation and business case for compliance platform.',
+    problem: 'Auditors lacked standardized way to add review notes, creating compliance risks and limiting platform adoption. Strategic decision: invest in platform capability vs. workaround solutions.',
+    action: 'Made strategic decision to build platform capability (review notes workflow) as foundation for future features. Designed comprehensive workflow with approval stages and role-based access controls, ensuring platform architecture supports compliance and scalability.',
     result: [
-      '85% adoption within 3 months enabling org-wide transformation',
-      '25% improvement in audit completion time improving operational efficiency',
-      '100% compliance achieved mitigating risk',
-      '$5M+ contract renewals secured',
-      'Zero audit violations strengthening regulatory positioning'
+      '85% of active auditors using feature within 3 months (adoption)',
+      '25% improvement in audit completion time (efficiency)',
+      '100% data integrity compliance achieved (platform reliability)',
+      'Platform capability enabling future feature development'
     ],
-    skills: ['Risk Management', 'Executive Engagement', 'Compliance Strategy', 'Business Case', 'Org Transformation', 'Regulatory Leadership']
+    skills: ['Platform Strategy', 'Strategic Prioritization', 'Platform Architecture', 'Compliance Management', 'Platform ROI', 'Strategic Investment']
   }
 ];
 
@@ -67,12 +64,13 @@ const Projects = () => {
           {projects.map((p, i) => (
                 <article key={i} className="bg-white rounded-2xl shadow-xl border border-slate-200 p-6 flex flex-col hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
                   <h3 className="text-xl font-semibold text-slate-900 mb-2">{p.title}</h3>
+                  <p className="text-xs font-semibold text-blue-600 mb-3 uppercase tracking-wide">Role: Portfolio Product Lead, accountable for strategy, execution, and stakeholder alignment</p>
                   <dl className="text-sm text-slate-700 space-y-3 mt-2">
                     <div>
                       <dt className="font-semibold text-slate-800 flex items-center mb-2">
                         <div className="w-6 h-6 bg-orange-100 rounded-full flex items-center justify-center mr-2">
                           <svg className="w-3 h-3 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.172 16.172a4 4 0 015.656 0M9 12h6m-6-4h6m2 5.291A7.962 7.962 0 0112 15c-2.34 0-4.5-.9-6.1-2.4l-.9.9a9 9 0 1112.7 0l-.9-.9z" />
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.172 16.172a4 4 0 015.656 0M9 12h6m-6-4h6m2 5.291A7.962 7.962 0 0112 15c-2.34 0-4.5-.9-6.1-2.4l-.9.9a9 9 0 1012.7 0l-.9-.9z" />
                           </svg>
                         </div>
                         Problem
@@ -135,5 +133,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-

@@ -4,46 +4,53 @@ import Carousel from './Carousel';
 const Skills = () => {
   const skills = [
     {
-      category: "Portfolio & P&L Leadership",
-      description: "Owned $65M+ portfolio P&L across 5 product lines, driving investment prioritization, budget management, and double-digit year-over-year growth. Architected multi-year product vision and business case articulation for C-suite/Board.",
+      category: "Product Management",
+      description: "End-to-end product management experience: user research, requirement gathering, roadmap planning, feature prioritization, and product launches. Hands-on experience writing user stories, acceptance criteria, and working with UX/UI teams.",
       icon: "🎯",
-      achievements: ["$65M Portfolio P&L Ownership", "Multi-Year Strategic Planning", "Investment Prioritization & Business Cases", "Double-Digit Year-Over-Year Growth"],
-      skills: ["Portfolio Strategy", "P&L Management", "Investment Roadmaps", "Business Case Development", "Executive Communication", "Strategic Planning", "Market Strategy"]
+      achievements: ["Product Roadmaps & Backlog Management", "User Research & Requirements Gathering", "Feature Prioritization & Launch"],
+      skills: ["Product Strategy", "Roadmap Planning", "User Stories & Acceptance Criteria", "Feature Prioritization", "Requirements Gathering", "Stakeholder Management", "Product Launch"]
     },
     {
-      category: "Org Building & People Leadership",
-      description: "Built, scaled, and restructured global cross-functional teams (40+ FTEs across APAC/EMEA/US). Quantifiable people development outcomes: 20+ promotions, 30% retention improvement, measurable upskilling data.",
+      category: "Delivery Management",
+      description: "Practical delivery management: sprint planning, release management, risk mitigation, and team coordination. Experience managing timelines, dependencies, and quality gates to ensure on-time delivery.",
+      icon: "📋",
+      achievements: ["Sprint Planning & Release Management", "Risk Management & Blockers Removal", "Quality Assurance & Testing Coordination"],
+      skills: ["Sprint Planning", "Release Management", "Risk Management", "Dependency Management", "Quality Gates", "Agile Methodologies", "SAFe POPM", "Scrum"]
+    },
+    {
+      category: "Audit & Finance Expertise",
+      description: "Deep expertise in audit tech platforms, risk management, and regulatory compliance across financial services",
+      icon: "📊",
+      achievements: ["Audit Tech Platforms", "Risk Management", "Regulatory Compliance"],
+      skills: ["Audit Technology", "Risk Assessment", "Regulatory Compliance", "Financial Services", "Compliance Frameworks"]
+    },
+    {
+      category: "Leadership & People Development",
+      description: "President, IIBA Hyderabad Chapter; built professional development programs impacting 500+ members across the business analysis community",
       icon: "👥",
-      achievements: ["40+ Global Team Built & Scaled", "20+ Team Promotions", "30% Retention Improvement", "Org-Wide Alignment"],
-      skills: ["Team Building", "People Development", "Talent Pipeline", "Org Restructuring", "Cross-Functional Leadership", "Retention Strategy", "Leadership Development"]
+      achievements: ["500+ members impacted", "Professional development programs", "Community building"],
+      skills: ["People Development", "Mentorship", "Cross-Functional Team Leadership", "Executive Stakeholder Engagement", "Community Building"]
     },
     {
-      category: "Executive Engagement & C-Suite Influence",
-      description: "Acted as trusted advisor to executive leadership, steering product strategy, investment decisions, and crisis turnaround. Drove consensus on multi-year tech vision and business model shaping.",
+      category: "Business Strategy & Communication",
+      description: "Expert in stakeholder communication, portfolio prioritization, and strategic business alignment across enterprise organizations",
       icon: "💼",
-      achievements: ["C-Suite Trusted Advisor", "Board-Level Presentations", "Crisis Turnaround ($10M Risk)", "Executive Consensus Building"],
-      skills: ["Executive Communication", "Board Presentations", "C-Suite Engagement", "Strategic Influence", "Crisis Leadership", "Business Model Shaping", "Steerco Leadership"]
+      achievements: ["Stakeholder Communication", "Portfolio Prioritization", "Strategic Alignment"],
+      skills: ["Stakeholder Management", "Portfolio Management", "Business Strategy", "Strategic Planning", "Executive Communication"]
     },
     {
-      category: "Digital Transformation & Market Impact",
-      description: "Led enterprise cloud adoption unlocking $20M+ in new revenue, 35% operational efficiency gains, and org-wide AI/automation adoption saving $2M+ annual cost. Transformed 100K+ user experience.",
+      category: "Technology & Innovation",
+      description: "Cloud adoption specialist with expertise in process automation, strategic roadmaps, and digital transformation initiatives",
       icon: "🚀",
-      achievements: ["$20M+ Revenue Unlocked", "35% Efficiency Gains", "$2M+ Cost Savings", "100K+ User Transformation"],
-      skills: ["Digital Transformation", "Cloud Strategy", "Market Positioning", "Revenue Growth", "Cost Optimization", "Enterprise Adoption", "Competitive Strategy"]
+      achievements: ["Cloud Adoption", "Process Automation", "Digital Transformation"],
+      skills: ["Cloud Platforms", "Process Automation", "Strategic Roadmaps", "Digital Transformation", "Technology Innovation"]
     },
     {
-      category: "Cross-Functional Enterprise Alignment",
-      description: "Steered exec/steerco meetings, aligning Product, Engineering, Sales, Marketing, Customer Success at enterprise level. Led matrix teams in high-stakes settings driving org-wide change.",
-      icon: "🤝",
-      achievements: ["Enterprise-Level Alignment", "Matrix Team Leadership", "Cross-Functional Steering", "Org-Wide Change"],
-      skills: ["Stakeholder Alignment", "Matrix Leadership", "Cross-Functional Strategy", "Enterprise Collaboration", "Org Change Management", "Steering Committees"]
-    },
-    {
-      category: "Industry Leadership & Innovation",
-      description: "Scaled professional development impact from 200 to 500+ members as President, IIBA Hyderabad. Championed industry best practices and org-wide innovation culture.",
-      icon: "🏆",
-      achievements: ["500+ Members Impacted", "Industry Leadership", "Innovation Culture", "Professional Development"],
-      skills: ["Industry Leadership", "Community Building", "Innovation Strategy", "Best Practice Adoption", "Thought Leadership", "Professional Development"]
+      category: "Modern Development Tools & AI",
+      description: "Senior Product Manager leveraging cutting-edge AI development tools to accelerate product delivery, validate concepts, and bridge technical gaps",
+      icon: "⚡",
+      achievements: ["AI-Powered Development", "Rapid Prototyping", "Technical Validation"],
+      skills: ["Cursor IDE", "Lovable Platform", "Bolt New", "Claude AI", "ChatGPT", "Vibe Coding", "AI Product Tools"]
     }
   ];
 

@@ -3,13 +3,16 @@ import ErrorBoundary from './components/ErrorBoundary';
 import Analytics from './components/Analytics';
 import NavBar from './components/NavBar';
 import Hero from './components/Hero';
+import Problems from './components/Problems';
 import About from './components/About';
 import Vision from './components/Vision';
 import Skills from './components/Skills';
+import Tools from './components/Tools';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import Leadership from './components/Leadership';
 import Footer from './components/Footer';
+import Projects from './components/Projects';
 import { observeElements } from './utils/scrollAnimation';
 
 function App() {
@@ -21,13 +24,16 @@ function App() {
   return (
     <ErrorBoundary>
       <Analytics />
-      <div className="min-h-screen bg-gray-50 space-y-8 md:space-y-12">
+      <div className="min-h-screen bg-gray-50">
         <NavBar />
         <Hero />
+        <Problems />
         <Vision />
         <About />
             <Experience />
+            <Projects />
             <Skills />
+            <Tools />
             <Education />
             <Leadership />
             <Footer />

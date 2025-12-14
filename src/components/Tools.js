@@ -4,31 +4,40 @@ import CollapsibleSection from './CollapsibleSection';
 const Tools = () => {
   const tools = [
     {
-      name: "Enterprise Cloud Platforms",
-      category: "Strategic Technology Adoption",
-      description: "Led org-wide adoption of enterprise cloud platforms, driving $20M+ revenue unlock and 35% operational efficiency gains. Architected cloud transformation strategy that reshaped market positioning.",
-      icon: "☁️",
-      features: ["Cloud Strategy", "Enterprise Adoption", "Revenue Growth", "Market Transformation", "Digital Innovation"],
-      experience: "Strategic Leader",
+      name: "Azure DevOps",
+      category: "DevOps & CI/CD",
+      description: "Enterprise-grade DevOps platform for source control, build automation, and release management",
+      icon: "🔧",
+      features: ["Source Control", "Build Automation", "Release Management", "Work Item Tracking", "Test Management"],
+      experience: "Advanced",
       color: "from-blue-500 to-blue-700"
     },
     {
-      name: "AI/Automation Platforms",
-      category: "Org-Wide Innovation",
-      description: "Championed org-wide adoption of AI/automation platforms, saving $2M+ annual cost while embedding culture of innovation across global teams. Strategic lever for competitive advantage.",
-      icon: "🤖",
-      features: ["AI Strategy", "Automation Leadership", "Cost Optimization", "Innovation Culture", "Competitive Advantage"],
-      experience: "Strategic Leader",
+      name: "ServiceNow",
+      category: "IT Service Management",
+      description: "Comprehensive ITSM platform for service management, workflow automation, and enterprise operations",
+      icon: "⚙️",
+      features: ["ITSM", "Workflow Automation", "Service Management", "Incident Management", "Change Management"],
+      experience: "Expert",
       color: "from-green-500 to-green-700"
     },
     {
-      name: "Business Intelligence & Analytics",
-      category: "Data-Driven Decision Making",
-      description: "Leveraged enterprise analytics platforms to drive data-driven portfolio decisions, investment prioritization, and executive reporting. Enabled strategic insights for C-suite decision-making.",
+      name: "Power BI",
+      category: "Business Intelligence",
+      description: "Microsoft's business analytics service for data visualization, reporting, and business intelligence",
       icon: "📊",
-      features: ["Portfolio Analytics", "Investment Insights", "Executive Reporting", "Strategic Decision Making", "Business Intelligence"],
-      experience: "Strategic Leader",
+      features: ["Data Visualization", "Business Intelligence", "Reporting", "Analytics", "Dashboard Creation"],
+      experience: "Advanced",
       color: "from-yellow-500 to-orange-600"
+    },
+    {
+      name: "MS SQL Server",
+      category: "Database Management",
+      description: "Enterprise database management with advanced querying, data relationships analysis, and database operations",
+      icon: "🗃️",
+      features: ["SQL Querying", "Data Relationships", "Database Logs", "Data Restoration", "Performance Analysis"],
+      experience: "Advanced",
+      color: "from-purple-500 to-indigo-600"
     }
   ];
 
@@ -45,9 +54,9 @@ const Tools = () => {
         >
           <div className="p-8">
             <div className="text-center mb-16">
-              <h3 className="text-2xl font-bold text-slate-800 mb-6">Strategic Technology Leadership</h3>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6">Enterprise Platform Expertise</h3>
               <p className="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                Led org-wide adoption of strategic platforms that drove measurable business outcomes including revenue growth, cost optimization, and market transformation
+                Proficient in leading enterprise platforms that drive digital transformation and operational excellence
               </p>
             </div>
             
@@ -84,6 +93,23 @@ const Tools = () => {
                   </div>
                 </div>
               ))}
+            </div>
+            
+            {/* AI Tools Section */}
+            <div className="mt-12 bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl p-8 text-white">
+              <div className="text-center mb-8">
+                <h3 className="text-2xl font-bold mb-4">Modern Development Tools & AI</h3>
+                <p className="text-lg text-gray-200 max-w-3xl mx-auto leading-relaxed mb-6">
+                  Leverage AI-native tools (Cursor, Claude, ChatGPT, Vibe Coding) to accelerate prototyping, validate concepts in days vs. weeks, and reduce engineering dependency during discovery phase—enabling faster time-to-market and lower iteration costs.
+                </p>
+                <div className="flex flex-wrap justify-center gap-3">
+                  {["Cursor IDE", "Claude AI", "ChatGPT", "Vibe Coding", "Lovable Platform", "Bolt New"].map((tool, idx) => (
+                    <span key={idx} className="px-4 py-2 bg-blue-600/20 border border-blue-400/30 rounded-full text-blue-300 text-sm font-medium">
+                      {tool}
+                    </span>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
         </CollapsibleSection>

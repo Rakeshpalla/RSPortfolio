@@ -20,43 +20,38 @@ const Experience = () => {
       companyLogo: "🏢",
       achievements: [
         {
-          metric: "$65M Portfolio P&L Ownership",
-          description: "Owned $65M+ portfolio P&L across 5 product lines, driving investment prioritization, budget management, and double-digit year-over-year growth through strategic vision and business case articulation for C-suite/Board",
-          impact: "P&L Leadership"
+          metric: "$50M+ SaaS Portfolio Growth",
+          description: "Led the growth of a multimillion dollar portfolio across three product lines, overseeing the entire product lifecycle from ideation to launch and beyond",
+          impact: "Portfolio Growth"
         },
         {
-          metric: "$20M+ New Revenue Unlocked",
-          description: "Architected enterprise cloud adoption strategy that unlocked $20M+ in new revenue, transforming market positioning and competitive advantage",
-          impact: "Revenue Growth"
+          metric: "100,000+ Enterprise Users Impacted",
+          description: "Transformed the work experience for over 100,000 enterprise users through strategic product management and delivery excellence",
+          impact: "User Impact"
         },
         {
-          metric: "100K+ User Digital Transformation",
-          description: "Led 100K+ user digital transformation, personally steering product strategy and investment roadmaps that reshaped enterprise user experience",
-          impact: "Digital Transformation"
+          metric: "85%+ Adoption Rates",
+          description: "Drove adoption rates above 85% by building strong, collaborative product teams and delivering user-centric solutions",
+          impact: "Product Adoption"
         },
         {
-          metric: "40+ Global Team Built & Scaled",
-          description: "Built, scaled, and restructured global cross-functional teams (40+ FTEs across APAC/EMEA/US), driving org-wide alignment and market-leading product launches",
-          impact: "Org Building"
-        },
-        {
-          metric: "35% Operational Efficiency Gains",
-          description: "Enabled 35% operational efficiency gains through strategic product initiatives, org-wide AI/automation adoption saving $2M+ annual cost",
+          metric: "35% Operational Efficiency Increase",
+          description: "Enabled a 35% increase in operational efficiency along with significant improvements in customer satisfaction through strategic product initiatives",
           impact: "Operational Excellence"
         },
         {
-          metric: "85%+ Adoption & Executive Engagement",
-          description: "Drove 85%+ adoption rates while acting as trusted advisor to executive leadership, steering product strategy and crisis turnaround of at-risk division ($10M risk)",
-          impact: "Executive Impact"
+          metric: "40% Reduction in Project Bottlenecks",
+          description: "Reduced project bottlenecks by 40% through effective communication, proactive risk mitigation, and streamlined delivery processes",
+          impact: "Delivery Optimization"
         },
         {
-          metric: "20+ Promotions & 30% Retention Improvement",
-          description: "Built robust pipeline for talent development resulting in 20+ team promotions, 30% retention improvement, and measurable upskilling outcomes demonstrating quantifiable people leadership",
-          impact: "People Development"
+          metric: "Multiple Product Releases",
+          description: "Successfully delivered EMS 4.9, AAT 4.8, Excel Analytics 4.3.1, and AAT 4.12 releases, maintaining product ownership responsibilities",
+          impact: "Product Delivery"
         }
       ],
       current: true,
-      story: "At Deloitte, I lead a five-line enterprise SaaS portfolio with $65M+ P&L ownership, focusing on transformation and growth. I led initiatives that drove 85%+ <strong>adoption</strong>, improved operational efficiency by 35%, and delivered sustained double-digit year-over-year <strong>portfolio growth</strong>. I built and scaled <strong>global teams</strong> of 40+ professionals across APAC, EMEA, and the US, partnered with senior and executive leadership on multi-year <strong>platform modernization</strong> programs, and contributed to outcomes that generated $20M+ in new revenue."
+      story: "At Deloitte, I wear two hats: Product Manager and Delivery Manager. As a Product Manager, I manage product roadmaps, write user stories, prioritize features, conduct user research, and work with UX teams to design solutions. As a Delivery Manager, I lead sprint planning sessions, manage release cycles, remove blockers, coordinate QA testing, and ensure quality gates are met. This dual role has given me deep understanding of both product strategy and execution—I know what to build and how to deliver it successfully. I've managed products serving 100,000+ enterprise users, ensuring they get features that solve real problems, delivered on time and with quality."
     },
     {
       title: "Senior Associate Consultant",
@@ -373,7 +368,9 @@ const Experience = () => {
                           {/* Experience Summary */}
                           <div>
                             <h4 className="text-xs font-semibold text-slate-700 uppercase tracking-wide mb-2 select-text">Experience Summary</h4>
-                            <p className="text-sm text-slate-600 leading-relaxed select-text" dangerouslySetInnerHTML={{ __html: exp.story }} />
+                            <p className="text-sm text-slate-600 leading-relaxed select-text">
+                              {exp.story}
+                            </p>
                           </div>
                           
                           {/* Key Achievements */}
@@ -454,8 +451,8 @@ const Experience = () => {
               <div className="text-blue-200">Leading Companies</div>
             </div>
             <div>
-              <div className="text-3xl font-bold mb-2">5</div>
-              <div className="text-blue-200">Product Lines Led</div>
+              <div className="text-3xl font-bold mb-2">$65M</div>
+              <div className="text-blue-200">Portfolio Value Managed</div>
             </div>
             <div>
               <div className="text-3xl font-bold mb-2">100K+</div>
