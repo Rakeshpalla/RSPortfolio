@@ -46,6 +46,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li><a href="#about" className="text-gray-300 hover:text-primary-400 transition-colors">About</a></li>
               <li><a href="#experience" className="text-gray-300 hover:text-primary-400 transition-colors">Experience</a></li>
+              <li><a href="#case-studies" className="text-gray-300 hover:text-primary-400 transition-colors">Case Studies</a></li>
               <li><a href="#skills" className="text-gray-300 hover:text-primary-400 transition-colors">Skills</a></li>
             </ul>
           </div>
@@ -87,19 +88,27 @@ const Footer = () => {
               </button>
 
               <a
-                href={`${process.env.PUBLIC_URL}/Rakesh%20Sharma%20Palla%20Resume.docx`}
-                download="Rakesh_Sharma_Palla_Resume.docx"
+                href={`${process.env.PUBLIC_URL}/Rakesh_Sharma_Palla_Resume.pdf`}
+                download="Rakesh_Sharma_Palla_Resume.pdf"
                 className="w-full inline-flex items-center justify-center bg-white/10 hover:bg-white/20 text-white font-semibold py-2 px-4 rounded-lg transition-colors border border-white/30"
               >
                 <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
-                Download Resume
+                Download Résumé (PDF)
               </a>
             </div>
           </div>
         </div>
 
+        <div className="mt-6 pt-6 border-t border-white/10 text-center text-gray-400 text-sm">
+          <p>© 2026 Rakesh Sharma Palla. All rights reserved.</p>
+          <p className="mt-1">
+            <a href="https://www.linkedin.com/in/rakeshsharma364/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">LinkedIn</a>
+            {' · '}
+            <a href="https://hiresignal11.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">HireSignal</a>
+          </p>
+        </div>
       </div>
     </footer>
   );

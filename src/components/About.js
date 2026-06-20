@@ -19,7 +19,7 @@ const About = () => {
               🎯 Product Leadership | 🤝 People Centered | 📈 Outcome Driven
             </div>
             <p className="text-xl text-gray-200 leading-relaxed max-w-4xl mx-auto">
-              Here's what drives me: <strong className="text-blue-300 font-semibold">solving real problems for real people</strong>. Over 19 years, I've learned that the best product leaders are those who listen first, fail fast, and never stop learning. Every challenge is an opportunity to grow—and I've faced plenty.
+              Here's what drives me: <strong className="text-blue-300 font-semibold">solving real problems for real people</strong>. Over 20 years, I've learned that the best product and delivery leaders are those who listen first, fail fast, and never stop learning. Every challenge is an opportunity to grow—and I've faced plenty.
             </p>
           </div>
 
@@ -54,7 +54,7 @@ const About = () => {
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Managed products serving <strong className="text-blue-300">100,000+ enterprise users</strong>—ensuring features solve real problems and are delivered with quality</span>
+                  <span>Managed products serving <strong className="text-blue-300">~100,000 Deloitte practitioners worldwide</strong>—ensuring features solve real problems and are delivered with quality</span>
                 </li>
               </ul>
             </div>
@@ -133,7 +133,7 @@ const About = () => {
           <div className="grid md:grid-cols-3 gap-3">
             <div className="bg-white/10 backdrop-blur-sm rounded-xl border border-white/20 p-4 text-center">
               <div className="text-2xl font-bold text-white">Deloitte</div>
-              <div className="text-blue-200">Senior Product Manager</div>
+              <div className="text-blue-200">Technical Delivery Manager</div>
               <div className="text-blue-100 text-sm">2013 – Present</div>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-xl border border-white/20 p-4 text-center">
@@ -143,7 +143,7 @@ const About = () => {
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-xl border border-white/20 p-4 text-center">
               <div className="text-2xl font-bold text-white">Tech Mahindra, CGI & Dion Global</div>
-              <div className="text-blue-200">Analyst / Business Analyst</div>
+              <div className="text-blue-200">Functional Consultant / Business Analyst</div>
               <div className="text-blue-100 text-sm">2006 – 2011</div>
             </div>
           </div>

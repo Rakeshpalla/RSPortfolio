@@ -27,7 +27,7 @@ const Hero = () => {
             <div className="w-36 h-36 md:w-44 md:h-44 mx-auto rounded-full overflow-hidden ring-2 ring-white/20 ring-offset-4 ring-offset-slate-900 shadow-2xl">
               <img 
                 src={`${process.env.PUBLIC_URL}/profile-photo.jpeg`} 
-                alt="Rakesh Sharma Palla - Director-Level Product & Portfolio Leader" 
+                alt="Rakesh Sharma Palla — Technical Delivery Manager &amp; Product Leader, Deloitte"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -37,7 +37,7 @@ const Hero = () => {
           <div className="mb-6 animate-slide-up">
             <span className="inline-flex items-center gap-2 px-5 py-2 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full text-slate-300 text-sm font-medium tracking-wide">
               <span className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></span>
-              19+ Years in Enterprise Product Leadership
+              20+ Years in Enterprise Product &amp; Delivery Leadership
             </span>
           </div>
 
@@ -50,18 +50,22 @@ const Hero = () => {
           {/* Title - Accent Color, Clear Hierarchy */}
           <h2 className="text-lg sm:text-xl md:text-2xl font-medium mb-6 animate-slide-up">
             <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-emerald-400 bg-clip-text text-transparent">
-              Director-Level Product & Portfolio Leader
+              Product &amp; Delivery Leader
             </span>
-            <span className="block text-slate-500 text-base md:text-lg font-normal mt-2 tracking-wide">
-              SaaS · Cloud · Audit Tech · Financial Services
+            <span className="block text-slate-400 text-base md:text-lg font-normal mt-1">
+              Product &amp; Program Management
+            </span>
+            <span className="block text-slate-500 text-sm md:text-base font-normal mt-1 tracking-wide">
+              Technical Delivery Manager, Deloitte · SaaS · Regulated Platforms · Audit Tech
             </span>
           </h2>
           
           {/* Value Proposition - Clean, Scannable */}
           <p className="text-lg md:text-xl text-slate-300 font-light mb-10 animate-slide-up max-w-2xl mx-auto leading-relaxed">
-            Helping enterprise firms <span className="text-white font-medium">modernize platforms</span>, 
-            drive <span className="text-emerald-400 font-semibold">85%+ adoption</span>, and 
-            unlock <span className="text-blue-400 font-semibold">35% efficiency gains</span>
+            20+ years driving <span className="text-white font-medium">enterprise product &amp; delivery</span> at scale —
+            <span className="text-emerald-400 font-semibold"> 95%+ on-time delivery</span>,
+            <span className="text-blue-400 font-semibold"> 100K+ internal users</span>,
+            <span className="text-white font-semibold"> zero compliance failures</span>
           </p>
 
           
@@ -99,15 +103,15 @@ const Hero = () => {
               </div>
               
               <p className="text-slate-300 leading-relaxed mb-4">
-                Own the strategy and execution for a 3-product SaaS portfolio serving 100K+ enterprise users, aligning investment decisions, roadmaps, and delivery to business outcomes
+                Technical Delivery Manager at Deloitte, owning delivery and product direction for an enterprise audit &amp; compliance SaaS platform used by <span className="text-white font-medium">~100,000 Deloitte practitioners worldwide</span>. Sustains <span className="text-emerald-400 font-semibold">95%+ on-time delivery</span> with <span className="text-white font-semibold">zero compliance failures</span>.
               </p>
-              
+
               <p className="text-slate-300 leading-relaxed mb-4">
-                Over 19 years across Deloitte, Infosys, Tech Mahindra, CGI, and Dion Global, I've specialized in solving enterprise adoption challenges, legacy platform modernization, and fragmented product portfolio integration. My approach combines portfolio strategy, platform architecture, and cross-functional leadership to drive measurable business outcomes.
+                Over <span className="text-white font-medium">20 years</span> across Deloitte, Infosys, Tech Mahindra, CGI, and Dion Global, I've specialized in delivery transformation, regulated platform management, and cross-functional team leadership. My approach combines product strategy, governance, and hands-on delivery to drive measurable business outcomes.
               </p>
-              
+
               <p className="text-slate-300 leading-relaxed">
-                At Deloitte, I own a <span className="text-white font-medium">$50M+ SaaS portfolio</span> serving <span className="text-white font-medium">100,000+ enterprise users</span>, driving <span className="text-white font-medium">85%+ adoption rates</span> and <span className="text-white font-medium">35% efficiency gains</span> through strategic platform investments and cross-product integration. I lead a team of product professionals while coaching developers and testers across cross-functional teams, building technical credibility and fostering collaboration.
+                I lead cross-functional teams of <span className="text-white font-medium">30–40</span> (product, engineering, QA, operations) across India and the U.S., cut time-to-market <span className="text-blue-400 font-semibold">25%</span> by restructuring delivery workflows, improved operational efficiency <span className="text-blue-400 font-semibold">30%</span>, and established governance frameworks maintaining <span className="text-white font-medium">100% regulatory compliance</span>.
               </p>
             </div>
           </div>
@@ -135,14 +139,14 @@ const Hero = () => {
             </a>
             
             <a
-              href={`${process.env.PUBLIC_URL}/Rakesh%20Sharma%20Palla%20Resume.docx`}
-              download="Rakesh_Sharma_Palla_Resume.docx"
+              href={`${process.env.PUBLIC_URL}/Rakesh_Sharma_Palla_Resume.pdf`}
+              download="Rakesh_Sharma_Palla_Resume.pdf"
               className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 bg-slate-700/80 hover:bg-slate-600/90 text-white font-semibold rounded-xl border-2 border-slate-500/50 hover:border-slate-400/70 transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5 backdrop-blur-sm"
             >
               <svg className="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
               </svg>
-              Download Resume
+              Download Résumé (PDF)
             </a>
           </div>
 

@@ -47,7 +47,7 @@ const Skills = () => {
     },
     {
       category: "Modern Development Tools & AI",
-      description: "Senior Product Manager leveraging cutting-edge AI development tools to accelerate product delivery, validate concepts, and bridge technical gaps",
+      description: "Technical Delivery Manager leveraging cutting-edge AI development tools to accelerate product delivery, validate concepts, and bridge technical gaps",
       icon: "⚡",
       achievements: ["AI-Powered Development", "Rapid Prototyping", "Technical Validation"],
       skills: ["Cursor IDE", "Lovable Platform", "Bolt New", "Claude AI", "ChatGPT", "Vibe Coding", "AI Product Tools"]
